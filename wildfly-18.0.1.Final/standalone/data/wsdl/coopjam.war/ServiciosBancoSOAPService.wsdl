@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://servicios.coopjam.ups.edu.ec/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="ServiciosBancoSOAPService" targetNamespace="http://servicios.coopjam.ups.edu.ec/">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://servicios.coopjam.ups.edu.ec/" elementFormDefault="unqualified" targetNamespace="http://servicios.coopjam.ups.edu.ec/" version="1.0">
+
+  <xs:element name="realizarTransaccionBancaria" type="tns:realizarTransaccionBancaria"/>
+
+  <xs:element name="realizarTransaccionBancariaResponse" type="tns:realizarTransaccionBancariaResponse"/>
+
+  <xs:element name="realizarTransferencia" type="tns:realizarTransferencia"/>
+
+  <xs:element name="realizarTransferenciaResponse" type="tns:realizarTransferenciaResponse"/>
+
+  <xs:complexType name="realizarTransaccionBancaria">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+      <xs:element name="arg1" type="xs:double"/>
+      <xs:element minOccurs="0" name="arg2" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="realizarTransaccionBancariaResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="realizarTransferencia">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+      <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+      <xs:element name="arg2" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="realizarTransferenciaResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:respuesta"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="respuesta">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="cliente" type="tns:cliente"/>
+      <xs:element name="codigo" type="xs:int"/>
+      <xs:element minOccurs="0" name="cuentaDeAhorro" type="tns:cuentaDeAhorro"/>
+      <xs:element minOccurs="0" name="descripcion" type="xs:string"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="listaCreditos" nillable="true" type="tns:creditoRespuesta"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="cliente">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="apellido" type="xs:string"/>
+      <xs:element minOccurs="0" name="cedula" type="xs:string"/>
+      <xs:element minOccurs="0" name="clave" type="xs:string"/>
+      <xs:element minOccurs="0" name="correo" type="xs:string"/>
+      <xs:element minOccurs="0" name="direccion" type="xs:string"/>
+      <xs:element minOccurs="0" name="fechaNacimiento" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="nombre" type="xs:string"/>
+      <xs:element minOccurs="0" name="telefono1" type="xs:string"/>
+      <xs:element minOccurs="0" name="telefono2" type="xs:string"/>
+      <xs:element minOccurs="0" name="usuario" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="cuentaDeAhorro">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="cliente" type="tns:cliente"/>
+      <xs:element minOccurs="0" name="fechaDeRegistro" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="numeroCuentaDeAhorro" type="xs:string"/>
+      <xs:element minOccurs="0" name="saldoCuentaDeAhorro" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="creditoRespuesta">
+    <xs:sequence>
+      <xs:element name="codigoCredito" type="xs:int"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="detalles" nillable="true" type="tns:detalleCredito"/>
+      <xs:element minOccurs="0" name="estado" type="xs:string"/>
+      <xs:element minOccurs="0" name="fechaRegistro" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="fechaVencimiento" type="xs:dateTime"/>
+      <xs:element name="interes" type="xs:double"/>
+      <xs:element name="monto" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="detalleCredito">
+    <xs:sequence>
+      <xs:element name="codigoDetalle" type="xs:int"/>
+      <xs:element name="cuota" type="xs:double"/>
+      <xs:element minOccurs="0" name="estado" type="xs:string"/>
+      <xs:element minOccurs="0" name="fechaPago" type="xs:dateTime"/>
+      <xs:element name="interes" type="xs:double"/>
+      <xs:element name="monto" type="xs:double"/>
+      <xs:element name="numeroCuota" type="xs:int"/>
+      <xs:element name="saldo" type="xs:double"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="realizarTransaccionBancaria">
+    <wsdl:part element="tns:realizarTransaccionBancaria" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="realizarTransferenciaResponse">
+    <wsdl:part element="tns:realizarTransferenciaResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="realizarTransferencia">
+    <wsdl:part element="tns:realizarTransferencia" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="realizarTransaccionBancariaResponse">
+    <wsdl:part element="tns:realizarTransaccionBancariaResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="ServiciosBancoSOAP">
+    <wsdl:operation name="realizarTransaccionBancaria">
+      <wsdl:input message="tns:realizarTransaccionBancaria" name="realizarTransaccionBancaria">
+    </wsdl:input>
+      <wsdl:output message="tns:realizarTransaccionBancariaResponse" name="realizarTransaccionBancariaResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="realizarTransferencia">
+      <wsdl:input message="tns:realizarTransferencia" name="realizarTransferencia">
+    </wsdl:input>
+      <wsdl:output message="tns:realizarTransferenciaResponse" name="realizarTransferenciaResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiciosBancoSOAPServiceSoapBinding" type="tns:ServiciosBancoSOAP">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="realizarTransaccionBancaria">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="realizarTransaccionBancaria">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="realizarTransaccionBancariaResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="realizarTransferencia">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="realizarTransferencia">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="realizarTransferenciaResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiciosBancoSOAPService">
+    <wsdl:port binding="tns:ServiciosBancoSOAPServiceSoapBinding" name="ServiciosBancoSOAPPort">
+      <soap:address location="http://localhost:8080/coopjam/ServiciosBancoSOAP"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

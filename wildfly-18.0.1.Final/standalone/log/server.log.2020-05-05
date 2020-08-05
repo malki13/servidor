@@ -1,0 +1,505 @@
+2020-05-05 09:47:12,152 INFO  [stdout] (default task-1) [Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr, Telefono [numero=524223, tipo=erfr]], Persona [cedula=1103693535, nombre=mari, telefonos=[Telefono [numero=54245, tipo=fg]]]
+2020-05-05 09:47:12,261 INFO  [stdout] (default task-1) [Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr, Telefono [numero=524223, tipo=erfr]], Persona [cedula=1103693535, nombre=mari, telefonos=[Telefono [numero=54245, tipo=fg]]]
+2020-05-05 09:47:18,442 INFO  [stdout] (default task-1) 1103693535************************
+2020-05-05 09:47:18,447 INFO  [stdout] (default task-1) *************** cedula1103693535
+2020-05-05 09:47:18,449 INFO  [stdout] (default task-1) DAO ELIMINAR entra
+2020-05-05 09:47:18,449 INFO  [stdout] (default task-1) *************** cedula1103693535
+2020-05-05 09:47:18,450 INFO  [stdout] (default task-1) OBTIENE TELEFONOS
+2020-05-05 09:47:18,451 INFO  [stdout] (default task-1) 54245
+2020-05-05 09:47:22,315 INFO  [stdout] (default task-1) [Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr, Telefono [numero=524223, tipo=erfr]]]
+2020-05-05 09:47:22,322 INFO  [stdout] (default task-1) [Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr, Telefono [numero=524223, tipo=erfr]]]
+2020-05-05 09:47:33,407 ERROR [org.jboss.as.ejb3.invocation] (default task-1) WFLYEJB0034: EJB Invocation failed on component PersonaDao for method public ec.edu.ups.appcontacto.contactom.Entidades.Persona ec.edu.ups.appcontacto.contactom.ObjetoDatos.PersonaDao.obtene2(java.lang.String): javax.ejb.EJBTransactionRolledbackException: No entity found for query
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInCallerTx(CMTTxInterceptor.java:203)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:364)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:144)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:627)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:81)
+	at ec.edu.ups.appcontacto.contactom.ObjetoDatos.PersonaDao$$$view143.obtene2(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor94.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.weld.util.reflection.Reflections.invokeAndUnwrap(Reflections.java:410)
+	at org.jboss.weld.module.ejb.EnterpriseBeanProxyMethodHandler.invoke(EnterpriseBeanProxyMethodHandler.java:134)
+	at org.jboss.weld.bean.proxy.EnterpriseTargetBeanInstance.invoke(EnterpriseTargetBeanInstance.java:56)
+	at org.jboss.weld.module.ejb.InjectionPointPropagatingEnterpriseTargetBeanInstance.invoke(InjectionPointPropagatingEnterpriseTargetBeanInstance.java:68)
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:106)
+	at ec.edu.ups.appcontacto.contactom.ObjetoDatos.PersonaDao$Proxy$_$$_Weld$EnterpriseProxy$.obtene2(Unknown Source)
+	at ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOn.buscarContacto(ContactosOn.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.delegateInterception(Jsr299BindingsInterceptor.java:79)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:89)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:102)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:237)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:362)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:144)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:81)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.deployment.processors.EjbSuspendInterceptor.processInvocation(EjbSuspendInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:627)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAsFunctionEx(SecurityIdentity.java:406)
+	at org.jboss.as.ejb3.remote.AssociationImpl.invokeWithIdentity(AssociationImpl.java:593)
+	at org.jboss.as.ejb3.remote.AssociationImpl.invokeMethod(AssociationImpl.java:574)
+	at org.jboss.as.ejb3.remote.AssociationImpl.lambda$receiveInvocationRequest$0(AssociationImpl.java:205)
+	at org.jboss.as.ejb3.remote.AssociationImpl.execute(AssociationImpl.java:298)
+	at org.jboss.as.ejb3.remote.AssociationImpl.receiveInvocationRequest(AssociationImpl.java:251)
+	at org.jboss.ejb.protocol.remote.EJBServerChannel$ReceiverImpl.handleInvocationRequest(EJBServerChannel.java:465)
+	at org.jboss.ejb.protocol.remote.EJBServerChannel$ReceiverImpl.handleMessage(EJBServerChannel.java:203)
+	at org.jboss.remoting3.remote.RemoteConnectionChannel.lambda$handleMessageData$3(RemoteConnectionChannel.java:430)
+	at org.jboss.remoting3.EndpointImpl$TrackingExecutor.lambda$execute$0(EndpointImpl.java:991)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.persistence.NoResultException: No entity found for query
+	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1556)
+	at ec.edu.ups.appcontacto.contactom.ObjetoDatos.PersonaDao.obtene2(PersonaDao.java:35)
+	at sun.reflect.GeneratedMethodAccessor94.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.delegateInterception(Jsr299BindingsInterceptor.java:79)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:89)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:102)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInCallerTx(CMTTxInterceptor.java:185)
+	... 116 more
+
+2020-05-05 09:47:33,412 ERROR [org.jboss.as.ejb3.invocation] (default task-1) WFLYEJB0034: EJB Invocation failed on component ContactosOn for method public abstract ec.edu.ups.appcontacto.contactom.Entidades.Persona ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto.buscarContacto(java.lang.String): javax.ejb.EJBTransactionRolledbackException: No entity found for query
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInCallerTx(CMTTxInterceptor.java:203)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:364)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:144)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:72)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:627)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.jboss.as.ee.component.ViewDescription$1.processInvocation(ViewDescription.java:185)
+	at org.jboss.as.ee.component.ProxyInvocationHandler.invoke(ProxyInvocationHandler.java:81)
+	at ec.edu.ups.appcontacto.contactom.ObjetoDatos.PersonaDao$$$view143.obtene2(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor94.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.weld.util.reflection.Reflections.invokeAndUnwrap(Reflections.java:410)
+	at org.jboss.weld.module.ejb.EnterpriseBeanProxyMethodHandler.invoke(EnterpriseBeanProxyMethodHandler.java:134)
+	at org.jboss.weld.bean.proxy.EnterpriseTargetBeanInstance.invoke(EnterpriseTargetBeanInstance.java:56)
+	at org.jboss.weld.module.ejb.InjectionPointPropagatingEnterpriseTargetBeanInstance.invoke(InjectionPointPropagatingEnterpriseTargetBeanInstance.java:68)
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:106)
+	at ec.edu.ups.appcontacto.contactom.ObjetoDatos.PersonaDao$Proxy$_$$_Weld$EnterpriseProxy$.obtene2(Unknown Source)
+	at ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOn.buscarContacto(ContactosOn.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.delegateInterception(Jsr299BindingsInterceptor.java:79)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:89)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:102)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:237)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:362)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:144)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.weld.module.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:81)
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:89)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:100)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.deployment.processors.StartupAwaitInterceptor.processInvocation(StartupAwaitInterceptor.java:22)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.deployment.processors.EjbSuspendInterceptor.processInvocation(EjbSuspendInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:67)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:60)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:438)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:627)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:57)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:198)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAsFunctionEx(SecurityIdentity.java:406)
+	at org.jboss.as.ejb3.remote.AssociationImpl.invokeWithIdentity(AssociationImpl.java:593)
+	at org.jboss.as.ejb3.remote.AssociationImpl.invokeMethod(AssociationImpl.java:574)
+	at org.jboss.as.ejb3.remote.AssociationImpl.lambda$receiveInvocationRequest$0(AssociationImpl.java:205)
+	at org.jboss.as.ejb3.remote.AssociationImpl.execute(AssociationImpl.java:298)
+	at org.jboss.as.ejb3.remote.AssociationImpl.receiveInvocationRequest(AssociationImpl.java:251)
+	at org.jboss.ejb.protocol.remote.EJBServerChannel$ReceiverImpl.handleInvocationRequest(EJBServerChannel.java:465)
+	at org.jboss.ejb.protocol.remote.EJBServerChannel$ReceiverImpl.handleMessage(EJBServerChannel.java:203)
+	at org.jboss.remoting3.remote.RemoteConnectionChannel.lambda$handleMessageData$3(RemoteConnectionChannel.java:430)
+	at org.jboss.remoting3.EndpointImpl$TrackingExecutor.lambda$execute$0(EndpointImpl.java:991)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.persistence.NoResultException: No entity found for query
+	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1556)
+	at ec.edu.ups.appcontacto.contactom.ObjetoDatos.PersonaDao.obtene2(PersonaDao.java:35)
+	at sun.reflect.GeneratedMethodAccessor94.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:509)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.delegateInterception(Jsr299BindingsInterceptor.java:79)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:89)
+	at org.jboss.as.weld.interceptors.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:102)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:40)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.pool.PooledInstanceInterceptor.processInvocation(PooledInstanceInterceptor.java:51)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:54)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:422)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInCallerTx(CMTTxInterceptor.java:185)
+	... 116 more
+
+2020-05-05 09:47:59,180 INFO  [stdout] (default task-1) [Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr, Telefono [numero=524223, tipo=erfr]], Persona [cedula=1103693535, nombre=mari, telefonos=[Telefono [numero=5312, tipo=celular]]]
+2020-05-05 09:47:59,189 INFO  [stdout] (default task-1) [Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr, Telefono [numero=524223, tipo=erfr]], Persona [cedula=1103693535, nombre=mari, telefonos=[Telefono [numero=5312, tipo=celular]]]
+2020-05-05 09:48:09,263 INFO  [stdout] (default task-1) [Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr, Telefono [numero=524223, tipo=erfr]], Persona [cedula=1103693535, nombre=mari, telefonos=[Telefono [numero=5312, tipo=celular]]]
+2020-05-05 10:14:01,606 INFO  [stdout] (default task-1) [Persona [cedula=0103709911, nombre=andres, telefonos=[Telefono [numero=252235, tipo=casa, Telefono [numero=32132123, tipo=celular]], Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr, Telefono [numero=524223, tipo=erfr]], Persona [cedula=1103693535, nombre=mari, telefonos=[Telefono [numero=5312, tipo=celular]]]
+2020-05-05 10:14:01,645 INFO  [stdout] (default task-1) [Persona [cedula=0103709911, nombre=andres, telefonos=[Telefono [numero=252235, tipo=casa, Telefono [numero=32132123, tipo=celular]], Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr, Telefono [numero=524223, tipo=erfr]], Persona [cedula=1103693535, nombre=mari, telefonos=[Telefono [numero=5312, tipo=celular]]]
+2020-05-05 10:14:59,232 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-05-05 10:14:59,235 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 325) WFLYUT0022: Unregistered web context: '/contactom' from server 'default-server'
+2020-05-05 10:14:59,256 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 322) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'contactom.war#contactomPersistenceUnit'
+2020-05-05 10:14:59,257 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 322) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@34e5e468
+2020-05-05 10:14:59,258 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 322) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'contactom.war#contactomPersistenceUnit'
+2020-05-05 10:14:59,271 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment contactom.war (runtime-name: contactom.war) in 40ms
+2020-05-05 10:14:59,300 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "contactom.war" (runtime-name: "contactom.war")
+2020-05-05 10:15:04,305 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found contactom.war in deployment directory. To trigger deployment create a file called contactom.war.dodeploy
+2020-05-05 10:15:04,308 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "contactom.war" (runtime-name: "contactom.war")
+2020-05-05 10:15:04,388 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for contactomPersistenceUnit
+2020-05-05 10:15:04,420 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment contactom.war
+2020-05-05 10:15:04,427 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 322) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'contactom.war#contactomPersistenceUnit'
+2020-05-05 10:15:04,427 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 322) HHH000204: Processing PersistenceUnitInfo [
+	name: contactomPersistenceUnit
+	...]
+2020-05-05 10:15:04,443 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ContactosOn' in deployment unit 'deployment "contactom.war"' are as follows:
+
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:jboss/exported/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+
+2020-05-05 10:15:04,443 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'PersonaDao' in deployment unit 'deployment "contactom.war"' are as follows:
+
+	java:global/contactom/PersonaDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.PersonaDao
+	java:app/contactom/PersonaDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.PersonaDao
+	java:module/PersonaDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.PersonaDao
+	ejb:/contactom/PersonaDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.PersonaDao
+	java:global/contactom/PersonaDao
+	java:app/contactom/PersonaDao
+	java:module/PersonaDao
+
+2020-05-05 10:15:04,443 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'TelefonoDao' in deployment unit 'deployment "contactom.war"' are as follows:
+
+	java:global/contactom/TelefonoDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.TelefonoDao
+	java:app/contactom/TelefonoDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.TelefonoDao
+	java:module/TelefonoDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.TelefonoDao
+	ejb:/contactom/TelefonoDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.TelefonoDao
+	java:global/contactom/TelefonoDao
+	java:app/contactom/TelefonoDao
+	java:module/TelefonoDao
+
+2020-05-05 10:15:04,486 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2020-05-05 10:15:04,499 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-05-05 10:15:04,510 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 322) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'contactom.war#contactomPersistenceUnit'
+2020-05-05 10:15:04,512 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 322) HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-05-05 10:15:04,514 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 322) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2020-05-05 10:15:04,515 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 322) Envers integration enabled? : true
+2020-05-05 10:15:04,604 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-1) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-05-05 10:15:04,605 INFO  [io.smallrye.metrics] (MSC service thread 1-1) MicroProfile: Metrics activated
+2020-05-05 10:15:04,683 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 322) Inicializando Mojarra 2.3.9.SP04 para el contexto '/contactom'
+2020-05-05 10:15:04,747 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 322) WFLYUT0021: Registered web context: '/contactom' for server 'default-server'
+2020-05-05 10:15:04,784 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "contactom.war" (runtime-name : "contactom.war")
+2020-05-05 10:15:23,529 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2020-05-05 10:15:23,531 INFO  [stdout] (default task-1) Hibernate: select persona0_.cedula as cedula1_0_, persona0_.nombre as nombre2_0_ from Persona persona0_
+2020-05-05 10:15:23,533 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:15:23,535 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:15:23,536 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:15:23,537 INFO  [stdout] (default task-1) [Persona [cedula=0103709911, nombre=andres, telefonos=[Telefono [numero=252235, tipo=casa, Telefono [numero=32132123, tipo=celular]], Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr, Telefono [numero=524223, tipo=erfr]], Persona [cedula=1103693535, nombre=mari, telefonos=[Telefono [numero=5312, tipo=celular]]]
+2020-05-05 10:15:23,587 INFO  [stdout] (default task-1) Hibernate: select persona0_.cedula as cedula1_0_, persona0_.nombre as nombre2_0_ from Persona persona0_
+2020-05-05 10:15:23,588 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:15:23,588 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:15:23,589 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:15:23,589 INFO  [stdout] (default task-1) [Persona [cedula=0103709911, nombre=andres, telefonos=[Telefono [numero=252235, tipo=casa, Telefono [numero=32132123, tipo=celular]], Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr, Telefono [numero=524223, tipo=erfr]], Persona [cedula=1103693535, nombre=mari, telefonos=[Telefono [numero=5312, tipo=celular]]]
+2020-05-05 10:15:26,014 INFO  [stdout] (default task-1) 0103709911************************
+2020-05-05 10:15:26,015 INFO  [stdout] (default task-1) Hibernate: select persona0_.cedula as cedula1_0_0_, persona0_.nombre as nombre2_0_0_, telefonos1_.cedula as cedula3_1_1_, telefonos1_.numero as numero1_1_1_, telefonos1_.numero as numero1_1_2_, telefonos1_.cedula as cedula3_1_2_, telefonos1_.tipo as tipo2_1_2_ from Persona persona0_ left outer join Telefono telefonos1_ on persona0_.cedula=telefonos1_.cedula where persona0_.cedula=?
+2020-05-05 10:15:26,017 INFO  [stdout] (default task-1) *************** cedula0103709911
+2020-05-05 10:15:26,019 INFO  [stdout] (default task-1) Hibernate: select telefono0_.numero as numero1_1_, telefono0_.cedula as cedula3_1_, telefono0_.tipo as tipo2_1_ from Telefono telefono0_ where telefono0_.cedula=?
+2020-05-05 10:15:26,020 INFO  [stdout] (default task-1) DAO ELIMINAR entra
+2020-05-05 10:15:26,020 INFO  [stdout] (default task-1) *************** cedula0103709911
+2020-05-05 10:15:26,020 INFO  [stdout] (default task-1) Hibernate: select telefono0_.numero as numero1_1_, telefono0_.cedula as cedula3_1_, telefono0_.tipo as tipo2_1_ from Telefono telefono0_ where telefono0_.cedula=?
+2020-05-05 10:15:26,021 INFO  [stdout] (default task-1) OBTIENE TELEFONOS
+2020-05-05 10:15:26,021 INFO  [stdout] (default task-1) 252235
+2020-05-05 10:15:26,021 INFO  [stdout] (default task-1) 32132123
+2020-05-05 10:15:26,025 INFO  [stdout] (default task-1) Hibernate: delete from Telefono where numero=?
+2020-05-05 10:15:26,028 INFO  [stdout] (default task-1) Hibernate: delete from Telefono where numero=?
+2020-05-05 10:15:26,029 INFO  [stdout] (default task-1) Hibernate: delete from Persona where cedula=?
+2020-05-05 10:15:28,857 INFO  [stdout] (default task-1) Hibernate: select persona0_.cedula as cedula1_0_, persona0_.nombre as nombre2_0_ from Persona persona0_
+2020-05-05 10:15:28,857 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:15:28,858 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:15:28,859 INFO  [stdout] (default task-1) [Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr, Telefono [numero=524223, tipo=erfr]], Persona [cedula=1103693535, nombre=mari, telefonos=[Telefono [numero=5312, tipo=celular]]]
+2020-05-05 10:15:28,865 INFO  [stdout] (default task-1) Hibernate: select persona0_.cedula as cedula1_0_, persona0_.nombre as nombre2_0_ from Persona persona0_
+2020-05-05 10:15:28,866 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:15:28,867 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:15:28,867 INFO  [stdout] (default task-1) [Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr, Telefono [numero=524223, tipo=erfr]], Persona [cedula=1103693535, nombre=mari, telefonos=[Telefono [numero=5312, tipo=celular]]]
+2020-05-05 10:16:00,193 INFO  [stdout] (default task-1) Hibernate: insert into Persona (nombre, cedula) values (?, ?)
+2020-05-05 10:16:00,207 INFO  [stdout] (default task-1) Hibernate: insert into Telefono (cedula, tipo, numero) values (?, ?, ?)
+2020-05-05 10:16:00,209 INFO  [stdout] (default task-1) Hibernate: insert into Telefono (cedula, tipo, numero) values (?, ?, ?)
+2020-05-05 10:18:39,875 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-05-05 10:18:39,876 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 322) WFLYUT0022: Unregistered web context: '/contactom' from server 'default-server'
+2020-05-05 10:18:39,882 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 333) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'contactom.war#contactomPersistenceUnit'
+2020-05-05 10:18:39,883 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 333) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@a468b74
+2020-05-05 10:18:39,883 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 333) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'contactom.war#contactomPersistenceUnit'
+2020-05-05 10:18:39,890 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment contactom.war (runtime-name: contactom.war) in 14ms
+2020-05-05 10:18:39,915 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "contactom.war" (runtime-name: "contactom.war")
+2020-05-05 10:18:44,919 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found contactom.war in deployment directory. To trigger deployment create a file called contactom.war.dodeploy
+2020-05-05 10:18:44,921 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "contactom.war" (runtime-name: "contactom.war")
+2020-05-05 10:18:44,979 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for contactomPersistenceUnit
+2020-05-05 10:18:45,010 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment contactom.war
+2020-05-05 10:18:45,011 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 333) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'contactom.war#contactomPersistenceUnit'
+2020-05-05 10:18:45,011 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 333) HHH000204: Processing PersistenceUnitInfo [
+	name: contactomPersistenceUnit
+	...]
+2020-05-05 10:18:45,029 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ContactosOn' in deployment unit 'deployment "contactom.war"' are as follows:
+
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:jboss/exported/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+
+2020-05-05 10:18:45,029 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'PersonaDao' in deployment unit 'deployment "contactom.war"' are as follows:
+
+	java:global/contactom/PersonaDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.PersonaDao
+	java:app/contactom/PersonaDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.PersonaDao
+	java:module/PersonaDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.PersonaDao
+	ejb:/contactom/PersonaDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.PersonaDao
+	java:global/contactom/PersonaDao
+	java:app/contactom/PersonaDao
+	java:module/PersonaDao
+
+2020-05-05 10:18:45,029 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'TelefonoDao' in deployment unit 'deployment "contactom.war"' are as follows:
+
+	java:global/contactom/TelefonoDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.TelefonoDao
+	java:app/contactom/TelefonoDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.TelefonoDao
+	java:module/TelefonoDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.TelefonoDao
+	ejb:/contactom/TelefonoDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.TelefonoDao
+	java:global/contactom/TelefonoDao
+	java:app/contactom/TelefonoDao
+	java:module/TelefonoDao
+
+2020-05-05 10:18:45,059 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2020-05-05 10:18:45,074 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-05-05 10:18:45,082 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 333) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'contactom.war#contactomPersistenceUnit'
+2020-05-05 10:18:45,083 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 333) HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-05-05 10:18:45,083 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 333) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2020-05-05 10:18:45,084 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 333) Envers integration enabled? : true
+2020-05-05 10:18:45,173 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-6) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-05-05 10:18:45,173 INFO  [io.smallrye.metrics] (MSC service thread 1-6) MicroProfile: Metrics activated
+2020-05-05 10:18:45,241 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 333) Inicializando Mojarra 2.3.9.SP04 para el contexto '/contactom'
+2020-05-05 10:18:45,292 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 333) WFLYUT0021: Registered web context: '/contactom' for server 'default-server'
+2020-05-05 10:18:45,310 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "contactom.war" (runtime-name : "contactom.war")
+2020-05-05 10:19:02,978 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2020-05-05 10:19:02,979 INFO  [stdout] (default task-1) Hibernate: select persona0_.cedula as cedula1_0_, persona0_.nombre as nombre2_0_ from Persona persona0_
+2020-05-05 10:19:02,980 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:19:02,981 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:19:02,982 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:19:02,982 INFO  [stdout] (default task-1) [Persona [cedula=0103709911, nombre=andres, telefonos=[Telefono [numero=1231332123, tipo=celular, Telefono [numero=2132123, tipo=casa]], Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr, Telefono [numero=524223, tipo=erfr]], Persona [cedula=1103693535, nombre=mari, telefonos=[Telefono [numero=5312, tipo=celular]]]
+2020-05-05 10:19:03,025 INFO  [stdout] (default task-1) Hibernate: select persona0_.cedula as cedula1_0_, persona0_.nombre as nombre2_0_ from Persona persona0_
+2020-05-05 10:19:03,026 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:19:03,027 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:19:03,027 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:19:03,028 INFO  [stdout] (default task-1) [Persona [cedula=0103709911, nombre=andres, telefonos=[Telefono [numero=1231332123, tipo=celular, Telefono [numero=2132123, tipo=casa]], Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr, Telefono [numero=524223, tipo=erfr]], Persona [cedula=1103693535, nombre=mari, telefonos=[Telefono [numero=5312, tipo=celular]]]
+2020-05-05 10:19:34,781 INFO  [stdout] (default task-1) Hibernate: insert into Persona (nombre, cedula) values (?, ?)
+2020-05-05 10:19:34,785 INFO  [stdout] (default task-1) Hibernate: insert into Telefono (cedula, tipo, numero) values (?, ?, ?)
+2020-05-05 10:19:34,800 INFO  [stdout] (default task-1) Hibernate: insert into Telefono (cedula, tipo, numero) values (?, ?, ?)
+2020-05-05 10:19:44,566 INFO  [stdout] (default task-1) Hibernate: select persona0_.cedula as cedula1_0_, persona0_.nombre as nombre2_0_ from Persona persona0_
+2020-05-05 10:19:44,568 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:19:44,569 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:19:44,570 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:19:44,571 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:19:44,573 INFO  [stdout] (default task-1) [Persona [cedula=0103709911, nombre=andres, telefonos=[Telefono [numero=1231332123, tipo=celular, Telefono [numero=2132123, tipo=casa]], Persona [cedula=0106305477, nombre=gustavo, telefonos=[Telefono [numero=2333535, tipo=casa, Telefono [numero=3213132, tipo=celular]], Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr, Telefono [numero=524223, tipo=erfr]], Persona [cedula=1103693535, nombre=mari, telefonos=[Telefono [numero=5312, tipo=celular]]]
+2020-05-05 10:19:44,578 INFO  [stdout] (default task-1) Hibernate: select persona0_.cedula as cedula1_0_, persona0_.nombre as nombre2_0_ from Persona persona0_
+2020-05-05 10:19:44,579 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:19:44,579 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:19:44,580 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:19:44,581 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:19:44,581 INFO  [stdout] (default task-1) [Persona [cedula=0103709911, nombre=andres, telefonos=[Telefono [numero=1231332123, tipo=celular, Telefono [numero=2132123, tipo=casa]], Persona [cedula=0106305477, nombre=gustavo, telefonos=[Telefono [numero=2333535, tipo=casa, Telefono [numero=3213132, tipo=celular]], Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr, Telefono [numero=524223, tipo=erfr]], Persona [cedula=1103693535, nombre=mari, telefonos=[Telefono [numero=5312, tipo=celular]]]
+2020-05-05 10:19:56,006 INFO  [stdout] (default task-1) Hibernate: select persona0_.cedula as cedula1_0_, persona0_.nombre as nombre2_0_ from Persona persona0_ where persona0_.nombre=?
+2020-05-05 10:19:56,007 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:19:56,009 INFO  [stdout] (default task-1) *************** cedula0106305477
+2020-05-05 10:19:56,010 INFO  [stdout] (default task-1) Hibernate: select telefono0_.numero as numero1_1_, telefono0_.cedula as cedula3_1_, telefono0_.tipo as tipo2_1_ from Telefono telefono0_ where telefono0_.cedula=?
+2020-05-05 10:19:56,011 INFO  [stdout] (default task-1) -********-Persona [cedula=0106305477, nombre=gustavo, telefonos=[Telefono [numero=2333535, tipo=casa, Telefono [numero=3213132, tipo=celular]]
+2020-05-05 10:20:05,126 INFO  [stdout] (default task-1) Hibernate: select persona0_.cedula as cedula1_0_1_, persona0_.nombre as nombre2_0_1_, telefonos1_.cedula as cedula3_1_3_, telefonos1_.numero as numero1_1_3_, telefonos1_.numero as numero1_1_0_, telefonos1_.cedula as cedula3_1_0_, telefonos1_.tipo as tipo2_1_0_ from Persona persona0_ left outer join Telefono telefonos1_ on persona0_.cedula=telefonos1_.cedula where persona0_.cedula=?
+2020-05-05 10:20:05,128 INFO  [stdout] (default task-1) Hibernate: select telefono0_.numero as numero1_1_0_, telefono0_.cedula as cedula3_1_0_, telefono0_.tipo as tipo2_1_0_ from Telefono telefono0_ where telefono0_.numero=?
+2020-05-05 10:20:05,129 INFO  [stdout] (default task-1) Hibernate: insert into Telefono (cedula, tipo, numero) values (?, ?, ?)
+2020-05-05 10:20:10,119 INFO  [stdout] (default task-1) Hibernate: select persona0_.cedula as cedula1_0_, persona0_.nombre as nombre2_0_ from Persona persona0_ where persona0_.nombre=?
+2020-05-05 10:20:10,120 INFO  [stdout] (default task-1) Hibernate: select telefonos0_.cedula as cedula3_1_0_, telefonos0_.numero as numero1_1_0_, telefonos0_.numero as numero1_1_1_, telefonos0_.cedula as cedula3_1_1_, telefonos0_.tipo as tipo2_1_1_ from Telefono telefonos0_ where telefonos0_.cedula=?
+2020-05-05 10:20:10,121 INFO  [stdout] (default task-1) *************** cedula0106305477
+2020-05-05 10:20:10,121 INFO  [stdout] (default task-1) Hibernate: select telefono0_.numero as numero1_1_, telefono0_.cedula as cedula3_1_, telefono0_.tipo as tipo2_1_ from Telefono telefono0_ where telefono0_.cedula=?
+2020-05-05 10:20:10,122 INFO  [stdout] (default task-1) -********-Persona [cedula=0106305477, nombre=gustavo, telefonos=[Telefono [numero=2333535, tipo=casa, Telefono [numero=3213132, tipo=celular, Telefono [numero=32132, tipo=otro]]

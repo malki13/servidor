@@ -1,0 +1,464 @@
+2020-04-29 19:58:18,484 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0010: Unbound data source [java:jboss/datasources/mywebappDS]
+2020-04-29 19:58:18,487 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 184) WFLYUT0022: Unregistered web context: '/testjpa' from server 'default-server'
+2020-04-29 19:58:18,532 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 206) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'testjpa.war#testjpaPersistenceUnit'
+2020-04-29 19:58:18,535 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 206) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@2c4dda3
+2020-04-29 19:58:18,538 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 206) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'testjpa.war#testjpaPersistenceUnit'
+2020-04-29 19:58:18,551 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment testjpa.war (runtime-name: testjpa.war) in 69ms
+2020-04-29 19:58:18,580 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "testjpa.war" (runtime-name: "testjpa.war")
+2020-04-29 19:58:23,586 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found testjpa.war in deployment directory. To trigger deployment create a file called testjpa.war.dodeploy
+2020-04-29 19:58:23,589 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "testjpa.war" (runtime-name: "testjpa.war")
+2020-04-29 19:58:23,641 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for testjpaPersistenceUnit
+2020-04-29 19:58:23,642 WARN  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2020-04-29 19:58:23,665 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 206) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'testjpa.war#testjpaPersistenceUnit'
+2020-04-29 19:58:23,665 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 206) HHH000204: Processing PersistenceUnitInfo [
+	name: testjpaPersistenceUnit
+	...]
+2020-04-29 19:58:23,668 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/mywebappDS]
+2020-04-29 19:58:23,675 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment testjpa.war
+2020-04-29 19:58:23,702 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'PersonaDAO' in deployment unit 'deployment "testjpa.war"' are as follows:
+
+	java:global/testjpa/PersonaDAO!ec.edu.ups.testjpa.testjpa.dao.PersonaDAO
+	java:app/testjpa/PersonaDAO!ec.edu.ups.testjpa.testjpa.dao.PersonaDAO
+	java:module/PersonaDAO!ec.edu.ups.testjpa.testjpa.dao.PersonaDAO
+	ejb:/testjpa/PersonaDAO!ec.edu.ups.testjpa.testjpa.dao.PersonaDAO
+	java:global/testjpa/PersonaDAO
+	java:app/testjpa/PersonaDAO
+	java:module/PersonaDAO
+
+2020-04-29 19:58:23,702 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'GestionCursos' in deployment unit 'deployment "testjpa.war"' are as follows:
+
+	java:global/testjpa/GestionCursos!ec.edu.ups.testjpa.testjpa.buisness.GestionCursos
+	java:app/testjpa/GestionCursos!ec.edu.ups.testjpa.testjpa.buisness.GestionCursos
+	java:module/GestionCursos!ec.edu.ups.testjpa.testjpa.buisness.GestionCursos
+	ejb:/testjpa/GestionCursos!ec.edu.ups.testjpa.testjpa.buisness.GestionCursos
+	java:global/testjpa/GestionCursos
+	java:app/testjpa/GestionCursos
+	java:module/GestionCursos
+
+2020-04-29 19:58:23,702 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'ContactoGestion' in deployment unit 'deployment "testjpa.war"' are as follows:
+
+	java:global/testjpa/ContactoGestion!ec.edu.ups.testjpa.testjpa.buisness.ContactoGestion
+	java:app/testjpa/ContactoGestion!ec.edu.ups.testjpa.testjpa.buisness.ContactoGestion
+	java:module/ContactoGestion!ec.edu.ups.testjpa.testjpa.buisness.ContactoGestion
+	ejb:/testjpa/ContactoGestion!ec.edu.ups.testjpa.testjpa.buisness.ContactoGestion
+	java:global/testjpa/ContactoGestion
+	java:app/testjpa/ContactoGestion
+	java:module/ContactoGestion
+
+2020-04-29 19:58:23,769 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 206) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'testjpa.war#testjpaPersistenceUnit'
+2020-04-29 19:58:23,780 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 206) HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-04-29 19:58:23,783 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 206) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2020-04-29 19:58:23,785 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 206) Envers integration enabled? : true
+2020-04-29 19:58:23,837 INFO  [stdout] (ServerService Thread Pool -- 206) Hibernate: drop table if exists Domicilio
+2020-04-29 19:58:23,838 INFO  [stdout] (ServerService Thread Pool -- 206) Hibernate: drop table if exists Persona
+2020-04-29 19:58:23,904 INFO  [stdout] (ServerService Thread Pool -- 206) Hibernate: create table Domicilio (id_domicilio integer not null auto_increment, calle varchar(255), ciudad varchar(255), cp varchar(255), estado integer not null, no_externo varchar(255), no_interno varchar(255), primary key (id_domicilio)) engine=InnoDB
+2020-04-29 19:58:24,000 INFO  [stdout] (ServerService Thread Pool -- 206) Hibernate: create table Persona (Cedula varchar(255) not null, Nombre varchar(255), edad integer not null, primary key (Cedula)) engine=InnoDB
+2020-04-29 19:58:24,039 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 206) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3c8d03e8'
+2020-04-29 19:58:24,057 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-6) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-04-29 19:58:24,057 INFO  [io.smallrye.metrics] (MSC service thread 1-6) MicroProfile: Metrics activated
+2020-04-29 19:58:24,114 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-6) MSC000001: Failed to start service jboss.deployment.unit."testjpa.war".WeldStartService: org.jboss.msc.service.StartException in service jboss.deployment.unit."testjpa.war".WeldStartService: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1731)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.jboss.weld.exceptions.DeploymentException: WELD-001408: Unsatisfied dependencies for type AlumnoDAO with qualifiers @Default
+  at injection point [BackedAnnotatedField] @Inject private ec.edu.ups.testjpa.testjpa.buisness.GestionCursos.alumnoDAO
+  at ec.edu.ups.testjpa.testjpa.buisness.GestionCursos.alumnoDAO(GestionCursos.java:0)
+
+	at org.jboss.weld.bootstrap.Validator.validateInjectionPointForDeploymentProblems(Validator.java:378)
+	at org.jboss.weld.bootstrap.Validator.validateInjectionPoint(Validator.java:290)
+	at org.jboss.weld.bootstrap.Validator.validateGeneralBean(Validator.java:143)
+	at org.jboss.weld.bootstrap.Validator.validateRIBean(Validator.java:164)
+	at org.jboss.weld.bootstrap.Validator.validateBean(Validator.java:526)
+	at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:64)
+	at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:62)
+	at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+2020-04-29 19:58:24,120 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 2) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "testjpa.war")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"testjpa.war\".WeldStartService" => "Failed to start service
+    Caused by: org.jboss.weld.exceptions.DeploymentException: WELD-001408: Unsatisfied dependencies for type AlumnoDAO with qualifiers @Default
+  at injection point [BackedAnnotatedField] @Inject private ec.edu.ups.testjpa.testjpa.buisness.GestionCursos.alumnoDAO
+  at ec.edu.ups.testjpa.testjpa.buisness.GestionCursos.alumnoDAO(GestionCursos.java:0)
+"}}
+2020-04-29 19:58:24,136 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "testjpa.war" (runtime-name : "testjpa.war")
+2020-04-29 19:58:24,137 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."testjpa.war".WeldStartService: Failed to start service
+WFLYCTL0448: 28 additional services are down due to their dependencies being missing or failed
+2020-04-29 20:00:39,223 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/mywebappDS]
+2020-04-29 20:00:39,226 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 207) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'testjpa.war#testjpaPersistenceUnit'
+2020-04-29 20:00:39,227 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 207) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@45b31df1
+2020-04-29 20:00:39,228 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 207) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'testjpa.war#testjpaPersistenceUnit'
+2020-04-29 20:00:39,233 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment testjpa.war (runtime-name: testjpa.war) in 11ms
+2020-04-29 20:00:39,234 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "testjpa.war" (runtime-name: "testjpa.war")
+2020-04-29 20:00:39,680 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for testjpaPersistenceUnit
+2020-04-29 20:00:39,681 WARN  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2020-04-29 20:00:39,696 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 207) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'testjpa.war#testjpaPersistenceUnit'
+2020-04-29 20:00:39,697 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 207) HHH000204: Processing PersistenceUnitInfo [
+	name: testjpaPersistenceUnit
+	...]
+2020-04-29 20:00:39,698 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/mywebappDS]
+2020-04-29 20:00:39,702 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment testjpa.war
+2020-04-29 20:00:39,718 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'PersonaDAO' in deployment unit 'deployment "testjpa.war"' are as follows:
+
+	java:global/testjpa/PersonaDAO!ec.edu.ups.testjpa.testjpa.dao.PersonaDAO
+	java:app/testjpa/PersonaDAO!ec.edu.ups.testjpa.testjpa.dao.PersonaDAO
+	java:module/PersonaDAO!ec.edu.ups.testjpa.testjpa.dao.PersonaDAO
+	ejb:/testjpa/PersonaDAO!ec.edu.ups.testjpa.testjpa.dao.PersonaDAO
+	java:global/testjpa/PersonaDAO
+	java:app/testjpa/PersonaDAO
+	java:module/PersonaDAO
+
+2020-04-29 20:00:39,718 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'GestionCursos' in deployment unit 'deployment "testjpa.war"' are as follows:
+
+	java:global/testjpa/GestionCursos!ec.edu.ups.testjpa.testjpa.buisness.GestionCursos
+	java:app/testjpa/GestionCursos!ec.edu.ups.testjpa.testjpa.buisness.GestionCursos
+	java:module/GestionCursos!ec.edu.ups.testjpa.testjpa.buisness.GestionCursos
+	ejb:/testjpa/GestionCursos!ec.edu.ups.testjpa.testjpa.buisness.GestionCursos
+	java:global/testjpa/GestionCursos
+	java:app/testjpa/GestionCursos
+	java:module/GestionCursos
+
+2020-04-29 20:00:39,718 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ContactoGestion' in deployment unit 'deployment "testjpa.war"' are as follows:
+
+	java:global/testjpa/ContactoGestion!ec.edu.ups.testjpa.testjpa.buisness.ContactoGestion
+	java:app/testjpa/ContactoGestion!ec.edu.ups.testjpa.testjpa.buisness.ContactoGestion
+	java:module/ContactoGestion!ec.edu.ups.testjpa.testjpa.buisness.ContactoGestion
+	ejb:/testjpa/ContactoGestion!ec.edu.ups.testjpa.testjpa.buisness.ContactoGestion
+	java:global/testjpa/ContactoGestion
+	java:app/testjpa/ContactoGestion
+	java:module/ContactoGestion
+
+2020-04-29 20:00:39,767 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 207) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'testjpa.war#testjpaPersistenceUnit'
+2020-04-29 20:00:39,768 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 207) HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-04-29 20:00:39,769 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 207) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2020-04-29 20:00:39,770 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 207) Envers integration enabled? : true
+2020-04-29 20:00:39,825 INFO  [stdout] (ServerService Thread Pool -- 207) Hibernate: alter table Alumno drop foreign key FKjwy7l4yjwotwppe3vfduyst18
+2020-04-29 20:00:39,847 WARN  [org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl] (ServerService Thread Pool -- 207) GenerationTarget encountered exception accepting command : Error executing DDL "alter table Alumno drop foreign key FKjwy7l4yjwotwppe3vfduyst18" via JDBC Statement: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table Alumno drop foreign key FKjwy7l4yjwotwppe3vfduyst18" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlString(SchemaDropperImpl.java:375)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applySqlStrings(SchemaDropperImpl.java:359)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:331)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:230)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:154)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:126)
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:112)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:144)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939)
+	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:170)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:128)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:658)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:212)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'baseejb.alumno' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.Util.getInstance(Util.java:384)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3566)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3498)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1959)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2113)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2562)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2512)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:781)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:624)
+	at org.jboss.jca.adapters.jdbc.WrappedStatement.execute(WrappedStatement.java:198)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 23 more
+
+2020-04-29 20:00:39,848 INFO  [stdout] (ServerService Thread Pool -- 207) Hibernate: drop table if exists Alumno
+2020-04-29 20:00:39,848 INFO  [stdout] (ServerService Thread Pool -- 207) Hibernate: drop table if exists Domicilio
+2020-04-29 20:00:39,936 INFO  [stdout] (ServerService Thread Pool -- 207) Hibernate: drop table if exists Persona
+2020-04-29 20:00:40,077 INFO  [stdout] (ServerService Thread Pool -- 207) Hibernate: create table Alumno (id_alumno integer not null auto_increment, apellido_materno varchar(255), apellido_paterno varchar(255), nombre varchar(255), id_domicilio integer, primary key (id_alumno)) engine=InnoDB
+2020-04-29 20:00:40,156 INFO  [stdout] (ServerService Thread Pool -- 207) Hibernate: create table Domicilio (id_domicilio integer not null auto_increment, calle varchar(255), ciudad varchar(255), cp varchar(255), estado integer not null, no_externo varchar(255), no_interno varchar(255), primary key (id_domicilio)) engine=InnoDB
+2020-04-29 20:00:40,261 INFO  [stdout] (ServerService Thread Pool -- 207) Hibernate: create table Persona (Cedula varchar(255) not null, Nombre varchar(255), edad integer not null, primary key (Cedula)) engine=InnoDB
+2020-04-29 20:00:40,333 INFO  [stdout] (ServerService Thread Pool -- 207) Hibernate: alter table Alumno add constraint FKjwy7l4yjwotwppe3vfduyst18 foreign key (id_domicilio) references Domicilio (id_domicilio)
+2020-04-29 20:00:40,647 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 207) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3c8d03e8'
+2020-04-29 20:00:40,667 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-7) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-04-29 20:00:40,667 INFO  [io.smallrye.metrics] (MSC service thread 1-7) MicroProfile: Metrics activated
+2020-04-29 20:00:40,734 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-7) MSC000001: Failed to start service jboss.deployment.unit."testjpa.war".WeldStartService: org.jboss.msc.service.StartException in service jboss.deployment.unit."testjpa.war".WeldStartService: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1731)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.jboss.weld.exceptions.DeploymentException: WELD-001408: Unsatisfied dependencies for type AlumnoDAO with qualifiers @Default
+  at injection point [BackedAnnotatedField] @Inject private ec.edu.ups.testjpa.testjpa.buisness.GestionCursos.alumnoDAO
+  at ec.edu.ups.testjpa.testjpa.buisness.GestionCursos.alumnoDAO(GestionCursos.java:0)
+
+	at org.jboss.weld.bootstrap.Validator.validateInjectionPointForDeploymentProblems(Validator.java:378)
+	at org.jboss.weld.bootstrap.Validator.validateInjectionPoint(Validator.java:290)
+	at org.jboss.weld.bootstrap.Validator.validateGeneralBean(Validator.java:143)
+	at org.jboss.weld.bootstrap.Validator.validateRIBean(Validator.java:164)
+	at org.jboss.weld.bootstrap.Validator.validateBean(Validator.java:526)
+	at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:64)
+	at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:62)
+	at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+2020-04-29 20:00:40,736 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 2) WFLYCTL0013: Operation ("full-replace-deployment") failed - address: ([]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"testjpa.war\".WeldStartService" => "Failed to start service
+    Caused by: org.jboss.weld.exceptions.DeploymentException: WELD-001408: Unsatisfied dependencies for type AlumnoDAO with qualifiers @Default
+  at injection point [BackedAnnotatedField] @Inject private ec.edu.ups.testjpa.testjpa.buisness.GestionCursos.alumnoDAO
+  at ec.edu.ups.testjpa.testjpa.buisness.GestionCursos.alumnoDAO(GestionCursos.java:0)
+"}}
+2020-04-29 20:00:40,764 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "testjpa.war" with deployment "testjpa.war"
+2020-04-29 20:00:40,764 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."testjpa.war".WeldStartService: Failed to start service
+
+2020-04-29 20:03:45,866 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-04-29 20:03:45,867 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 207) WFLYUT0022: Unregistered web context: '/contactom' from server 'default-server'
+2020-04-29 20:03:45,878 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 209) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'contactom.war#contactomPersistenceUnit'
+2020-04-29 20:03:45,879 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 209) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@44c01c28
+2020-04-29 20:03:45,879 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 209) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'contactom.war#contactomPersistenceUnit'
+2020-04-29 20:03:45,882 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment contactom.war (runtime-name: contactom.war) in 21ms
+2020-04-29 20:03:45,898 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "contactom.war" (runtime-name: "contactom.war")
+2020-04-29 20:03:45,898 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."testjpa.war".WeldStartService: Failed to start service
+
+2020-04-29 20:03:50,902 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found contactom.war in deployment directory. To trigger deployment create a file called contactom.war.dodeploy
+2020-04-29 20:03:50,905 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 209) WFLYUT0022: Unregistered web context: '/testejb' from server 'default-server'
+2020-04-29 20:03:50,910 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 208) WFLYJPA0004: Stopping Persistence Unit Service 'testejb.war#testejbPersistenceUnit'
+2020-04-29 20:03:50,910 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 208) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@4b91f1a3
+2020-04-29 20:03:50,913 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment testejb.war (runtime-name: testejb.war) in 10ms
+2020-04-29 20:03:50,929 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "testejb.war" (runtime-name: "testejb.war")
+2020-04-29 20:03:50,930 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."testjpa.war".WeldStartService: Failed to start service
+
+2020-04-29 20:03:55,933 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found testejb.war in deployment directory. To trigger deployment create a file called testejb.war.dodeploy
+2020-04-29 20:04:05,943 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/mywebappDS]
+2020-04-29 20:04:05,944 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 208) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'testjpa.war#testjpaPersistenceUnit'
+2020-04-29 20:04:05,945 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 208) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@aacfb98
+2020-04-29 20:04:05,945 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 208) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'testjpa.war#testjpaPersistenceUnit'
+2020-04-29 20:04:05,950 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment testjpa.war (runtime-name: testjpa.war) in 8ms
+2020-04-29 20:04:05,951 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "testjpa.war" (runtime-name: "testjpa.war")
+2020-04-29 20:04:05,984 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for testjpaPersistenceUnit
+2020-04-29 20:04:05,984 WARN  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2020-04-29 20:04:06,007 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/mywebappDS]
+2020-04-29 20:04:06,012 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment testjpa.war
+2020-04-29 20:04:06,031 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'PersonaDAO' in deployment unit 'deployment "testjpa.war"' are as follows:
+
+	java:global/testjpa/PersonaDAO!ec.edu.ups.testjpa.testjpa.dao.PersonaDAO
+	java:app/testjpa/PersonaDAO!ec.edu.ups.testjpa.testjpa.dao.PersonaDAO
+	java:module/PersonaDAO!ec.edu.ups.testjpa.testjpa.dao.PersonaDAO
+	ejb:/testjpa/PersonaDAO!ec.edu.ups.testjpa.testjpa.dao.PersonaDAO
+	java:global/testjpa/PersonaDAO
+	java:app/testjpa/PersonaDAO
+	java:module/PersonaDAO
+
+2020-04-29 20:04:06,031 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'GestionCursos' in deployment unit 'deployment "testjpa.war"' are as follows:
+
+	java:global/testjpa/GestionCursos!ec.edu.ups.testjpa.testjpa.buisness.GestionCursos
+	java:app/testjpa/GestionCursos!ec.edu.ups.testjpa.testjpa.buisness.GestionCursos
+	java:module/GestionCursos!ec.edu.ups.testjpa.testjpa.buisness.GestionCursos
+	ejb:/testjpa/GestionCursos!ec.edu.ups.testjpa.testjpa.buisness.GestionCursos
+	java:global/testjpa/GestionCursos
+	java:app/testjpa/GestionCursos
+	java:module/GestionCursos
+
+2020-04-29 20:04:06,031 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'ContactoGestion' in deployment unit 'deployment "testjpa.war"' are as follows:
+
+	java:global/testjpa/ContactoGestion!ec.edu.ups.testjpa.testjpa.buisness.ContactoGestion
+	java:app/testjpa/ContactoGestion!ec.edu.ups.testjpa.testjpa.buisness.ContactoGestion
+	java:module/ContactoGestion!ec.edu.ups.testjpa.testjpa.buisness.ContactoGestion
+	ejb:/testjpa/ContactoGestion!ec.edu.ups.testjpa.testjpa.buisness.ContactoGestion
+	java:global/testjpa/ContactoGestion
+	java:app/testjpa/ContactoGestion
+	java:module/ContactoGestion
+
+2020-04-29 20:04:06,034 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 208) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'testjpa.war#testjpaPersistenceUnit'
+2020-04-29 20:04:06,034 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 208) HHH000204: Processing PersistenceUnitInfo [
+	name: testjpaPersistenceUnit
+	...]
+2020-04-29 20:04:06,087 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 208) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'testjpa.war#testjpaPersistenceUnit'
+2020-04-29 20:04:06,088 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 208) HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-04-29 20:04:06,089 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 208) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2020-04-29 20:04:06,090 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 208) Envers integration enabled? : true
+2020-04-29 20:04:06,122 INFO  [stdout] (ServerService Thread Pool -- 208) Hibernate: alter table Alumno drop foreign key FKjwy7l4yjwotwppe3vfduyst18
+2020-04-29 20:04:06,172 INFO  [stdout] (ServerService Thread Pool -- 208) Hibernate: drop table if exists Alumno
+2020-04-29 20:04:06,304 INFO  [stdout] (ServerService Thread Pool -- 208) Hibernate: drop table if exists Domicilio
+2020-04-29 20:04:06,435 INFO  [stdout] (ServerService Thread Pool -- 208) Hibernate: drop table if exists Persona
+2020-04-29 20:04:06,558 INFO  [stdout] (ServerService Thread Pool -- 208) Hibernate: create table Alumno (id_alumno integer not null auto_increment, apellido_materno varchar(255), apellido_paterno varchar(255), nombre varchar(255), id_domicilio integer, primary key (id_alumno)) engine=InnoDB
+2020-04-29 20:04:06,609 INFO  [stdout] (ServerService Thread Pool -- 208) Hibernate: create table Domicilio (id_domicilio integer not null auto_increment, calle varchar(255), ciudad varchar(255), cp varchar(255), estado integer not null, no_externo varchar(255), no_interno varchar(255), primary key (id_domicilio)) engine=InnoDB
+2020-04-29 20:04:06,644 INFO  [stdout] (ServerService Thread Pool -- 208) Hibernate: create table Persona (Cedula varchar(255) not null, Nombre varchar(255), edad integer not null, primary key (Cedula)) engine=InnoDB
+2020-04-29 20:04:06,692 INFO  [stdout] (ServerService Thread Pool -- 208) Hibernate: alter table Alumno add constraint FKjwy7l4yjwotwppe3vfduyst18 foreign key (id_domicilio) references Domicilio (id_domicilio)
+2020-04-29 20:04:06,811 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 208) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3c8d03e8'
+2020-04-29 20:04:06,825 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-5) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-04-29 20:04:06,825 INFO  [io.smallrye.metrics] (MSC service thread 1-5) MicroProfile: Metrics activated
+2020-04-29 20:04:06,879 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-5) MSC000001: Failed to start service jboss.deployment.unit."testjpa.war".WeldStartService: org.jboss.msc.service.StartException in service jboss.deployment.unit."testjpa.war".WeldStartService: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1731)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.jboss.weld.exceptions.DeploymentException: WELD-001408: Unsatisfied dependencies for type AlumnoDAO with qualifiers @Default
+  at injection point [BackedAnnotatedField] @Inject private ec.edu.ups.testjpa.testjpa.buisness.GestionCursos.alumnoDAO
+  at ec.edu.ups.testjpa.testjpa.buisness.GestionCursos.alumnoDAO(GestionCursos.java:0)
+
+	at org.jboss.weld.bootstrap.Validator.validateInjectionPointForDeploymentProblems(Validator.java:378)
+	at org.jboss.weld.bootstrap.Validator.validateInjectionPoint(Validator.java:290)
+	at org.jboss.weld.bootstrap.Validator.validateGeneralBean(Validator.java:143)
+	at org.jboss.weld.bootstrap.Validator.validateRIBean(Validator.java:164)
+	at org.jboss.weld.bootstrap.Validator.validateBean(Validator.java:526)
+	at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:64)
+	at org.jboss.weld.bootstrap.ConcurrentValidator$1.doWork(ConcurrentValidator.java:62)
+	at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:62)
+	at org.jboss.weld.executor.IterativeWorkerTaskFactory$1.call(IterativeWorkerTaskFactory.java:55)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+2020-04-29 20:04:06,881 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 2) WFLYCTL0013: Operation ("full-replace-deployment") failed - address: ([]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"testjpa.war\".WeldStartService" => "Failed to start service
+    Caused by: org.jboss.weld.exceptions.DeploymentException: WELD-001408: Unsatisfied dependencies for type AlumnoDAO with qualifiers @Default
+  at injection point [BackedAnnotatedField] @Inject private ec.edu.ups.testjpa.testjpa.buisness.GestionCursos.alumnoDAO
+  at ec.edu.ups.testjpa.testjpa.buisness.GestionCursos.alumnoDAO(GestionCursos.java:0)
+"}}
+2020-04-29 20:04:06,900 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "testjpa.war" with deployment "testjpa.war"
+2020-04-29 20:04:06,900 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."testjpa.war".WeldStartService: Failed to start service
+
+2020-04-29 20:09:07,043 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/mywebappDS]
+2020-04-29 20:09:07,045 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 215) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'testjpa.war#testjpaPersistenceUnit'
+2020-04-29 20:09:07,046 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 215) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@47a51e67
+2020-04-29 20:09:07,047 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 215) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'testjpa.war#testjpaPersistenceUnit'
+2020-04-29 20:09:07,051 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment testjpa.war (runtime-name: testjpa.war) in 7ms
+2020-04-29 20:09:07,051 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "testjpa.war" (runtime-name: "testjpa.war")
+2020-04-29 20:09:07,083 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for testjpaPersistenceUnit
+2020-04-29 20:09:07,084 WARN  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0091: -ds.xml file deployments are deprecated. Support may be removed in a future version.
+2020-04-29 20:09:07,101 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/mywebappDS]
+2020-04-29 20:09:07,109 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment testjpa.war
+2020-04-29 20:09:07,112 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 215) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'testjpa.war#testjpaPersistenceUnit'
+2020-04-29 20:09:07,112 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 215) HHH000204: Processing PersistenceUnitInfo [
+	name: testjpaPersistenceUnit
+	...]
+2020-04-29 20:09:07,132 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'AlumnoDAO' in deployment unit 'deployment "testjpa.war"' are as follows:
+
+	java:global/testjpa/AlumnoDAO!ec.edu.ups.testjpa.testjpa.dao.AlumnoDAO
+	java:app/testjpa/AlumnoDAO!ec.edu.ups.testjpa.testjpa.dao.AlumnoDAO
+	java:module/AlumnoDAO!ec.edu.ups.testjpa.testjpa.dao.AlumnoDAO
+	ejb:/testjpa/AlumnoDAO!ec.edu.ups.testjpa.testjpa.dao.AlumnoDAO
+	java:global/testjpa/AlumnoDAO
+	java:app/testjpa/AlumnoDAO
+	java:module/AlumnoDAO
+
+2020-04-29 20:09:07,132 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'DomicilioDAO' in deployment unit 'deployment "testjpa.war"' are as follows:
+
+	java:global/testjpa/DomicilioDAO!ec.edu.ups.testjpa.testjpa.dao.DomicilioDAO
+	java:app/testjpa/DomicilioDAO!ec.edu.ups.testjpa.testjpa.dao.DomicilioDAO
+	java:module/DomicilioDAO!ec.edu.ups.testjpa.testjpa.dao.DomicilioDAO
+	ejb:/testjpa/DomicilioDAO!ec.edu.ups.testjpa.testjpa.dao.DomicilioDAO
+	java:global/testjpa/DomicilioDAO
+	java:app/testjpa/DomicilioDAO
+	java:module/DomicilioDAO
+
+2020-04-29 20:09:07,132 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'PersonaDAO' in deployment unit 'deployment "testjpa.war"' are as follows:
+
+	java:global/testjpa/PersonaDAO!ec.edu.ups.testjpa.testjpa.dao.PersonaDAO
+	java:app/testjpa/PersonaDAO!ec.edu.ups.testjpa.testjpa.dao.PersonaDAO
+	java:module/PersonaDAO!ec.edu.ups.testjpa.testjpa.dao.PersonaDAO
+	ejb:/testjpa/PersonaDAO!ec.edu.ups.testjpa.testjpa.dao.PersonaDAO
+	java:global/testjpa/PersonaDAO
+	java:app/testjpa/PersonaDAO
+	java:module/PersonaDAO
+
+2020-04-29 20:09:07,132 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'GestionCursos' in deployment unit 'deployment "testjpa.war"' are as follows:
+
+	java:global/testjpa/GestionCursos!ec.edu.ups.testjpa.testjpa.buisness.GestionCursos
+	java:app/testjpa/GestionCursos!ec.edu.ups.testjpa.testjpa.buisness.GestionCursos
+	java:module/GestionCursos!ec.edu.ups.testjpa.testjpa.buisness.GestionCursos
+	ejb:/testjpa/GestionCursos!ec.edu.ups.testjpa.testjpa.buisness.GestionCursos
+	java:global/testjpa/GestionCursos
+	java:app/testjpa/GestionCursos
+	java:module/GestionCursos
+
+2020-04-29 20:09:07,132 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'ContactoGestion' in deployment unit 'deployment "testjpa.war"' are as follows:
+
+	java:global/testjpa/ContactoGestion!ec.edu.ups.testjpa.testjpa.buisness.ContactoGestion
+	java:app/testjpa/ContactoGestion!ec.edu.ups.testjpa.testjpa.buisness.ContactoGestion
+	java:module/ContactoGestion!ec.edu.ups.testjpa.testjpa.buisness.ContactoGestion
+	ejb:/testjpa/ContactoGestion!ec.edu.ups.testjpa.testjpa.buisness.ContactoGestion
+	java:global/testjpa/ContactoGestion
+	java:app/testjpa/ContactoGestion
+	java:module/ContactoGestion
+
+2020-04-29 20:09:07,185 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 215) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'testjpa.war#testjpaPersistenceUnit'
+2020-04-29 20:09:07,186 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 215) HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-04-29 20:09:07,186 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 215) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2020-04-29 20:09:07,187 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 215) Envers integration enabled? : true
+2020-04-29 20:09:07,226 INFO  [stdout] (ServerService Thread Pool -- 215) Hibernate: alter table Alumno drop foreign key FKjwy7l4yjwotwppe3vfduyst18
+2020-04-29 20:09:07,254 INFO  [stdout] (ServerService Thread Pool -- 215) Hibernate: drop table if exists Alumno
+2020-04-29 20:09:07,317 INFO  [stdout] (ServerService Thread Pool -- 215) Hibernate: drop table if exists Domicilio
+2020-04-29 20:09:07,465 INFO  [stdout] (ServerService Thread Pool -- 215) Hibernate: drop table if exists Persona
+2020-04-29 20:09:07,609 INFO  [stdout] (ServerService Thread Pool -- 215) Hibernate: create table Alumno (id_alumno integer not null auto_increment, apellido_materno varchar(255), apellido_paterno varchar(255), nombre varchar(255), id_domicilio integer, primary key (id_alumno)) engine=InnoDB
+2020-04-29 20:09:07,644 INFO  [stdout] (ServerService Thread Pool -- 215) Hibernate: create table Domicilio (id_domicilio integer not null auto_increment, calle varchar(255), ciudad varchar(255), cp varchar(255), estado integer not null, no_externo varchar(255), no_interno varchar(255), primary key (id_domicilio)) engine=InnoDB
+2020-04-29 20:09:07,692 INFO  [stdout] (ServerService Thread Pool -- 215) Hibernate: create table Persona (Cedula varchar(255) not null, Nombre varchar(255), edad integer not null, primary key (Cedula)) engine=InnoDB
+2020-04-29 20:09:07,737 INFO  [stdout] (ServerService Thread Pool -- 215) Hibernate: alter table Alumno add constraint FKjwy7l4yjwotwppe3vfduyst18 foreign key (id_domicilio) references Domicilio (id_domicilio)
+2020-04-29 20:09:07,867 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 215) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3c8d03e8'
+2020-04-29 20:09:07,880 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-7) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-04-29 20:09:07,880 INFO  [io.smallrye.metrics] (MSC service thread 1-7) MicroProfile: Metrics activated
+2020-04-29 20:09:07,949 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 215) Inicializando Mojarra 2.3.9.SP04 para el contexto '/testjpa'
+2020-04-29 20:09:07,997 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 215) WFLYUT0021: Registered web context: '/testjpa' for server 'default-server'
+2020-04-29 20:09:08,024 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "testjpa.war" with deployment "testjpa.war"
+2020-04-29 20:09:08,025 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0185:    Newly corrected services:
+      service jboss.deployment.unit."testjpa.war".component.ContactoGestion.START (new available)
+      service jboss.deployment.unit."testjpa.war".component.ContactoGestion.WeldInstantiator (new available)
+      service jboss.deployment.unit."testjpa.war".component.ContactoGestion.WeldInterceptorBindingsService (new available)
+      service jboss.deployment.unit."testjpa.war".component.GestionCursos.START (new available)
+      service jboss.deployment.unit."testjpa.war".component.GestionCursos.WeldInstantiator (new available)
+      service jboss.deployment.unit."testjpa.war".component.GestionCursos.WeldInterceptorBindingsService (new available)
+      service jboss.deployment.unit."testjpa.war".component.PersonaDAO.START (new available)
+      service jboss.deployment.unit."testjpa.war".component.PersonaDAO.WeldInstantiator (new available)
+      service jboss.deployment.unit."testjpa.war".component.PersonaDAO.WeldInterceptorBindingsService (new available)
+      service jboss.deployment.unit."testjpa.war".component."com.sun.faces.config.ConfigureListener".START (new available)
+      service jboss.deployment.unit."testjpa.war".component."com.sun.faces.config.ConfigureListener".WeldInstantiator (new available)
+      service jboss.deployment.unit."testjpa.war".component."ec.edu.ups.testjpa.testjpa.view.RegistroPersona".START (new available)
+      service jboss.deployment.unit."testjpa.war".component."ec.edu.ups.testjpa.testjpa.view.RegistroPersona".WeldInstantiator (new available)
+      service jboss.deployment.unit."testjpa.war".component."javax.faces.webapp.FacetTag".START (new available)
+      service jboss.deployment.unit."testjpa.war".component."javax.faces.webapp.FacetTag".WeldInstantiator (new available)
+      service jboss.deployment.unit."testjpa.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (new available)
+      service jboss.deployment.unit."testjpa.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".WeldInstantiator (new available)
+      service jboss.deployment.unit."testjpa.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (new available)
+      service jboss.deployment.unit."testjpa.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".WeldInstantiator (new available)
+      service jboss.deployment.unit."testjpa.war".component."org.jboss.weld.module.web.servlet.WeldInitialListener".START (new available)
+      service jboss.deployment.unit."testjpa.war".component."org.jboss.weld.module.web.servlet.WeldInitialListener".WeldInstantiator (new available)
+      service jboss.deployment.unit."testjpa.war".component."org.jboss.weld.module.web.servlet.WeldTerminalListener".START (new available)
+      service jboss.deployment.unit."testjpa.war".component."org.jboss.weld.module.web.servlet.WeldTerminalListener".WeldInstantiator (new available)
+      service jboss.deployment.unit."testjpa.war".deploymentCompleteService (new available)
+      service jboss.deployment.unit."testjpa.war".ee.ComponentRegistry (new available)
+      service jboss.deployment.unit."testjpa.war".undertow-deployment (new available)
+      service jboss.deployment.unit."testjpa.war".undertow-deployment.UndertowDeploymentInfoService (new available)
+      service jboss.deployment.unit."testjpa.war".weld.weldClassIntrospector (new available)
+
+2020-04-29 20:11:22,428 INFO  [stdout] (default task-1) Hibernate: insert into Domicilio (calle, ciudad, cp, estado, no_externo, no_interno) values (?, ?, ?, ?, ?, ?)
+2020-04-29 20:11:22,434 INFO  [stdout] (default task-1) Hibernate: insert into Alumno (apellido_materno, apellido_paterno, id_domicilio, nombre) values (?, ?, ?, ?)

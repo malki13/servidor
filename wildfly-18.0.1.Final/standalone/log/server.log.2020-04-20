@@ -1,0 +1,416 @@
+2020-04-20 00:05:05,570 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-04-20 00:05:05,572 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 129) WFLYUT0022: Unregistered web context: '/contactom' from server 'default-server'
+2020-04-20 00:05:05,587 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 130) WFLYJPA0004: Stopping Persistence Unit Service 'contactom.war#contactomPersistenceUnit'
+2020-04-20 00:05:05,587 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 130) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@2f3f1f07
+2020-04-20 00:05:05,591 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment contactom.war (runtime-name: contactom.war) in 21ms
+2020-04-20 00:05:05,607 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "contactom.war" (runtime-name: "contactom.war")
+2020-04-20 00:05:10,613 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found contactom.war in deployment directory. To trigger deployment create a file called contactom.war.dodeploy
+2020-04-20 00:05:10,616 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "contactom.war" (runtime-name: "contactom.war")
+2020-04-20 00:05:10,679 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for contactomPersistenceUnit
+2020-04-20 00:05:10,699 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment contactom.war
+2020-04-20 00:05:10,714 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'ContactosOn' in deployment unit 'deployment "contactom.war"' are as follows:
+
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:jboss/exported/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+
+2020-04-20 00:05:10,746 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2020-04-20 00:05:10,757 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-04-20 00:05:10,763 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 130) WFLYJPA0003: Starting Persistence Unit Service 'contactom.war#contactomPersistenceUnit'
+2020-04-20 00:05:10,763 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 130) HHH000204: Processing PersistenceUnitInfo [
+	name: contactomPersistenceUnit
+	...]
+2020-04-20 00:05:10,782 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 130) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-04-20 00:05:10,783 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 130) HHH000431: Unable to determine H2 database version, certain features may not work
+2020-04-20 00:05:10,784 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 130) Envers integration enabled? : true
+2020-04-20 00:05:10,793 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 130) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1068f5c5'
+2020-04-20 00:05:10,816 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-8) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-04-20 00:05:10,816 INFO  [io.smallrye.metrics] (MSC service thread 1-8) MicroProfile: Metrics activated
+2020-04-20 00:05:10,896 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 130) Inicializando Mojarra 2.3.9.SP04 para el contexto '/contactom'
+2020-04-20 00:05:10,962 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 130) WFLYUT0021: Registered web context: '/contactom' for server 'default-server'
+2020-04-20 00:05:10,978 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "contactom.war" (runtime-name : "contactom.war")
+2020-04-20 00:45:52,051 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-04-20 00:45:52,053 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 130) WFLYUT0022: Unregistered web context: '/contactom' from server 'default-server'
+2020-04-20 00:45:52,071 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 138) WFLYJPA0004: Stopping Persistence Unit Service 'contactom.war#contactomPersistenceUnit'
+2020-04-20 00:45:52,071 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 138) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@17196e4d
+2020-04-20 00:45:52,076 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment contactom.war (runtime-name: contactom.war) in 25ms
+2020-04-20 00:45:52,093 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "contactom.war" (runtime-name: "contactom.war")
+2020-04-20 00:45:57,098 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found contactom.war in deployment directory. To trigger deployment create a file called contactom.war.dodeploy
+2020-04-20 00:45:57,101 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "contactom.war" (runtime-name: "contactom.war")
+2020-04-20 00:45:57,170 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for contactomPersistenceUnit
+2020-04-20 00:45:57,198 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment contactom.war
+2020-04-20 00:45:57,219 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ContactosOn' in deployment unit 'deployment "contactom.war"' are as follows:
+
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:jboss/exported/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+
+2020-04-20 00:45:57,259 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2020-04-20 00:45:57,273 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-04-20 00:45:57,286 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 138) WFLYJPA0003: Starting Persistence Unit Service 'contactom.war#contactomPersistenceUnit'
+2020-04-20 00:45:57,287 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 138) HHH000204: Processing PersistenceUnitInfo [
+	name: contactomPersistenceUnit
+	...]
+2020-04-20 00:45:57,320 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 138) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-04-20 00:45:57,321 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 138) HHH000431: Unable to determine H2 database version, certain features may not work
+2020-04-20 00:45:57,325 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 138) Envers integration enabled? : true
+2020-04-20 00:45:57,337 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 138) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1068f5c5'
+2020-04-20 00:45:57,358 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-6) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-04-20 00:45:57,358 INFO  [io.smallrye.metrics] (MSC service thread 1-6) MicroProfile: Metrics activated
+2020-04-20 00:45:57,444 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 138) Inicializando Mojarra 2.3.9.SP04 para el contexto '/contactom'
+2020-04-20 00:45:57,505 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 138) WFLYUT0021: Registered web context: '/contactom' for server 'default-server'
+2020-04-20 00:45:57,522 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "contactom.war" (runtime-name : "contactom.war")
+2020-04-20 00:50:38,858 INFO  [stdout] (default task-1) Se elimino correcramente.
+2020-04-20 00:54:42,755 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-04-20 00:54:42,756 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 138) WFLYUT0022: Unregistered web context: '/contactom' from server 'default-server'
+2020-04-20 00:54:42,771 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 145) WFLYJPA0004: Stopping Persistence Unit Service 'contactom.war#contactomPersistenceUnit'
+2020-04-20 00:54:42,771 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 145) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@4e040ed7
+2020-04-20 00:54:42,775 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment contactom.war (runtime-name: contactom.war) in 25ms
+2020-04-20 00:54:42,792 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "contactom.war" (runtime-name: "contactom.war")
+2020-04-20 00:54:47,799 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found contactom.war in deployment directory. To trigger deployment create a file called contactom.war.dodeploy
+2020-04-20 00:54:47,801 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "contactom.war" (runtime-name: "contactom.war")
+2020-04-20 00:54:47,857 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for contactomPersistenceUnit
+2020-04-20 00:54:47,877 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment contactom.war
+2020-04-20 00:54:47,896 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'ContactosOn' in deployment unit 'deployment "contactom.war"' are as follows:
+
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:jboss/exported/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+
+2020-04-20 00:54:47,925 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2020-04-20 00:54:47,934 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-04-20 00:54:47,940 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 145) WFLYJPA0003: Starting Persistence Unit Service 'contactom.war#contactomPersistenceUnit'
+2020-04-20 00:54:47,940 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 145) HHH000204: Processing PersistenceUnitInfo [
+	name: contactomPersistenceUnit
+	...]
+2020-04-20 00:54:47,961 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 145) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-04-20 00:54:47,961 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 145) HHH000431: Unable to determine H2 database version, certain features may not work
+2020-04-20 00:54:47,962 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 145) Envers integration enabled? : true
+2020-04-20 00:54:47,969 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 145) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1068f5c5'
+2020-04-20 00:54:47,989 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-4) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-04-20 00:54:47,989 INFO  [io.smallrye.metrics] (MSC service thread 1-4) MicroProfile: Metrics activated
+2020-04-20 00:54:48,073 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 145) Inicializando Mojarra 2.3.9.SP04 para el contexto '/contactom'
+2020-04-20 00:54:48,132 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 145) WFLYUT0021: Registered web context: '/contactom' for server 'default-server'
+2020-04-20 00:54:48,147 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "contactom.war" (runtime-name : "contactom.war")
+2020-04-20 00:56:10,962 INFO  [stdout] (default task-1) No se pudo eliminar.
+2020-04-20 00:58:05,100 INFO  [stdout] (default task-1) No se pudo eliminar.
+2020-04-20 00:58:18,032 INFO  [stdout] (default task-1) No se pudo eliminar.
+2020-04-20 01:01:53,344 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-04-20 01:01:53,345 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 145) WFLYUT0022: Unregistered web context: '/contactom' from server 'default-server'
+2020-04-20 01:01:53,357 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 148) WFLYJPA0004: Stopping Persistence Unit Service 'contactom.war#contactomPersistenceUnit'
+2020-04-20 01:01:53,357 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 148) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@ff74c00
+2020-04-20 01:01:53,361 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment contactom.war (runtime-name: contactom.war) in 17ms
+2020-04-20 01:01:53,374 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "contactom.war" (runtime-name: "contactom.war")
+2020-04-20 01:01:58,380 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found contactom.war in deployment directory. To trigger deployment create a file called contactom.war.dodeploy
+2020-04-20 01:01:58,382 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "contactom.war" (runtime-name: "contactom.war")
+2020-04-20 01:01:58,445 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for contactomPersistenceUnit
+2020-04-20 01:01:58,465 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment contactom.war
+2020-04-20 01:01:58,480 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ContactosOn' in deployment unit 'deployment "contactom.war"' are as follows:
+
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:jboss/exported/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+
+2020-04-20 01:01:58,508 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2020-04-20 01:01:58,518 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-04-20 01:01:58,524 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 148) WFLYJPA0003: Starting Persistence Unit Service 'contactom.war#contactomPersistenceUnit'
+2020-04-20 01:01:58,524 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 148) HHH000204: Processing PersistenceUnitInfo [
+	name: contactomPersistenceUnit
+	...]
+2020-04-20 01:01:58,544 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 148) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-04-20 01:01:58,544 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 148) HHH000431: Unable to determine H2 database version, certain features may not work
+2020-04-20 01:01:58,545 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 148) Envers integration enabled? : true
+2020-04-20 01:01:58,557 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 148) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1068f5c5'
+2020-04-20 01:01:58,573 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-4) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-04-20 01:01:58,574 INFO  [io.smallrye.metrics] (MSC service thread 1-4) MicroProfile: Metrics activated
+2020-04-20 01:01:58,651 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 148) Inicializando Mojarra 2.3.9.SP04 para el contexto '/contactom'
+2020-04-20 01:01:58,724 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 148) WFLYUT0021: Registered web context: '/contactom' for server 'default-server'
+2020-04-20 01:01:58,741 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "contactom.war" (runtime-name : "contactom.war")
+2020-04-20 01:02:14,453 INFO  [stdout] (default task-1) 1103693535************************
+2020-04-20 01:02:14,458 INFO  [stdout] (default task-1) No se pudo eliminar.
+2020-04-20 01:11:13,986 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-04-20 01:11:13,988 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 150) WFLYUT0022: Unregistered web context: '/contactom' from server 'default-server'
+2020-04-20 01:11:14,003 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 153) WFLYJPA0004: Stopping Persistence Unit Service 'contactom.war#contactomPersistenceUnit'
+2020-04-20 01:11:14,003 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 153) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@78210c76
+2020-04-20 01:11:14,008 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment contactom.war (runtime-name: contactom.war) in 22ms
+2020-04-20 01:11:14,023 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "contactom.war" (runtime-name: "contactom.war")
+2020-04-20 01:11:19,030 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found contactom.war in deployment directory. To trigger deployment create a file called contactom.war.dodeploy
+2020-04-20 01:11:19,033 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "contactom.war" (runtime-name: "contactom.war")
+2020-04-20 01:11:19,097 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for contactomPersistenceUnit
+2020-04-20 01:11:19,117 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment contactom.war
+2020-04-20 01:11:19,131 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ContactosOn' in deployment unit 'deployment "contactom.war"' are as follows:
+
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:jboss/exported/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+
+2020-04-20 01:11:19,164 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2020-04-20 01:11:19,175 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-04-20 01:11:19,182 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 153) WFLYJPA0003: Starting Persistence Unit Service 'contactom.war#contactomPersistenceUnit'
+2020-04-20 01:11:19,182 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 153) HHH000204: Processing PersistenceUnitInfo [
+	name: contactomPersistenceUnit
+	...]
+2020-04-20 01:11:19,203 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 153) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-04-20 01:11:19,204 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 153) HHH000431: Unable to determine H2 database version, certain features may not work
+2020-04-20 01:11:19,205 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 153) Envers integration enabled? : true
+2020-04-20 01:11:19,212 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 153) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1068f5c5'
+2020-04-20 01:11:19,225 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-8) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-04-20 01:11:19,225 INFO  [io.smallrye.metrics] (MSC service thread 1-8) MicroProfile: Metrics activated
+2020-04-20 01:11:19,297 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 153) Inicializando Mojarra 2.3.9.SP04 para el contexto '/contactom'
+2020-04-20 01:11:19,357 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 153) WFLYUT0021: Registered web context: '/contactom' for server 'default-server'
+2020-04-20 01:11:19,372 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "contactom.war" (runtime-name : "contactom.war")
+2020-04-20 01:11:40,643 INFO  [stdout] (default task-1) 1103693535************************
+2020-04-20 01:14:59,475 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-04-20 01:14:59,478 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 156) WFLYUT0022: Unregistered web context: '/contactom' from server 'default-server'
+2020-04-20 01:14:59,493 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 158) WFLYJPA0004: Stopping Persistence Unit Service 'contactom.war#contactomPersistenceUnit'
+2020-04-20 01:14:59,494 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 158) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@39f5c6ce
+2020-04-20 01:14:59,498 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment contactom.war (runtime-name: contactom.war) in 22ms
+2020-04-20 01:14:59,513 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "contactom.war" (runtime-name: "contactom.war")
+2020-04-20 01:15:04,519 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found contactom.war in deployment directory. To trigger deployment create a file called contactom.war.dodeploy
+2020-04-20 01:15:04,521 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "contactom.war" (runtime-name: "contactom.war")
+2020-04-20 01:15:04,582 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for contactomPersistenceUnit
+2020-04-20 01:15:04,602 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment contactom.war
+2020-04-20 01:15:04,621 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'ContactosOn' in deployment unit 'deployment "contactom.war"' are as follows:
+
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:jboss/exported/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+
+2020-04-20 01:15:04,655 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2020-04-20 01:15:04,666 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-04-20 01:15:04,674 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 158) WFLYJPA0003: Starting Persistence Unit Service 'contactom.war#contactomPersistenceUnit'
+2020-04-20 01:15:04,674 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 158) HHH000204: Processing PersistenceUnitInfo [
+	name: contactomPersistenceUnit
+	...]
+2020-04-20 01:15:04,701 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 158) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-04-20 01:15:04,701 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 158) HHH000431: Unable to determine H2 database version, certain features may not work
+2020-04-20 01:15:04,703 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 158) Envers integration enabled? : true
+2020-04-20 01:15:04,712 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 158) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1068f5c5'
+2020-04-20 01:15:04,729 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-7) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-04-20 01:15:04,730 INFO  [io.smallrye.metrics] (MSC service thread 1-7) MicroProfile: Metrics activated
+2020-04-20 01:15:04,803 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 158) Inicializando Mojarra 2.3.9.SP04 para el contexto '/contactom'
+2020-04-20 01:15:04,859 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 158) WFLYUT0021: Registered web context: '/contactom' for server 'default-server'
+2020-04-20 01:15:04,873 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "contactom.war" (runtime-name : "contactom.war")
+2020-04-20 01:15:30,257 INFO  [stdout] (default task-1) 1103693535************************
+2020-04-20 01:16:24,910 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-04-20 01:16:24,911 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 158) WFLYUT0022: Unregistered web context: '/contactom' from server 'default-server'
+2020-04-20 01:16:24,923 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 162) WFLYJPA0004: Stopping Persistence Unit Service 'contactom.war#contactomPersistenceUnit'
+2020-04-20 01:16:24,923 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 162) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@5d8da0dd
+2020-04-20 01:16:24,927 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment contactom.war (runtime-name: contactom.war) in 17ms
+2020-04-20 01:16:24,952 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "contactom.war" (runtime-name: "contactom.war")
+2020-04-20 01:16:29,957 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found contactom.war in deployment directory. To trigger deployment create a file called contactom.war.dodeploy
+2020-04-20 01:16:29,959 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "contactom.war" (runtime-name: "contactom.war")
+2020-04-20 01:16:30,017 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for contactomPersistenceUnit
+2020-04-20 01:16:30,037 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment contactom.war
+2020-04-20 01:16:30,050 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'ContactosOn' in deployment unit 'deployment "contactom.war"' are as follows:
+
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:jboss/exported/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+
+2020-04-20 01:16:30,081 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2020-04-20 01:16:30,090 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-04-20 01:16:30,096 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 162) WFLYJPA0003: Starting Persistence Unit Service 'contactom.war#contactomPersistenceUnit'
+2020-04-20 01:16:30,096 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 162) HHH000204: Processing PersistenceUnitInfo [
+	name: contactomPersistenceUnit
+	...]
+2020-04-20 01:16:30,115 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 162) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-04-20 01:16:30,115 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 162) HHH000431: Unable to determine H2 database version, certain features may not work
+2020-04-20 01:16:30,117 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 162) Envers integration enabled? : true
+2020-04-20 01:16:30,124 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 162) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1068f5c5'
+2020-04-20 01:16:30,142 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-5) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-04-20 01:16:30,143 INFO  [io.smallrye.metrics] (MSC service thread 1-5) MicroProfile: Metrics activated
+2020-04-20 01:16:30,206 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 162) Inicializando Mojarra 2.3.9.SP04 para el contexto '/contactom'
+2020-04-20 01:16:30,262 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 162) WFLYUT0021: Registered web context: '/contactom' for server 'default-server'
+2020-04-20 01:16:30,277 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "contactom.war" (runtime-name : "contactom.war")
+2020-04-20 01:16:44,934 INFO  [stdout] (default task-1) 1103693535************************
+2020-04-20 01:16:46,515 INFO  [stdout] (default task-1) Se elimino correcramente.
+2020-04-20 01:16:46,520 INFO  [stdout] (default task-1) No se pudo eliminar.
+2020-04-20 01:18:12,187 INFO  [stdout] (default task-1) 1103693535************************
+2020-04-20 01:18:12,208 INFO  [stdout] (default task-1) Se elimino correcramente.
+2020-04-20 01:18:12,212 INFO  [stdout] (default task-1) No se pudo eliminar.
+2020-04-20 01:23:10,459 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-04-20 01:23:10,461 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 162) WFLYUT0022: Unregistered web context: '/contactom' from server 'default-server'
+2020-04-20 01:23:10,479 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 169) WFLYJPA0004: Stopping Persistence Unit Service 'contactom.war#contactomPersistenceUnit'
+2020-04-20 01:23:10,479 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 169) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@2ff272b9
+2020-04-20 01:23:10,483 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment contactom.war (runtime-name: contactom.war) in 23ms
+2020-04-20 01:23:10,499 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "contactom.war" (runtime-name: "contactom.war")
+2020-04-20 01:23:15,505 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found contactom.war in deployment directory. To trigger deployment create a file called contactom.war.dodeploy
+2020-04-20 01:23:15,507 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "contactom.war" (runtime-name: "contactom.war")
+2020-04-20 01:23:15,563 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for contactomPersistenceUnit
+2020-04-20 01:23:15,582 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment contactom.war
+2020-04-20 01:23:15,596 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ContactosOn' in deployment unit 'deployment "contactom.war"' are as follows:
+
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:jboss/exported/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+
+2020-04-20 01:23:15,629 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2020-04-20 01:23:15,638 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-04-20 01:23:15,644 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 169) WFLYJPA0003: Starting Persistence Unit Service 'contactom.war#contactomPersistenceUnit'
+2020-04-20 01:23:15,644 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 169) HHH000204: Processing PersistenceUnitInfo [
+	name: contactomPersistenceUnit
+	...]
+2020-04-20 01:23:15,664 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 169) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-04-20 01:23:15,664 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 169) HHH000431: Unable to determine H2 database version, certain features may not work
+2020-04-20 01:23:15,665 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 169) Envers integration enabled? : true
+2020-04-20 01:23:15,672 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 169) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1068f5c5'
+2020-04-20 01:23:15,689 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-1) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-04-20 01:23:15,689 INFO  [io.smallrye.metrics] (MSC service thread 1-1) MicroProfile: Metrics activated
+2020-04-20 01:23:15,751 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 169) Inicializando Mojarra 2.3.9.SP04 para el contexto '/contactom'
+2020-04-20 01:23:15,805 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 169) WFLYUT0021: Registered web context: '/contactom' for server 'default-server'
+2020-04-20 01:23:15,821 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "contactom.war" (runtime-name : "contactom.war")
+2020-04-20 01:24:17,832 INFO  [stdout] (default task-1) 1103693535************************
+2020-04-20 01:26:10,900 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-04-20 01:26:10,902 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 169) WFLYUT0022: Unregistered web context: '/contactom' from server 'default-server'
+2020-04-20 01:26:10,915 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 176) WFLYJPA0004: Stopping Persistence Unit Service 'contactom.war#contactomPersistenceUnit'
+2020-04-20 01:26:10,915 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 176) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@2302339
+2020-04-20 01:26:10,919 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment contactom.war (runtime-name: contactom.war) in 19ms
+2020-04-20 01:26:10,933 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "contactom.war" (runtime-name: "contactom.war")
+2020-04-20 01:26:15,939 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found contactom.war in deployment directory. To trigger deployment create a file called contactom.war.dodeploy
+2020-04-20 01:26:15,942 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "contactom.war" (runtime-name: "contactom.war")
+2020-04-20 01:26:15,998 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for contactomPersistenceUnit
+2020-04-20 01:26:16,023 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment contactom.war
+2020-04-20 01:26:16,036 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ContactosOn' in deployment unit 'deployment "contactom.war"' are as follows:
+
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:jboss/exported/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+
+2020-04-20 01:26:16,062 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2020-04-20 01:26:16,072 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-04-20 01:26:16,078 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 176) WFLYJPA0003: Starting Persistence Unit Service 'contactom.war#contactomPersistenceUnit'
+2020-04-20 01:26:16,078 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 176) HHH000204: Processing PersistenceUnitInfo [
+	name: contactomPersistenceUnit
+	...]
+2020-04-20 01:26:16,099 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 176) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-04-20 01:26:16,099 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 176) HHH000431: Unable to determine H2 database version, certain features may not work
+2020-04-20 01:26:16,100 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 176) Envers integration enabled? : true
+2020-04-20 01:26:16,107 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 176) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1068f5c5'
+2020-04-20 01:26:16,123 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-5) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-04-20 01:26:16,123 INFO  [io.smallrye.metrics] (MSC service thread 1-5) MicroProfile: Metrics activated
+2020-04-20 01:26:16,189 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 176) Inicializando Mojarra 2.3.9.SP04 para el contexto '/contactom'
+2020-04-20 01:26:16,237 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 176) WFLYUT0021: Registered web context: '/contactom' for server 'default-server'
+2020-04-20 01:26:16,252 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "contactom.war" (runtime-name : "contactom.war")
+2020-04-20 01:26:35,245 INFO  [stdout] (default task-1) 1103693535************************
+2020-04-20 01:26:35,257 INFO  [stdout] (default task-1) Se elimino correcramente.
+2020-04-20 01:26:53,005 INFO  [stdout] (default task-1) 0150350668************************
+2020-04-20 01:26:53,017 INFO  [stdout] (default task-1) Se elimino correcramente.
+2020-04-20 01:26:53,025 INFO  [stdout] (default task-1) Se elimino correcramente.
+2020-04-20 01:29:04,664 INFO  [stdout] (default task-1) Se elimino correcramente.
+2020-04-20 01:29:27,492 INFO  [stdout] (default task-1) 1103693535************************
+2020-04-20 01:29:27,512 INFO  [stdout] (default task-1) Se elimino correcramente.
+2020-04-20 17:28:18,694 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0019: Stopped Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-04-20 17:28:18,697 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 178) WFLYUT0022: Unregistered web context: '/contactom' from server 'default-server'
+2020-04-20 17:28:18,729 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 179) WFLYJPA0004: Stopping Persistence Unit Service 'contactom.war#contactomPersistenceUnit'
+2020-04-20 17:28:18,732 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 179) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@33d6f455
+2020-04-20 17:28:18,743 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment contactom.war (runtime-name: contactom.war) in 50ms
+2020-04-20 17:28:18,768 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "contactom.war" (runtime-name: "contactom.war")
+2020-04-20 17:28:23,774 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found contactom.war in deployment directory. To trigger deployment create a file called contactom.war.dodeploy
+2020-04-20 17:28:23,776 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "contactom.war" (runtime-name: "contactom.war")
+2020-04-20 17:28:23,851 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for contactomPersistenceUnit
+2020-04-20 17:28:23,879 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment contactom.war
+2020-04-20 17:28:23,899 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ContactosOn' in deployment unit 'deployment "contactom.war"' are as follows:
+
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:jboss/exported/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnRemoto
+	java:global/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:app/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	java:module/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+	ejb:/contactom/ContactosOn!ec.edu.ups.appcontacto.contactom.ObjetoNegocio.ContactosOnLocal
+
+2020-04-20 17:28:23,899 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'PersonaDao' in deployment unit 'deployment "contactom.war"' are as follows:
+
+	java:global/contactom/PersonaDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.PersonaDao
+	java:app/contactom/PersonaDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.PersonaDao
+	java:module/PersonaDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.PersonaDao
+	ejb:/contactom/PersonaDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.PersonaDao
+	java:global/contactom/PersonaDao
+	java:app/contactom/PersonaDao
+	java:module/PersonaDao
+
+2020-04-20 17:28:23,899 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'TelefonoDao' in deployment unit 'deployment "contactom.war"' are as follows:
+
+	java:global/contactom/TelefonoDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.TelefonoDao
+	java:app/contactom/TelefonoDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.TelefonoDao
+	java:module/TelefonoDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.TelefonoDao
+	ejb:/contactom/TelefonoDao!ec.edu.ups.appcontacto.contactom.ObjetoDatos.TelefonoDao
+	java:global/contactom/TelefonoDao
+	java:app/contactom/TelefonoDao
+	java:module/TelefonoDao
+
+2020-04-20 17:28:23,947 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2020-04-20 17:28:23,958 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = contactom.war_com.mysql.jdbc.Driver_5_1
+2020-04-20 17:28:23,966 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 179) WFLYJPA0003: Starting Persistence Unit Service 'contactom.war#contactomPersistenceUnit'
+2020-04-20 17:28:23,967 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 179) HHH000204: Processing PersistenceUnitInfo [
+	name: contactomPersistenceUnit
+	...]
+2020-04-20 17:28:23,993 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 179) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-04-20 17:28:23,993 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 179) HHH000431: Unable to determine H2 database version, certain features may not work
+2020-04-20 17:28:23,998 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 179) Envers integration enabled? : true
+2020-04-20 17:28:24,013 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 179) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1068f5c5'
+2020-04-20 17:28:24,033 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-1) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-04-20 17:28:24,033 INFO  [io.smallrye.metrics] (MSC service thread 1-1) MicroProfile: Metrics activated
+2020-04-20 17:28:24,124 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 179) Inicializando Mojarra 2.3.9.SP04 para el contexto '/contactom'
+2020-04-20 17:28:24,180 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 179) WFLYUT0021: Registered web context: '/contactom' for server 'default-server'
+2020-04-20 17:28:24,197 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "contactom.war" (runtime-name : "contactom.war")
+2020-04-20 17:29:13,687 INFO  [stdout] (default task-1) 1103693535************************
+2020-04-20 17:29:13,714 INFO  [stdout] (default task-1) Se elimino correcramente.
+2020-04-20 17:29:13,737 INFO  [stdout] (default task-1) Se elimino correcramente.

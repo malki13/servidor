@@ -1,0 +1,10 @@
+2020-05-04 16:15:57,956 INFO  [stdout] (default task-1) [Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr]], Persona [cedula=1103693535, nombre=mari, telefonos=[Telefono [numero=54245, tipo=fg]]]
+2020-05-04 16:15:58,010 INFO  [stdout] (default task-1) [Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr]], Persona [cedula=1103693535, nombre=mari, telefonos=[Telefono [numero=54245, tipo=fg]]]
+2020-05-04 16:16:05,909 INFO  [stdout] (default task-1) *************** cedula0150350668
+2020-05-04 16:16:05,910 INFO  [stdout] (default task-1) -********-Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr]]
+2020-05-04 16:16:30,033 INFO  [stdout] (default task-1) *************** cedula0150350668
+2020-05-04 16:16:30,034 INFO  [stdout] (default task-1) -********-Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr]]
+2020-05-04 16:17:01,717 INFO  [stdout] (default task-1) *************** cedula0150350668
+2020-05-04 16:17:01,718 INFO  [stdout] (default task-1) -********-Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr]]
+2020-05-04 16:17:15,981 INFO  [stdout] (default task-1) *************** cedula0150350668
+2020-05-04 16:17:15,982 INFO  [stdout] (default task-1) -********-Persona [cedula=0150350668, nombre=malki, telefonos=[Telefono [numero=456, tipo=nn, Telefono [numero=512, tipo=da, Telefono [numero=5242, tipo=erfr, Telefono [numero=524223, tipo=erfr]]

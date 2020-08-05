@@ -1,0 +1,1727 @@
+2020-07-19 11:53:40,991 INFO  [org.jboss.modules] (main) JBoss Modules version 1.9.1.Final
+2020-07-19 11:53:42,413 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final
+2020-07-19 11:53:42,424 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final
+2020-07-19 11:53:42,547 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 18.0.1.Final (WildFly Core 10.0.3.Final) starting
+2020-07-19 11:53:42,548 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\eclipse\wildfly-18.0.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_211\jre
+	java.io.tmpdir = C:\Users\Usuario\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;native;C:/Program Files/Java/jre1.8.0_221/bin/server;C:/Program Files/Java/jre1.8.0_221/bin;C:/Program Files/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;D:\LINGO64_18\;C:\Users\Usuario\.Neo4jDesktop\neo4jDatabases\database-2dc0f087-d577-45e4-851e-ba737cc9d1ee\installation-4.0.3\bin;C:\Program Files\Java\jdk1.8.0_211\bin;;C:\Users\Usuario\AppData\Local\Programs\Microsoft VS Code\bin;C:\eclipse\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_211-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_211
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.211-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\eclipse\wildfly-18.0.1.Final
+	jboss.host.name = laptop-9otrmr1r
+	jboss.modules.dir = C:\eclipse\wildfly-18.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = laptop-9otrmr1r
+	jboss.qualified.host.name = laptop-9otrmr1r
+	jboss.server.base.dir = C:\eclipse\wildfly-18.0.1.Final\standalone
+	jboss.server.config.dir = C:\eclipse\wildfly-18.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\eclipse\wildfly-18.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\eclipse\wildfly-18.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\eclipse\wildfly-18.0.1.Final\standalone\log
+	jboss.server.name = laptop-9otrmr1r
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\eclipse\wildfly-18.0.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\eclipse\wildfly-18.0.1.Final\standalone\configuration\logging.properties
+	module.path = C:\eclipse\wildfly-18.0.1.Final\modules
+	org.jboss.boot.log.file = C:\eclipse\wildfly-18.0.1.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 18 at localhost
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_211\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\eclipse\wildfly-18.0.1.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\eclipse\wildfly-18.0.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = EC
+	user.dir = C:\eclipse\wildfly-18.0.1.Final\bin
+	user.home = C:\Users\Usuario
+	user.language = es
+	user.name = Usuario
+	user.script = 
+	user.timezone = America/Bogota
+	user.variant = 
+2020-07-19 11:53:42,549 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly 18 at localhost -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\eclipse\wildfly-18.0.1.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\eclipse\wildfly-18.0.1.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\eclipse\wildfly-18.0.1.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2020-07-19 11:53:43,832 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 1.10.4.Final
+2020-07-19 11:53:45,528 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2020-07-19 11:53:45,550 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 28) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2020-07-19 11:53:45,577 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found contacto.war in deployment directory. To trigger deployment create a file called contacto.war.dodeploy
+2020-07-19 11:53:45,578 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found Eva56MalkiYupankiServidor.war in deployment directory. To trigger deployment create a file called Eva56MalkiYupankiServidor.war.dodeploy
+2020-07-19 11:53:45,578 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found EvaluacionCorrecion.war in deployment directory. To trigger deployment create a file called EvaluacionCorrecion.war.dodeploy
+2020-07-19 11:53:45,610 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2020-07-19 11:53:45,636 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.7.3.Final
+2020-07-19 11:53:45,643 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.7.3.Final
+2020-07-19 11:53:45,669 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 72) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2020-07-19 11:53:45,673 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 51) WFLYCLINF0001: Activating Infinispan subsystem.
+2020-07-19 11:53:45,676 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 60) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2020-07-19 11:53:45,677 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 63) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2020-07-19 11:53:45,693 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 64) WFLYNAM0001: Activating Naming Subsystem
+2020-07-19 11:53:45,693 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 70) WFLYSEC0002: Activating Security Subsystem
+2020-07-19 11:53:45,699 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 58) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2020-07-19 11:53:45,700 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 62) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
+2020-07-19 11:53:45,703 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=5.0.3.Final
+2020-07-19 11:53:45,705 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 61) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2020-07-19 11:53:45,710 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 74) WFLYWS0002: Activating WebServices Extension
+2020-07-19 11:53:45,717 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.17.Final)
+2020-07-19 11:53:45,803 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 43) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2020-07-19 11:53:45,816 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2020-07-19 11:53:45,818 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 2.0.27.Final starting
+2020-07-19 11:53:45,827 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2020-07-19 11:53:45,830 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2020-07-19 11:53:45,924 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 43) WFLYJCA0004: Deploying JDBC-compliant driver class oracle.jdbc.OracleDriver (version 11.1)
+2020-07-19 11:53:45,944 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = oracle-driver
+2020-07-19 11:53:45,943 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 73) WFLYUT0014: Creating file handler for path 'C:\eclipse\wildfly-18.0.1.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2020-07-19 11:53:45,955 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 43) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2020-07-19 11:53:45,963 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = postgresql-driver
+2020-07-19 11:53:45,983 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 43) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2020-07-19 11:53:45,985 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = mysql-driver
+2020-07-19 11:53:46,143 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 53) WFLYRS0016: RESTEasy version 3.9.1.Final
+2020-07-19 11:53:46,167 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 52) WFLYIO001: Worker 'default' has auto-configured to 24 core threads with 192 task threads based on your 12 available processors
+2020-07-19 11:53:46,171 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 48 (per class), which is derived from the number of CPUs on this host.
+2020-07-19 11:53:46,172 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 192 (per class), which is derived from thread worker pool sizing.
+2020-07-19 11:53:46,204 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.15.Final
+2020-07-19 11:53:46,403 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2020-07-19 11:53:46,405 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2020-07-19 11:53:46,437 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2020-07-19 11:53:46,445 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: EJB subsystem suspension complete
+2020-07-19 11:53:46,507 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ejPostgresDS]
+2020-07-19 11:53:46,507 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ejCoopJamDS]
+2020-07-19 11:53:46,507 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ejMySQLDS]
+2020-07-19 11:53:46,508 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ejTelefonos]
+2020-07-19 11:53:46,508 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ejOracleDS]
+2020-07-19 11:53:46,508 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ejPruebaMalki]
+2020-07-19 11:53:46,508 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2020-07-19 11:53:48,265 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2020-07-19 11:53:48,275 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore C:\eclipse\wildfly-18.0.1.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2020-07-19 11:53:48,278 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory C:\eclipse\wildfly-18.0.1.Final\standalone\deployments
+2020-07-19 11:53:48,284 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "Eva56MalkiYupankiServidor.war" (runtime-name: "Eva56MalkiYupankiServidor.war")
+2020-07-19 11:53:48,284 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "EvaluacionCorrecion.war" (runtime-name: "EvaluacionCorrecion.war")
+2020-07-19 11:53:48,602 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2020-07-19 11:53:49,148 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.3.0.Final (Apache CXF 3.3.3) 
+2020-07-19 11:53:49,498 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for Eva56MalkiYupankiServidorPersistenceUnit
+2020-07-19 11:53:50,086 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for EvaluacionCorrecionPersistenceUnit
+2020-07-19 11:53:51,065 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment EvaluacionCorrecion.war
+2020-07-19 11:53:51,065 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment Eva56MalkiYupankiServidor.war
+2020-07-19 11:53:51,197 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Infinity Minus ONE +2' 9.4.16.Final
+2020-07-19 11:53:51,352 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 77) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'EvaluacionCorrecion.war#EvaluacionCorrecionPersistenceUnit'
+2020-07-19 11:53:51,352 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 76) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'Eva56MalkiYupankiServidor.war#Eva56MalkiYupankiServidorPersistenceUnit'
+2020-07-19 11:53:51,371 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 77) HHH000204: Processing PersistenceUnitInfo [
+	name: EvaluacionCorrecionPersistenceUnit
+	...]
+2020-07-19 11:53:51,371 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 76) HHH000204: Processing PersistenceUnitInfo [
+	name: Eva56MalkiYupankiServidorPersistenceUnit
+	...]
+2020-07-19 11:53:51,448 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 77) HHH000412: Hibernate Core {5.3.13.Final}
+2020-07-19 11:53:51,450 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 77) HHH000206: hibernate.properties not found
+2020-07-19 11:53:51,613 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 6.0.18.Final
+2020-07-19 11:53:51,614 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 77) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2020-07-19 11:53:51,790 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'PersonaDAO' in deployment unit 'deployment "EvaluacionCorrecion.war"' are as follows:
+
+	java:global/EvaluacionCorrecion/PersonaDAO!ec.edu.ups.aplicacion.EvaluacionCorrecion.accesoDatos.PersonaDAO
+	java:app/EvaluacionCorrecion/PersonaDAO!ec.edu.ups.aplicacion.EvaluacionCorrecion.accesoDatos.PersonaDAO
+	java:module/PersonaDAO!ec.edu.ups.aplicacion.EvaluacionCorrecion.accesoDatos.PersonaDAO
+	ejb:/EvaluacionCorrecion/PersonaDAO!ec.edu.ups.aplicacion.EvaluacionCorrecion.accesoDatos.PersonaDAO
+	java:global/EvaluacionCorrecion/PersonaDAO
+	java:app/EvaluacionCorrecion/PersonaDAO
+	java:module/PersonaDAO
+
+2020-07-19 11:53:51,790 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'AutorDAO' in deployment unit 'deployment "Eva56MalkiYupankiServidor.war"' are as follows:
+
+	java:global/Eva56MalkiYupankiServidor/AutorDAO!ec.ups.edu.Eva56MalkiYupankiServidor.Entidades.ObjetoDatos.AutorDAO
+	java:app/Eva56MalkiYupankiServidor/AutorDAO!ec.ups.edu.Eva56MalkiYupankiServidor.Entidades.ObjetoDatos.AutorDAO
+	java:module/AutorDAO!ec.ups.edu.Eva56MalkiYupankiServidor.Entidades.ObjetoDatos.AutorDAO
+	ejb:/Eva56MalkiYupankiServidor/AutorDAO!ec.ups.edu.Eva56MalkiYupankiServidor.Entidades.ObjetoDatos.AutorDAO
+	java:global/Eva56MalkiYupankiServidor/AutorDAO
+	java:app/Eva56MalkiYupankiServidor/AutorDAO
+	java:module/AutorDAO
+
+2020-07-19 11:53:51,790 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ObjetoNegocioON' in deployment unit 'deployment "EvaluacionCorrecion.war"' are as follows:
+
+	java:global/EvaluacionCorrecion/ObjetoNegocioON!ec.edu.ups.aplicacion.EvaluacionCorrecion.objetoNegocio.ObjetoNegocioONLocal
+	java:app/EvaluacionCorrecion/ObjetoNegocioON!ec.edu.ups.aplicacion.EvaluacionCorrecion.objetoNegocio.ObjetoNegocioONLocal
+	java:module/ObjetoNegocioON!ec.edu.ups.aplicacion.EvaluacionCorrecion.objetoNegocio.ObjetoNegocioONLocal
+	ejb:/EvaluacionCorrecion/ObjetoNegocioON!ec.edu.ups.aplicacion.EvaluacionCorrecion.objetoNegocio.ObjetoNegocioONLocal
+	java:global/EvaluacionCorrecion/ObjetoNegocioON
+	java:app/EvaluacionCorrecion/ObjetoNegocioON
+	java:module/ObjetoNegocioON
+
+2020-07-19 11:53:51,790 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'TitutloDAO' in deployment unit 'deployment "EvaluacionCorrecion.war"' are as follows:
+
+	java:global/EvaluacionCorrecion/TitutloDAO!ec.edu.ups.aplicacion.EvaluacionCorrecion.accesoDatos.TitutloDAO
+	java:app/EvaluacionCorrecion/TitutloDAO!ec.edu.ups.aplicacion.EvaluacionCorrecion.accesoDatos.TitutloDAO
+	java:module/TitutloDAO!ec.edu.ups.aplicacion.EvaluacionCorrecion.accesoDatos.TitutloDAO
+	ejb:/EvaluacionCorrecion/TitutloDAO!ec.edu.ups.aplicacion.EvaluacionCorrecion.accesoDatos.TitutloDAO
+	java:global/EvaluacionCorrecion/TitutloDAO
+	java:app/EvaluacionCorrecion/TitutloDAO
+	java:module/TitutloDAO
+
+2020-07-19 11:53:51,792 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'RegistroLibro' in deployment unit 'deployment "Eva56MalkiYupankiServidor.war"' are as follows:
+
+	java:global/Eva56MalkiYupankiServidor/RegistroLibro!ec.ups.edu.Eva56MalkiYupankiServidor.Entidades.ObjetoNegocio.RegistroLibroRemoto
+	java:app/Eva56MalkiYupankiServidor/RegistroLibro!ec.ups.edu.Eva56MalkiYupankiServidor.Entidades.ObjetoNegocio.RegistroLibroRemoto
+	java:module/RegistroLibro!ec.ups.edu.Eva56MalkiYupankiServidor.Entidades.ObjetoNegocio.RegistroLibroRemoto
+	java:jboss/exported/Eva56MalkiYupankiServidor/RegistroLibro!ec.ups.edu.Eva56MalkiYupankiServidor.Entidades.ObjetoNegocio.RegistroLibroRemoto
+	ejb:/Eva56MalkiYupankiServidor/RegistroLibro!ec.ups.edu.Eva56MalkiYupankiServidor.Entidades.ObjetoNegocio.RegistroLibroRemoto
+	java:global/Eva56MalkiYupankiServidor/RegistroLibro!ec.ups.edu.Eva56MalkiYupankiServidor.Entidades.ObjetoNegocio.RegistroLibroLocal
+	java:app/Eva56MalkiYupankiServidor/RegistroLibro!ec.ups.edu.Eva56MalkiYupankiServidor.Entidades.ObjetoNegocio.RegistroLibroLocal
+	java:module/RegistroLibro!ec.ups.edu.Eva56MalkiYupankiServidor.Entidades.ObjetoNegocio.RegistroLibroLocal
+	ejb:/Eva56MalkiYupankiServidor/RegistroLibro!ec.ups.edu.Eva56MalkiYupankiServidor.Entidades.ObjetoNegocio.RegistroLibroLocal
+
+2020-07-19 11:53:51,792 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'LibroDAO' in deployment unit 'deployment "Eva56MalkiYupankiServidor.war"' are as follows:
+
+	java:global/Eva56MalkiYupankiServidor/LibroDAO!ec.ups.edu.Eva56MalkiYupankiServidor.Entidades.ObjetoDatos.LibroDAO
+	java:app/Eva56MalkiYupankiServidor/LibroDAO!ec.ups.edu.Eva56MalkiYupankiServidor.Entidades.ObjetoDatos.LibroDAO
+	java:module/LibroDAO!ec.ups.edu.Eva56MalkiYupankiServidor.Entidades.ObjetoDatos.LibroDAO
+	ejb:/Eva56MalkiYupankiServidor/LibroDAO!ec.ups.edu.Eva56MalkiYupankiServidor.Entidades.ObjetoDatos.LibroDAO
+	java:global/Eva56MalkiYupankiServidor/LibroDAO
+	java:app/Eva56MalkiYupankiServidor/LibroDAO
+	java:module/LibroDAO
+
+2020-07-19 11:53:52,082 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 77) WFLYCLINF0002: Started client-mappings cache from ejb container
+2020-07-19 11:53:52,200 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 3.1.2 (Final)
+2020-07-19 11:53:52,345 WARN  [org.jboss.as.jaxrs] (MSC service thread 1-5) WFLYRS0018: Explicit usage of Jackson annotation in a JAX-RS deployment; the system will disable JSON-B processing for the current deployment. Consider setting the 'resteasy.preferJacksonOverJsonB' property to 'false' to restore JSON-B.
+2020-07-19 11:53:52,356 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2020-07-19 11:53:52,421 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 77) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'Eva56MalkiYupankiServidor.war#Eva56MalkiYupankiServidorPersistenceUnit'
+2020-07-19 11:53:52,422 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-5) JBWS024061: Adding service endpoint metadata: id=ec.edu.ups.aplicacion.EvaluacionCorrecion.Servicios.ServicioPruebaSOAP
+ address=http://localhost:8080/EvaluacionCorrecion/ServicioPruebaSOAP
+ implementor=ec.edu.ups.aplicacion.EvaluacionCorrecion.Servicios.ServicioPruebaSOAP
+ serviceName={http://Servicios.EvaluacionCorrecion.aplicacion.ups.edu.ec/}ServicioPruebaSOAPService
+ portName={http://Servicios.EvaluacionCorrecion.aplicacion.ups.edu.ec/}ServicioPruebaSOAPPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2020-07-19 11:53:52,649 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 77) HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-07-19 11:53:52,674 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 77) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2020-07-19 11:53:52,685 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 77) Envers integration enabled? : true
+2020-07-19 11:53:52,877 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-5) Creating Service {http://Servicios.EvaluacionCorrecion.aplicacion.ups.edu.ec/}ServicioPruebaSOAPService from class ec.edu.ups.aplicacion.EvaluacionCorrecion.Servicios.ServicioPruebaSOAP
+2020-07-19 11:53:53,154 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-5) Setting the server's publish address to be http://localhost:8080/EvaluacionCorrecion/ServicioPruebaSOAP
+2020-07-19 11:53:53,208 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-5) JBWS024074: WSDL published to: file:/C:/eclipse/wildfly-18.0.1.Final/standalone/data/wsdl/EvaluacionCorrecion.war/ServicioPruebaSOAPService.wsdl
+2020-07-19 11:53:53,247 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = EvaluacionCorrecion.war_com.mysql.jdbc.Driver_5_1
+2020-07-19 11:53:53,248 INFO  [org.jboss.as.webservices] (MSC service thread 1-5) WFLYWS0003: Starting service jboss.ws.endpoint."EvaluacionCorrecion.war"."ec.edu.ups.aplicacion.EvaluacionCorrecion.Servicios.ServicioPruebaSOAP"
+2020-07-19 11:53:53,279 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 76) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'EvaluacionCorrecion.war#EvaluacionCorrecionPersistenceUnit'
+2020-07-19 11:53:53,290 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 76) HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-07-19 11:53:53,294 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 76) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2020-07-19 11:53:53,296 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 76) Envers integration enabled? : true
+2020-07-19 11:53:53,650 INFO  [io.smallrye.metrics] (MSC service thread 1-2) MicroProfile: Metrics activated
+2020-07-19 11:53:53,673 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-2) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-07-19 11:53:53,957 INFO  [io.smallrye.metrics] (MSC service thread 1-4) MicroProfile: Metrics activated
+2020-07-19 11:53:53,960 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-4) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-07-19 11:53:54,315 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 77) Inicializando Mojarra 2.3.9.SP04 para el contexto '/Eva56MalkiYupankiServidor'
+2020-07-19 11:53:54,315 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 76) Inicializando Mojarra 2.3.9.SP04 para el contexto '/EvaluacionCorrecion'
+2020-07-19 11:53:54,927 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0021: Registered web context: '/Eva56MalkiYupankiServidor' for server 'default-server'
+2020-07-19 11:53:55,360 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 76) Running on PrimeFaces 8.0
+2020-07-19 11:53:55,552 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 76) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.edu.ups.aplicacion.EvaluacionCorrecion.Servicios.RestAplication
+2020-07-19 11:53:55,553 WARN  [org.jboss.as.weld] (ServerService Thread Pool -- 76) WFLYWELD0052: Using deployment classloader to load proxy classes for module com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi, org.jboss.weld.api]
+2020-07-19 11:53:55,769 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 76) WFLYUT0021: Registered web context: '/EvaluacionCorrecion' for server 'default-server'
+2020-07-19 11:53:56,205 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 44) WFLYSRV0010: Deployed "EvaluacionCorrecion.war" (runtime-name : "EvaluacionCorrecion.war")
+2020-07-19 11:53:56,205 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 44) WFLYSRV0010: Deployed "Eva56MalkiYupankiServidor.war" (runtime-name : "Eva56MalkiYupankiServidor.war")
+2020-07-19 11:53:56,245 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2020-07-19 11:53:56,247 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2020-07-19 11:53:56,248 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2020-07-19 11:53:56,248 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 18.0.1.Final (WildFly Core 10.0.3.Final) started in 18989ms - Started 732 of 945 services (385 services are lazy, passive or on-demand)
+2020-07-19 11:55:41,322 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found coopjam.war in deployment directory. To trigger deployment create a file called coopjam.war.dodeploy
+2020-07-19 11:55:46,350 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "coopjam.war" (runtime-name: "coopjam.war")
+2020-07-19 11:55:47,361 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for coopjamPersistenceUnit
+2020-07-19 11:55:47,430 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 76) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'coopjam.war#coopjamPersistenceUnit'
+2020-07-19 11:55:47,430 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 76) HHH000204: Processing PersistenceUnitInfo [
+	name: coopjamPersistenceUnit
+	...]
+2020-07-19 11:55:47,461 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment coopjam.war
+2020-07-19 11:55:47,487 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'CreditoDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/CreditoDAO!ec.edu.ups.coopjam.data.CreditoDAO
+	java:app/coopjam/CreditoDAO!ec.edu.ups.coopjam.data.CreditoDAO
+	java:module/CreditoDAO!ec.edu.ups.coopjam.data.CreditoDAO
+	ejb:/coopjam/CreditoDAO!ec.edu.ups.coopjam.data.CreditoDAO
+	java:global/coopjam/CreditoDAO
+	java:app/coopjam/CreditoDAO
+	java:module/CreditoDAO
+
+2020-07-19 11:55:47,487 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'GestionUsuarios' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/GestionUsuarios!ec.edu.ups.coopjam.business.GestionUsuarioLocal
+	java:app/coopjam/GestionUsuarios!ec.edu.ups.coopjam.business.GestionUsuarioLocal
+	java:module/GestionUsuarios!ec.edu.ups.coopjam.business.GestionUsuarioLocal
+	ejb:/coopjam/GestionUsuarios!ec.edu.ups.coopjam.business.GestionUsuarioLocal
+	java:global/coopjam/GestionUsuarios
+	java:app/coopjam/GestionUsuarios
+	java:module/GestionUsuarios
+
+2020-07-19 11:55:47,488 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'EmpleadoDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/EmpleadoDAO!ec.edu.ups.coopjam.data.EmpleadoDAO
+	java:app/coopjam/EmpleadoDAO!ec.edu.ups.coopjam.data.EmpleadoDAO
+	java:module/EmpleadoDAO!ec.edu.ups.coopjam.data.EmpleadoDAO
+	ejb:/coopjam/EmpleadoDAO!ec.edu.ups.coopjam.data.EmpleadoDAO
+	java:global/coopjam/EmpleadoDAO
+	java:app/coopjam/EmpleadoDAO
+	java:module/EmpleadoDAO
+
+2020-07-19 11:55:47,488 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/ClienteDAO!ec.edu.ups.coopjam.data.ClienteDAO
+	java:app/coopjam/ClienteDAO!ec.edu.ups.coopjam.data.ClienteDAO
+	java:module/ClienteDAO!ec.edu.ups.coopjam.data.ClienteDAO
+	ejb:/coopjam/ClienteDAO!ec.edu.ups.coopjam.data.ClienteDAO
+	java:global/coopjam/ClienteDAO
+	java:app/coopjam/ClienteDAO
+	java:module/ClienteDAO
+
+2020-07-19 11:55:47,488 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'CuentaDeAhorroDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/CuentaDeAhorroDAO!ec.edu.ups.coopjam.data.CuentaDeAhorroDAO
+	java:app/coopjam/CuentaDeAhorroDAO!ec.edu.ups.coopjam.data.CuentaDeAhorroDAO
+	java:module/CuentaDeAhorroDAO!ec.edu.ups.coopjam.data.CuentaDeAhorroDAO
+	ejb:/coopjam/CuentaDeAhorroDAO!ec.edu.ups.coopjam.data.CuentaDeAhorroDAO
+	java:global/coopjam/CuentaDeAhorroDAO
+	java:app/coopjam/CuentaDeAhorroDAO
+	java:module/CuentaDeAhorroDAO
+
+2020-07-19 11:55:47,488 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'TransaccionDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/TransaccionDAO!ec.edu.ups.coopjam.data.TransaccionDAO
+	java:app/coopjam/TransaccionDAO!ec.edu.ups.coopjam.data.TransaccionDAO
+	java:module/TransaccionDAO!ec.edu.ups.coopjam.data.TransaccionDAO
+	ejb:/coopjam/TransaccionDAO!ec.edu.ups.coopjam.data.TransaccionDAO
+	java:global/coopjam/TransaccionDAO
+	java:app/coopjam/TransaccionDAO
+	java:module/TransaccionDAO
+
+2020-07-19 11:55:47,488 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'DetalleCreditoDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/DetalleCreditoDAO!ec.edu.ups.coopjam.data.DetalleCreditoDAO
+	java:app/coopjam/DetalleCreditoDAO!ec.edu.ups.coopjam.data.DetalleCreditoDAO
+	java:module/DetalleCreditoDAO!ec.edu.ups.coopjam.data.DetalleCreditoDAO
+	ejb:/coopjam/DetalleCreditoDAO!ec.edu.ups.coopjam.data.DetalleCreditoDAO
+	java:global/coopjam/DetalleCreditoDAO
+	java:app/coopjam/DetalleCreditoDAO
+	java:module/DetalleCreditoDAO
+
+2020-07-19 11:55:47,488 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'TransferenciaLocalDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/TransferenciaLocalDAO!ec.edu.ups.coopjam.data.TransferenciaLocalDAO
+	java:app/coopjam/TransferenciaLocalDAO!ec.edu.ups.coopjam.data.TransferenciaLocalDAO
+	java:module/TransferenciaLocalDAO!ec.edu.ups.coopjam.data.TransferenciaLocalDAO
+	ejb:/coopjam/TransferenciaLocalDAO!ec.edu.ups.coopjam.data.TransferenciaLocalDAO
+	java:global/coopjam/TransferenciaLocalDAO
+	java:app/coopjam/TransferenciaLocalDAO
+	java:module/TransferenciaLocalDAO
+
+2020-07-19 11:55:47,488 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'SesionClienteDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/SesionClienteDAO!ec.edu.ups.coopjam.data.SesionClienteDAO
+	java:app/coopjam/SesionClienteDAO!ec.edu.ups.coopjam.data.SesionClienteDAO
+	java:module/SesionClienteDAO!ec.edu.ups.coopjam.data.SesionClienteDAO
+	ejb:/coopjam/SesionClienteDAO!ec.edu.ups.coopjam.data.SesionClienteDAO
+	java:global/coopjam/SesionClienteDAO
+	java:app/coopjam/SesionClienteDAO
+	java:module/SesionClienteDAO
+
+2020-07-19 11:55:47,488 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'SolicitudDeCreditoDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/SolicitudDeCreditoDAO!ec.edu.ups.coopjam.data.SolicitudDeCreditoDAO
+	java:app/coopjam/SolicitudDeCreditoDAO!ec.edu.ups.coopjam.data.SolicitudDeCreditoDAO
+	java:module/SolicitudDeCreditoDAO!ec.edu.ups.coopjam.data.SolicitudDeCreditoDAO
+	ejb:/coopjam/SolicitudDeCreditoDAO!ec.edu.ups.coopjam.data.SolicitudDeCreditoDAO
+	java:global/coopjam/SolicitudDeCreditoDAO
+	java:app/coopjam/SolicitudDeCreditoDAO
+	java:module/SolicitudDeCreditoDAO
+
+2020-07-19 11:55:47,542 WARN  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0131: EJB ec.edu.ups.coopjam.business.GestionUsuarios should not have a final or static method (guardarCSV)
+2020-07-19 11:55:47,729 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-3) JBWS024061: Adding service endpoint metadata: id=ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP
+ address=http://localhost:8080/coopjam/ServiciosBancoSOAP
+ implementor=ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP
+ serviceName={http://servicios.coopjam.ups.edu.ec/}ServiciosBancoSOAPService
+ portName={http://servicios.coopjam.ups.edu.ec/}ServiciosBancoSOAPPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2020-07-19 11:55:47,729 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-3) JBWS024061: Adding service endpoint metadata: id=ec.edu.ups.coopjam.servicios.ServicioSOAP
+ address=http://localhost:8080/coopjam/ServicioSOAP
+ implementor=ec.edu.ups.coopjam.servicios.ServicioSOAP
+ serviceName={http://servicios.coopjam.ups.edu.ec/}ServicioSOAPService
+ portName={http://servicios.coopjam.ups.edu.ec/}ServicioSOAPPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2020-07-19 11:55:47,739 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-3) Creating Service {http://servicios.coopjam.ups.edu.ec/}ServiciosBancoSOAPService from class ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP
+2020-07-19 11:55:47,757 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-3) Setting the server's publish address to be http://localhost:8080/coopjam/ServiciosBancoSOAP
+2020-07-19 11:55:47,762 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-3) JBWS024074: WSDL published to: file:/C:/eclipse/wildfly-18.0.1.Final/standalone/data/wsdl/coopjam.war/ServiciosBancoSOAPService.wsdl
+2020-07-19 11:55:47,763 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-3) Creating Service {http://servicios.coopjam.ups.edu.ec/}ServicioSOAPService from class ec.edu.ups.coopjam.servicios.ServicioSOAP
+2020-07-19 11:55:47,773 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-3) Setting the server's publish address to be http://localhost:8080/coopjam/ServicioSOAP
+2020-07-19 11:55:47,778 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-3) JBWS024074: WSDL published to: file:/C:/eclipse/wildfly-18.0.1.Final/standalone/data/wsdl/coopjam.war/ServicioSOAPService.wsdl
+2020-07-19 11:55:47,807 INFO  [org.jboss.as.webservices] (MSC service thread 1-2) WFLYWS0003: Starting service jboss.ws.endpoint."coopjam.war"."ec.edu.ups.coopjam.servicios.ServicioSOAP"
+2020-07-19 11:55:47,807 INFO  [org.jboss.as.webservices] (MSC service thread 1-5) WFLYWS0003: Starting service jboss.ws.endpoint."coopjam.war"."ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP"
+2020-07-19 11:55:47,820 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 76) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'coopjam.war#coopjamPersistenceUnit'
+2020-07-19 11:55:47,826 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 76) HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-07-19 11:55:47,829 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 76) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2020-07-19 11:55:47,832 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 76) Envers integration enabled? : true
+2020-07-19 11:55:48,223 INFO  [io.smallrye.metrics] (MSC service thread 1-6) MicroProfile: Metrics activated
+2020-07-19 11:55:48,226 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-6) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-07-19 11:55:48,376 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 76) Inicializando Mojarra 2.3.9.SP04 para el contexto '/coopjam'
+2020-07-19 11:55:49,239 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 76) Running on PrimeFaces 8.0
+2020-07-19 11:55:49,244 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 76) WFLYUT0021: Registered web context: '/coopjam' for server 'default-server'
+2020-07-19 11:55:49,301 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "coopjam.war" (runtime-name : "coopjam.war")
+2020-07-19 12:28:14,582 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2020-07-19 12:28:14,655 INFO  [stdout] (default task-1) Hibernate: 
+2020-07-19 12:28:14,655 INFO  [stdout] (default task-1)     select
+2020-07-19 12:28:14,655 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_,
+2020-07-19 12:28:14,655 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_,
+2020-07-19 12:28:14,655 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_,
+2020-07-19 12:28:14,655 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_,
+2020-07-19 12:28:14,655 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_,
+2020-07-19 12:28:14,655 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_,
+2020-07-19 12:28:14,655 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_,
+2020-07-19 12:28:14,655 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_,
+2020-07-19 12:28:14,655 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_ 
+2020-07-19 12:28:14,655 INFO  [stdout] (default task-1)     from
+2020-07-19 12:28:14,655 INFO  [stdout] (default task-1)         Cliente cliente0_
+2020-07-19 12:28:14,716 INFO  [stdout] (default task-1) PASO LA LISTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+2020-07-19 12:28:14,716 INFO  [stdout] (default task-1) ENTROOOOOOOOOOOO EN EL FORRRRRR
+2020-07-19 12:28:14,716 INFO  [stdout] (default task-1) ENTROOOOOOOOOOOO EN EL FORRRRRR
+2020-07-19 12:28:14,716 INFO  [stdout] (default task-1) ENTROOOOOOOOOOOO EN EL IFFFFFFFFFFFFFF CORRECTO
+2020-07-19 12:28:29,962 INFO  [stdout] (default task-1) Hibernate: 
+2020-07-19 12:28:29,962 INFO  [stdout] (default task-1)     select
+2020-07-19 12:28:29,962 INFO  [stdout] (default task-1)         cliente_.cedula_cliente,
+2020-07-19 12:28:29,962 INFO  [stdout] (default task-1)         cliente_.apellido as apellido2_0_,
+2020-07-19 12:28:29,962 INFO  [stdout] (default task-1)         cliente_.clave as clave3_0_,
+2020-07-19 12:28:29,962 INFO  [stdout] (default task-1)         cliente_.correo as correo4_0_,
+2020-07-19 12:28:29,962 INFO  [stdout] (default task-1)         cliente_.direccion as direccio5_0_,
+2020-07-19 12:28:29,962 INFO  [stdout] (default task-1)         cliente_.nombre as nombre6_0_,
+2020-07-19 12:28:29,962 INFO  [stdout] (default task-1)         cliente_.telefono1 as telefono7_0_,
+2020-07-19 12:28:29,963 INFO  [stdout] (default task-1)         cliente_.telefono2 as telefono8_0_,
+2020-07-19 12:28:29,963 INFO  [stdout] (default task-1)         cliente_.usuario as usuario9_0_ 
+2020-07-19 12:28:29,963 INFO  [stdout] (default task-1)     from
+2020-07-19 12:28:29,963 INFO  [stdout] (default task-1)         Cliente cliente_ 
+2020-07-19 12:28:29,963 INFO  [stdout] (default task-1)     where
+2020-07-19 12:28:29,963 INFO  [stdout] (default task-1)         cliente_.cedula_cliente=?
+2020-07-19 12:28:29,968 INFO  [stdout] (default task-1) Hibernate: 
+2020-07-19 12:28:29,968 INFO  [stdout] (default task-1)     insert 
+2020-07-19 12:28:29,968 INFO  [stdout] (default task-1)     into
+2020-07-19 12:28:29,968 INFO  [stdout] (default task-1)         SesionCliente
+2020-07-19 12:28:29,968 INFO  [stdout] (default task-1)         (cedula_cliente, estado, fechaSesion) 
+2020-07-19 12:28:29,968 INFO  [stdout] (default task-1)     values
+2020-07-19 12:28:29,968 INFO  [stdout] (default task-1)         (?, ?, ?)
+2020-07-19 12:28:29,993 INFO  [stdout] (default task-1) Hibernate: 
+2020-07-19 12:28:29,993 INFO  [stdout] (default task-1)     select
+2020-07-19 12:28:29,993 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_,
+2020-07-19 12:28:29,993 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_,
+2020-07-19 12:28:29,993 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_,
+2020-07-19 12:28:29,993 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_,
+2020-07-19 12:28:29,993 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_,
+2020-07-19 12:28:29,993 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_,
+2020-07-19 12:28:29,993 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_,
+2020-07-19 12:28:29,993 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_,
+2020-07-19 12:28:29,993 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_ 
+2020-07-19 12:28:29,993 INFO  [stdout] (default task-1)     from
+2020-07-19 12:28:29,993 INFO  [stdout] (default task-1)         Cliente cliente0_
+2020-07-19 12:28:29,995 INFO  [stdout] (default task-1) 2
+2020-07-19 12:28:30,009 INFO  [stdout] (default task-1) Hibernate: 
+2020-07-19 12:28:30,009 INFO  [stdout] (default task-1)     select
+2020-07-19 12:28:30,009 INFO  [stdout] (default task-1)         cuentadeah0_.numero_cuenta as numero_c1_2_,
+2020-07-19 12:28:30,009 INFO  [stdout] (default task-1)         cuentadeah0_.cedula_cliente as cedula_c4_2_,
+2020-07-19 12:28:30,009 INFO  [stdout] (default task-1)         cuentadeah0_.fechaDeRegistro as fechaDeR2_2_,
+2020-07-19 12:28:30,010 INFO  [stdout] (default task-1)         cuentadeah0_.saldoCuentaDeAhorro as saldoCue3_2_ 
+2020-07-19 12:28:30,010 INFO  [stdout] (default task-1)     from
+2020-07-19 12:28:30,010 INFO  [stdout] (default task-1)         CuentaDeAhorro cuentadeah0_ 
+2020-07-19 12:28:30,010 INFO  [stdout] (default task-1)     where
+2020-07-19 12:28:30,010 INFO  [stdout] (default task-1)         cuentadeah0_.cedula_cliente=?
+2020-07-19 12:28:30,014 INFO  [stdout] (default task-1) Hibernate: 
+2020-07-19 12:28:30,014 INFO  [stdout] (default task-1)     select
+2020-07-19 12:28:30,014 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 12:28:30,014 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 12:28:30,014 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-07-19 12:28:30,014 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-07-19 12:28:30,014 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 12:28:30,014 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-07-19 12:28:30,014 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-07-19 12:28:30,014 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-07-19 12:28:30,014 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-07-19 12:28:30,014 INFO  [stdout] (default task-1)     from
+2020-07-19 12:28:30,014 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-07-19 12:28:30,014 INFO  [stdout] (default task-1)     where
+2020-07-19 12:28:30,014 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-07-19 12:28:30,021 INFO  [stdout] (default task-1) Hibernate: 
+2020-07-19 12:28:30,021 INFO  [stdout] (default task-1)     select
+2020-07-19 12:28:30,022 INFO  [stdout] (default task-1)         transaccio0_.codigoTransaccion as codigoTr1_7_,
+2020-07-19 12:28:30,022 INFO  [stdout] (default task-1)         transaccio0_.cedula_cliente as cedula_c6_7_,
+2020-07-19 12:28:30,022 INFO  [stdout] (default task-1)         transaccio0_.fecha as fecha2_7_,
+2020-07-19 12:28:30,022 INFO  [stdout] (default task-1)         transaccio0_.monto as monto3_7_,
+2020-07-19 12:28:30,022 INFO  [stdout] (default task-1)         transaccio0_.saldoCuenta as saldoCue4_7_,
+2020-07-19 12:28:30,022 INFO  [stdout] (default task-1)         transaccio0_.tipo as tipo5_7_ 
+2020-07-19 12:28:30,022 INFO  [stdout] (default task-1)     from
+2020-07-19 12:28:30,022 INFO  [stdout] (default task-1)         Transaccion transaccio0_ 
+2020-07-19 12:28:30,022 INFO  [stdout] (default task-1)     where
+2020-07-19 12:28:30,022 INFO  [stdout] (default task-1)         transaccio0_.cedula_cliente=?
+2020-07-19 12:28:30,024 INFO  [stdout] (default task-1) Hibernate: 
+2020-07-19 12:28:30,024 INFO  [stdout] (default task-1)     select
+2020-07-19 12:28:30,024 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 12:28:30,024 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 12:28:30,024 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-07-19 12:28:30,024 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-07-19 12:28:30,025 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 12:28:30,025 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-07-19 12:28:30,025 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-07-19 12:28:30,025 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-07-19 12:28:30,025 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-07-19 12:28:30,025 INFO  [stdout] (default task-1)     from
+2020-07-19 12:28:30,025 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-07-19 12:28:30,025 INFO  [stdout] (default task-1)     where
+2020-07-19 12:28:30,025 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-07-19 12:28:30,027 INFO  [stdout] (default task-1) 2020-06-19 00:00:00.000000
+2020-07-19 12:28:30,028 INFO  [stdout] (default task-1) 2020-07-19 23:59:59.000000
+2020-07-19 12:28:30,031 INFO  [stdout] (default task-1) Hibernate: 
+2020-07-19 12:28:30,031 INFO  [stdout] (default task-1)     select
+2020-07-19 12:28:30,031 INFO  [stdout] (default task-1)         transaccio0_.codigoTransaccion as codigoTr1_7_,
+2020-07-19 12:28:30,031 INFO  [stdout] (default task-1)         transaccio0_.cedula_cliente as cedula_c6_7_,
+2020-07-19 12:28:30,031 INFO  [stdout] (default task-1)         transaccio0_.fecha as fecha2_7_,
+2020-07-19 12:28:30,031 INFO  [stdout] (default task-1)         transaccio0_.monto as monto3_7_,
+2020-07-19 12:28:30,031 INFO  [stdout] (default task-1)         transaccio0_.saldoCuenta as saldoCue4_7_,
+2020-07-19 12:28:30,031 INFO  [stdout] (default task-1)         transaccio0_.tipo as tipo5_7_ 
+2020-07-19 12:28:30,031 INFO  [stdout] (default task-1)     from
+2020-07-19 12:28:30,032 INFO  [stdout] (default task-1)         Transaccion transaccio0_ 
+2020-07-19 12:28:30,032 INFO  [stdout] (default task-1)     where
+2020-07-19 12:28:30,032 INFO  [stdout] (default task-1)         transaccio0_.cedula_cliente='0150350668' 
+2020-07-19 12:28:30,032 INFO  [stdout] (default task-1)         and (
+2020-07-19 12:28:30,032 INFO  [stdout] (default task-1)             transaccio0_.fecha between '2020-06-19 00:00:00.000000' and '2020-07-19 23:59:59.000000'
+2020-07-19 12:28:30,032 INFO  [stdout] (default task-1)         ) 
+2020-07-19 12:28:30,032 INFO  [stdout] (default task-1)     order by
+2020-07-19 12:28:30,032 INFO  [stdout] (default task-1)         transaccio0_.fecha DESC
+2020-07-19 12:28:30,034 INFO  [stdout] (default task-1) Hibernate: 
+2020-07-19 12:28:30,034 INFO  [stdout] (default task-1)     select
+2020-07-19 12:28:30,034 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 12:28:30,034 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 12:28:30,034 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-07-19 12:28:30,034 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-07-19 12:28:30,034 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 12:28:30,034 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-07-19 12:28:30,034 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-07-19 12:28:30,034 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-07-19 12:28:30,034 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-07-19 12:28:30,034 INFO  [stdout] (default task-1)     from
+2020-07-19 12:28:30,034 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-07-19 12:28:30,034 INFO  [stdout] (default task-1)     where
+2020-07-19 12:28:30,034 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-07-19 12:28:30,036 INFO  [stdout] (default task-1) 1
+2020-07-19 12:28:30,036 INFO  [stdout] (default task-1) 0150350668
+2020-07-19 12:28:35,845 INFO  [stdout] (default task-1) Hibernate: 
+2020-07-19 12:28:35,845 INFO  [stdout] (default task-1)     select
+2020-07-19 12:28:35,845 INFO  [stdout] (default task-1)         cuentadeah0_.numero_cuenta as numero_c1_2_,
+2020-07-19 12:28:35,845 INFO  [stdout] (default task-1)         cuentadeah0_.cedula_cliente as cedula_c4_2_,
+2020-07-19 12:28:35,845 INFO  [stdout] (default task-1)         cuentadeah0_.fechaDeRegistro as fechaDeR2_2_,
+2020-07-19 12:28:35,845 INFO  [stdout] (default task-1)         cuentadeah0_.saldoCuentaDeAhorro as saldoCue3_2_ 
+2020-07-19 12:28:35,845 INFO  [stdout] (default task-1)     from
+2020-07-19 12:28:35,845 INFO  [stdout] (default task-1)         CuentaDeAhorro cuentadeah0_ 
+2020-07-19 12:28:35,845 INFO  [stdout] (default task-1)     where
+2020-07-19 12:28:35,845 INFO  [stdout] (default task-1)         cuentadeah0_.cedula_cliente=?
+2020-07-19 12:28:35,847 INFO  [stdout] (default task-1) Hibernate: 
+2020-07-19 12:28:35,847 INFO  [stdout] (default task-1)     select
+2020-07-19 12:28:35,847 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 12:28:35,847 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 12:28:35,847 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-07-19 12:28:35,847 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-07-19 12:28:35,847 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 12:28:35,847 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-07-19 12:28:35,847 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-07-19 12:28:35,847 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-07-19 12:28:35,847 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-07-19 12:28:35,847 INFO  [stdout] (default task-1)     from
+2020-07-19 12:28:35,847 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-07-19 12:28:35,847 INFO  [stdout] (default task-1)     where
+2020-07-19 12:28:35,847 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-07-19 12:28:35,850 INFO  [stdout] (default task-1) Hibernate: 
+2020-07-19 12:28:35,850 INFO  [stdout] (default task-1)     select
+2020-07-19 12:28:35,850 INFO  [stdout] (default task-1)         transaccio0_.codigoTransaccion as codigoTr1_7_,
+2020-07-19 12:28:35,850 INFO  [stdout] (default task-1)         transaccio0_.cedula_cliente as cedula_c6_7_,
+2020-07-19 12:28:35,850 INFO  [stdout] (default task-1)         transaccio0_.fecha as fecha2_7_,
+2020-07-19 12:28:35,850 INFO  [stdout] (default task-1)         transaccio0_.monto as monto3_7_,
+2020-07-19 12:28:35,850 INFO  [stdout] (default task-1)         transaccio0_.saldoCuenta as saldoCue4_7_,
+2020-07-19 12:28:35,850 INFO  [stdout] (default task-1)         transaccio0_.tipo as tipo5_7_ 
+2020-07-19 12:28:35,850 INFO  [stdout] (default task-1)     from
+2020-07-19 12:28:35,850 INFO  [stdout] (default task-1)         Transaccion transaccio0_ 
+2020-07-19 12:28:35,850 INFO  [stdout] (default task-1)     where
+2020-07-19 12:28:35,850 INFO  [stdout] (default task-1)         transaccio0_.cedula_cliente=?
+2020-07-19 12:28:35,852 INFO  [stdout] (default task-1) Hibernate: 
+2020-07-19 12:28:35,852 INFO  [stdout] (default task-1)     select
+2020-07-19 12:28:35,852 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 12:28:35,852 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 12:28:35,852 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-07-19 12:28:35,852 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-07-19 12:28:35,852 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 12:28:35,852 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-07-19 12:28:35,852 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-07-19 12:28:35,852 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-07-19 12:28:35,852 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-07-19 12:28:35,852 INFO  [stdout] (default task-1)     from
+2020-07-19 12:28:35,852 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-07-19 12:28:35,852 INFO  [stdout] (default task-1)     where
+2020-07-19 12:28:35,852 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-07-19 12:28:35,854 INFO  [stdout] (default task-1) 2020-06-19 00:00:00.000000
+2020-07-19 12:28:35,854 INFO  [stdout] (default task-1) 2020-07-19 23:59:59.000000
+2020-07-19 12:28:35,855 INFO  [stdout] (default task-1) Hibernate: 
+2020-07-19 12:28:35,855 INFO  [stdout] (default task-1)     select
+2020-07-19 12:28:35,855 INFO  [stdout] (default task-1)         transaccio0_.codigoTransaccion as codigoTr1_7_,
+2020-07-19 12:28:35,855 INFO  [stdout] (default task-1)         transaccio0_.cedula_cliente as cedula_c6_7_,
+2020-07-19 12:28:35,855 INFO  [stdout] (default task-1)         transaccio0_.fecha as fecha2_7_,
+2020-07-19 12:28:35,855 INFO  [stdout] (default task-1)         transaccio0_.monto as monto3_7_,
+2020-07-19 12:28:35,855 INFO  [stdout] (default task-1)         transaccio0_.saldoCuenta as saldoCue4_7_,
+2020-07-19 12:28:35,855 INFO  [stdout] (default task-1)         transaccio0_.tipo as tipo5_7_ 
+2020-07-19 12:28:35,855 INFO  [stdout] (default task-1)     from
+2020-07-19 12:28:35,855 INFO  [stdout] (default task-1)         Transaccion transaccio0_ 
+2020-07-19 12:28:35,855 INFO  [stdout] (default task-1)     where
+2020-07-19 12:28:35,856 INFO  [stdout] (default task-1)         transaccio0_.cedula_cliente='0150350668' 
+2020-07-19 12:28:35,856 INFO  [stdout] (default task-1)         and (
+2020-07-19 12:28:35,856 INFO  [stdout] (default task-1)             transaccio0_.fecha between '2020-06-19 00:00:00.000000' and '2020-07-19 23:59:59.000000'
+2020-07-19 12:28:35,856 INFO  [stdout] (default task-1)         ) 
+2020-07-19 12:28:35,856 INFO  [stdout] (default task-1)     order by
+2020-07-19 12:28:35,856 INFO  [stdout] (default task-1)         transaccio0_.fecha DESC
+2020-07-19 12:28:35,858 INFO  [stdout] (default task-1) Hibernate: 
+2020-07-19 12:28:35,858 INFO  [stdout] (default task-1)     select
+2020-07-19 12:28:35,858 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 12:28:35,858 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 12:28:35,858 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-07-19 12:28:35,858 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-07-19 12:28:35,858 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 12:28:35,858 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-07-19 12:28:35,858 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-07-19 12:28:35,858 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-07-19 12:28:35,858 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-07-19 12:28:35,858 INFO  [stdout] (default task-1)     from
+2020-07-19 12:28:35,858 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-07-19 12:28:35,858 INFO  [stdout] (default task-1)     where
+2020-07-19 12:28:35,858 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-07-19 12:28:35,860 INFO  [stdout] (default task-1) 1
+2020-07-19 12:28:35,860 INFO  [stdout] (default task-1) 0150350668
+2020-07-19 12:28:43,400 INFO  [stdout] (default task-5) 0150350668
+2020-07-19 12:28:43,404 INFO  [stdout] (default task-5) Hibernate: 
+2020-07-19 12:28:43,405 INFO  [stdout] (default task-5)     select
+2020-07-19 12:28:43,405 INFO  [stdout] (default task-5)         sesionclie0_.codigoSesion as codigoSe1_5_,
+2020-07-19 12:28:43,405 INFO  [stdout] (default task-5)         sesionclie0_.cedula_cliente as cedula_c4_5_,
+2020-07-19 12:28:43,405 INFO  [stdout] (default task-5)         sesionclie0_.estado as estado2_5_,
+2020-07-19 12:28:43,405 INFO  [stdout] (default task-5)         sesionclie0_.fechaSesion as fechaSes3_5_ 
+2020-07-19 12:28:43,405 INFO  [stdout] (default task-5)     from
+2020-07-19 12:28:43,405 INFO  [stdout] (default task-5)         SesionCliente sesionclie0_ 
+2020-07-19 12:28:43,405 INFO  [stdout] (default task-5)     where
+2020-07-19 12:28:43,405 INFO  [stdout] (default task-5)         sesionclie0_.cedula_cliente=? 
+2020-07-19 12:28:43,405 INFO  [stdout] (default task-5)     order by
+2020-07-19 12:28:43,405 INFO  [stdout] (default task-5)         sesionclie0_.fechaSesion desc
+2020-07-19 12:28:43,407 INFO  [stdout] (default task-5) Hibernate: 
+2020-07-19 12:28:43,407 INFO  [stdout] (default task-5)     select
+2020-07-19 12:28:43,407 INFO  [stdout] (default task-5)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 12:28:43,407 INFO  [stdout] (default task-5)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 12:28:43,407 INFO  [stdout] (default task-5)         cliente0_.clave as clave3_0_0_,
+2020-07-19 12:28:43,407 INFO  [stdout] (default task-5)         cliente0_.correo as correo4_0_0_,
+2020-07-19 12:28:43,407 INFO  [stdout] (default task-5)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 12:28:43,407 INFO  [stdout] (default task-5)         cliente0_.nombre as nombre6_0_0_,
+2020-07-19 12:28:43,407 INFO  [stdout] (default task-5)         cliente0_.telefono1 as telefono7_0_0_,
+2020-07-19 12:28:43,407 INFO  [stdout] (default task-5)         cliente0_.telefono2 as telefono8_0_0_,
+2020-07-19 12:28:43,407 INFO  [stdout] (default task-5)         cliente0_.usuario as usuario9_0_0_ 
+2020-07-19 12:28:43,407 INFO  [stdout] (default task-5)     from
+2020-07-19 12:28:43,408 INFO  [stdout] (default task-5)         Cliente cliente0_ 
+2020-07-19 12:28:43,408 INFO  [stdout] (default task-5)     where
+2020-07-19 12:28:43,408 INFO  [stdout] (default task-5)         cliente0_.cedula_cliente=?
+2020-07-19 12:28:43,410 INFO  [stdout] (default task-5) 0150350668
+2020-07-19 12:28:43,412 INFO  [stdout] (default task-5) Hibernate: 
+2020-07-19 12:28:43,412 INFO  [stdout] (default task-5)     select
+2020-07-19 12:28:43,412 INFO  [stdout] (default task-5)         sesionclie0_.codigoSesion as codigoSe1_5_,
+2020-07-19 12:28:43,412 INFO  [stdout] (default task-5)         sesionclie0_.cedula_cliente as cedula_c4_5_,
+2020-07-19 12:28:43,412 INFO  [stdout] (default task-5)         sesionclie0_.estado as estado2_5_,
+2020-07-19 12:28:43,412 INFO  [stdout] (default task-5)         sesionclie0_.fechaSesion as fechaSes3_5_ 
+2020-07-19 12:28:43,412 INFO  [stdout] (default task-5)     from
+2020-07-19 12:28:43,412 INFO  [stdout] (default task-5)         SesionCliente sesionclie0_ 
+2020-07-19 12:28:43,412 INFO  [stdout] (default task-5)     where
+2020-07-19 12:28:43,412 INFO  [stdout] (default task-5)         sesionclie0_.cedula_cliente=? 
+2020-07-19 12:28:43,412 INFO  [stdout] (default task-5)     order by
+2020-07-19 12:28:43,412 INFO  [stdout] (default task-5)         sesionclie0_.fechaSesion desc
+2020-07-19 12:28:43,414 INFO  [stdout] (default task-5) Hibernate: 
+2020-07-19 12:28:43,415 INFO  [stdout] (default task-5)     select
+2020-07-19 12:28:43,415 INFO  [stdout] (default task-5)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 12:28:43,415 INFO  [stdout] (default task-5)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 12:28:43,415 INFO  [stdout] (default task-5)         cliente0_.clave as clave3_0_0_,
+2020-07-19 12:28:43,415 INFO  [stdout] (default task-5)         cliente0_.correo as correo4_0_0_,
+2020-07-19 12:28:43,415 INFO  [stdout] (default task-5)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 12:28:43,415 INFO  [stdout] (default task-5)         cliente0_.nombre as nombre6_0_0_,
+2020-07-19 12:28:43,415 INFO  [stdout] (default task-5)         cliente0_.telefono1 as telefono7_0_0_,
+2020-07-19 12:28:43,415 INFO  [stdout] (default task-5)         cliente0_.telefono2 as telefono8_0_0_,
+2020-07-19 12:28:43,415 INFO  [stdout] (default task-5)         cliente0_.usuario as usuario9_0_0_ 
+2020-07-19 12:28:43,415 INFO  [stdout] (default task-5)     from
+2020-07-19 12:28:43,415 INFO  [stdout] (default task-5)         Cliente cliente0_ 
+2020-07-19 12:28:43,415 INFO  [stdout] (default task-5)     where
+2020-07-19 12:28:43,415 INFO  [stdout] (default task-5)         cliente0_.cedula_cliente=?
+2020-07-19 12:28:43,419 INFO  [stdout] (default task-5) 0150350668
+2020-07-19 12:28:43,420 INFO  [stdout] (default task-5) Hibernate: 
+2020-07-19 12:28:43,421 INFO  [stdout] (default task-5)     select
+2020-07-19 12:28:43,421 INFO  [stdout] (default task-5)         sesionclie0_.codigoSesion as codigoSe1_5_,
+2020-07-19 12:28:43,421 INFO  [stdout] (default task-5)         sesionclie0_.cedula_cliente as cedula_c4_5_,
+2020-07-19 12:28:43,421 INFO  [stdout] (default task-5)         sesionclie0_.estado as estado2_5_,
+2020-07-19 12:28:43,421 INFO  [stdout] (default task-5)         sesionclie0_.fechaSesion as fechaSes3_5_ 
+2020-07-19 12:28:43,421 INFO  [stdout] (default task-5)     from
+2020-07-19 12:28:43,421 INFO  [stdout] (default task-5)         SesionCliente sesionclie0_ 
+2020-07-19 12:28:43,421 INFO  [stdout] (default task-5)     where
+2020-07-19 12:28:43,421 INFO  [stdout] (default task-5)         sesionclie0_.cedula_cliente=? 
+2020-07-19 12:28:43,421 INFO  [stdout] (default task-5)     order by
+2020-07-19 12:28:43,421 INFO  [stdout] (default task-5)         sesionclie0_.fechaSesion desc
+2020-07-19 12:28:43,423 INFO  [stdout] (default task-5) Hibernate: 
+2020-07-19 12:28:43,423 INFO  [stdout] (default task-5)     select
+2020-07-19 12:28:43,423 INFO  [stdout] (default task-5)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 12:28:43,423 INFO  [stdout] (default task-5)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 12:28:43,423 INFO  [stdout] (default task-5)         cliente0_.clave as clave3_0_0_,
+2020-07-19 12:28:43,423 INFO  [stdout] (default task-5)         cliente0_.correo as correo4_0_0_,
+2020-07-19 12:28:43,423 INFO  [stdout] (default task-5)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 12:28:43,423 INFO  [stdout] (default task-5)         cliente0_.nombre as nombre6_0_0_,
+2020-07-19 12:28:43,423 INFO  [stdout] (default task-5)         cliente0_.telefono1 as telefono7_0_0_,
+2020-07-19 12:28:43,423 INFO  [stdout] (default task-5)         cliente0_.telefono2 as telefono8_0_0_,
+2020-07-19 12:28:43,423 INFO  [stdout] (default task-5)         cliente0_.usuario as usuario9_0_0_ 
+2020-07-19 12:28:43,423 INFO  [stdout] (default task-5)     from
+2020-07-19 12:28:43,423 INFO  [stdout] (default task-5)         Cliente cliente0_ 
+2020-07-19 12:28:43,423 INFO  [stdout] (default task-5)     where
+2020-07-19 12:28:43,423 INFO  [stdout] (default task-5)         cliente0_.cedula_cliente=?
+2020-07-19 14:27:29,287 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 76) WFLYUT0022: Unregistered web context: '/coopjam' from server 'default-server'
+2020-07-19 14:27:29,308 INFO  [org.jboss.as.webservices] (MSC service thread 1-5) WFLYWS0004: Stopping service jboss.ws.endpoint."coopjam.war"."ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP"
+2020-07-19 14:27:29,308 INFO  [org.jboss.as.webservices] (MSC service thread 1-6) WFLYWS0004: Stopping service jboss.ws.endpoint."coopjam.war"."ec.edu.ups.coopjam.servicios.ServicioSOAP"
+2020-07-19 14:27:29,353 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 105) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'coopjam.war#coopjamPersistenceUnit'
+2020-07-19 14:27:29,357 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 105) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@41028ee8
+2020-07-19 14:27:29,363 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 105) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'coopjam.war#coopjamPersistenceUnit'
+2020-07-19 14:27:29,475 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment coopjam.war (runtime-name: coopjam.war) in 202ms
+2020-07-19 14:27:29,505 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "coopjam.war" (runtime-name: "coopjam.war")
+2020-07-19 14:27:34,524 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found coopjam.war in deployment directory. To trigger deployment create a file called coopjam.war.dodeploy
+2020-07-19 14:27:34,527 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "coopjam.war" (runtime-name: "coopjam.war")
+2020-07-19 14:27:35,620 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for coopjamPersistenceUnit
+2020-07-19 14:27:35,699 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 105) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'coopjam.war#coopjamPersistenceUnit'
+2020-07-19 14:27:35,700 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 105) HHH000204: Processing PersistenceUnitInfo [
+	name: coopjamPersistenceUnit
+	...]
+2020-07-19 14:27:35,756 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment coopjam.war
+2020-07-19 14:27:35,800 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'CreditoDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/CreditoDAO!ec.edu.ups.coopjam.data.CreditoDAO
+	java:app/coopjam/CreditoDAO!ec.edu.ups.coopjam.data.CreditoDAO
+	java:module/CreditoDAO!ec.edu.ups.coopjam.data.CreditoDAO
+	ejb:/coopjam/CreditoDAO!ec.edu.ups.coopjam.data.CreditoDAO
+	java:global/coopjam/CreditoDAO
+	java:app/coopjam/CreditoDAO
+	java:module/CreditoDAO
+
+2020-07-19 14:27:35,800 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'GestionUsuarios' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/GestionUsuarios!ec.edu.ups.coopjam.business.GestionUsuarioLocal
+	java:app/coopjam/GestionUsuarios!ec.edu.ups.coopjam.business.GestionUsuarioLocal
+	java:module/GestionUsuarios!ec.edu.ups.coopjam.business.GestionUsuarioLocal
+	ejb:/coopjam/GestionUsuarios!ec.edu.ups.coopjam.business.GestionUsuarioLocal
+	java:global/coopjam/GestionUsuarios
+	java:app/coopjam/GestionUsuarios
+	java:module/GestionUsuarios
+
+2020-07-19 14:27:35,800 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'EmpleadoDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/EmpleadoDAO!ec.edu.ups.coopjam.data.EmpleadoDAO
+	java:app/coopjam/EmpleadoDAO!ec.edu.ups.coopjam.data.EmpleadoDAO
+	java:module/EmpleadoDAO!ec.edu.ups.coopjam.data.EmpleadoDAO
+	ejb:/coopjam/EmpleadoDAO!ec.edu.ups.coopjam.data.EmpleadoDAO
+	java:global/coopjam/EmpleadoDAO
+	java:app/coopjam/EmpleadoDAO
+	java:module/EmpleadoDAO
+
+2020-07-19 14:27:35,800 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/ClienteDAO!ec.edu.ups.coopjam.data.ClienteDAO
+	java:app/coopjam/ClienteDAO!ec.edu.ups.coopjam.data.ClienteDAO
+	java:module/ClienteDAO!ec.edu.ups.coopjam.data.ClienteDAO
+	ejb:/coopjam/ClienteDAO!ec.edu.ups.coopjam.data.ClienteDAO
+	java:global/coopjam/ClienteDAO
+	java:app/coopjam/ClienteDAO
+	java:module/ClienteDAO
+
+2020-07-19 14:27:35,800 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'CuentaDeAhorroDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/CuentaDeAhorroDAO!ec.edu.ups.coopjam.data.CuentaDeAhorroDAO
+	java:app/coopjam/CuentaDeAhorroDAO!ec.edu.ups.coopjam.data.CuentaDeAhorroDAO
+	java:module/CuentaDeAhorroDAO!ec.edu.ups.coopjam.data.CuentaDeAhorroDAO
+	ejb:/coopjam/CuentaDeAhorroDAO!ec.edu.ups.coopjam.data.CuentaDeAhorroDAO
+	java:global/coopjam/CuentaDeAhorroDAO
+	java:app/coopjam/CuentaDeAhorroDAO
+	java:module/CuentaDeAhorroDAO
+
+2020-07-19 14:27:35,801 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'TransaccionDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/TransaccionDAO!ec.edu.ups.coopjam.data.TransaccionDAO
+	java:app/coopjam/TransaccionDAO!ec.edu.ups.coopjam.data.TransaccionDAO
+	java:module/TransaccionDAO!ec.edu.ups.coopjam.data.TransaccionDAO
+	ejb:/coopjam/TransaccionDAO!ec.edu.ups.coopjam.data.TransaccionDAO
+	java:global/coopjam/TransaccionDAO
+	java:app/coopjam/TransaccionDAO
+	java:module/TransaccionDAO
+
+2020-07-19 14:27:35,801 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'DetalleCreditoDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/DetalleCreditoDAO!ec.edu.ups.coopjam.data.DetalleCreditoDAO
+	java:app/coopjam/DetalleCreditoDAO!ec.edu.ups.coopjam.data.DetalleCreditoDAO
+	java:module/DetalleCreditoDAO!ec.edu.ups.coopjam.data.DetalleCreditoDAO
+	ejb:/coopjam/DetalleCreditoDAO!ec.edu.ups.coopjam.data.DetalleCreditoDAO
+	java:global/coopjam/DetalleCreditoDAO
+	java:app/coopjam/DetalleCreditoDAO
+	java:module/DetalleCreditoDAO
+
+2020-07-19 14:27:35,801 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'TransferenciaLocalDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/TransferenciaLocalDAO!ec.edu.ups.coopjam.data.TransferenciaLocalDAO
+	java:app/coopjam/TransferenciaLocalDAO!ec.edu.ups.coopjam.data.TransferenciaLocalDAO
+	java:module/TransferenciaLocalDAO!ec.edu.ups.coopjam.data.TransferenciaLocalDAO
+	ejb:/coopjam/TransferenciaLocalDAO!ec.edu.ups.coopjam.data.TransferenciaLocalDAO
+	java:global/coopjam/TransferenciaLocalDAO
+	java:app/coopjam/TransferenciaLocalDAO
+	java:module/TransferenciaLocalDAO
+
+2020-07-19 14:27:35,801 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'SesionClienteDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/SesionClienteDAO!ec.edu.ups.coopjam.data.SesionClienteDAO
+	java:app/coopjam/SesionClienteDAO!ec.edu.ups.coopjam.data.SesionClienteDAO
+	java:module/SesionClienteDAO!ec.edu.ups.coopjam.data.SesionClienteDAO
+	ejb:/coopjam/SesionClienteDAO!ec.edu.ups.coopjam.data.SesionClienteDAO
+	java:global/coopjam/SesionClienteDAO
+	java:app/coopjam/SesionClienteDAO
+	java:module/SesionClienteDAO
+
+2020-07-19 14:27:35,801 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'SolicitudDeCreditoDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/SolicitudDeCreditoDAO!ec.edu.ups.coopjam.data.SolicitudDeCreditoDAO
+	java:app/coopjam/SolicitudDeCreditoDAO!ec.edu.ups.coopjam.data.SolicitudDeCreditoDAO
+	java:module/SolicitudDeCreditoDAO!ec.edu.ups.coopjam.data.SolicitudDeCreditoDAO
+	ejb:/coopjam/SolicitudDeCreditoDAO!ec.edu.ups.coopjam.data.SolicitudDeCreditoDAO
+	java:global/coopjam/SolicitudDeCreditoDAO
+	java:app/coopjam/SolicitudDeCreditoDAO
+	java:module/SolicitudDeCreditoDAO
+
+2020-07-19 14:27:35,870 WARN  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0131: EJB ec.edu.ups.coopjam.business.GestionUsuarios should not have a final or static method (guardarCSV)
+2020-07-19 14:27:36,152 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-4) JBWS024061: Adding service endpoint metadata: id=ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP
+ address=http://localhost:8080/coopjam/ServiciosBancoSOAP
+ implementor=ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP
+ serviceName={http://servicios.coopjam.ups.edu.ec/}ServiciosBancoSOAPService
+ portName={http://servicios.coopjam.ups.edu.ec/}ServiciosBancoSOAPPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2020-07-19 14:27:36,152 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-4) JBWS024061: Adding service endpoint metadata: id=ec.edu.ups.coopjam.servicios.ServicioSOAP
+ address=http://localhost:8080/coopjam/ServicioSOAP
+ implementor=ec.edu.ups.coopjam.servicios.ServicioSOAP
+ serviceName={http://servicios.coopjam.ups.edu.ec/}ServicioSOAPService
+ portName={http://servicios.coopjam.ups.edu.ec/}ServicioSOAPPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2020-07-19 14:27:36,166 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-4) Creating Service {http://servicios.coopjam.ups.edu.ec/}ServiciosBancoSOAPService from class ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP
+2020-07-19 14:27:36,196 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-4) Setting the server's publish address to be http://localhost:8080/coopjam/ServiciosBancoSOAP
+2020-07-19 14:27:36,204 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-4) JBWS024074: WSDL published to: file:/C:/eclipse/wildfly-18.0.1.Final/standalone/data/wsdl/coopjam.war/ServiciosBancoSOAPService.wsdl
+2020-07-19 14:27:36,205 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-4) Creating Service {http://servicios.coopjam.ups.edu.ec/}ServicioSOAPService from class ec.edu.ups.coopjam.servicios.ServicioSOAP
+2020-07-19 14:27:36,217 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-4) Setting the server's publish address to be http://localhost:8080/coopjam/ServicioSOAP
+2020-07-19 14:27:36,222 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-4) JBWS024074: WSDL published to: file:/C:/eclipse/wildfly-18.0.1.Final/standalone/data/wsdl/coopjam.war/ServicioSOAPService.wsdl
+2020-07-19 14:27:36,245 INFO  [org.jboss.as.webservices] (MSC service thread 1-1) WFLYWS0003: Starting service jboss.ws.endpoint."coopjam.war"."ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP"
+2020-07-19 14:27:36,246 INFO  [org.jboss.as.webservices] (MSC service thread 1-3) WFLYWS0003: Starting service jboss.ws.endpoint."coopjam.war"."ec.edu.ups.coopjam.servicios.ServicioSOAP"
+2020-07-19 14:27:36,266 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 105) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'coopjam.war#coopjamPersistenceUnit'
+2020-07-19 14:27:36,275 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 105) HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-07-19 14:27:36,278 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 105) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2020-07-19 14:27:36,280 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 105) Envers integration enabled? : true
+2020-07-19 14:27:36,592 INFO  [stdout] (ServerService Thread Pool -- 105) Hibernate: 
+2020-07-19 14:27:36,592 INFO  [stdout] (ServerService Thread Pool -- 105)     
+2020-07-19 14:27:36,592 INFO  [stdout] (ServerService Thread Pool -- 105)     alter table Cliente 
+2020-07-19 14:27:36,593 INFO  [stdout] (ServerService Thread Pool -- 105)        add column fechaNacimiento datetime
+2020-07-19 14:27:38,203 INFO  [stdout] (ServerService Thread Pool -- 105) Hibernate: 
+2020-07-19 14:27:38,203 INFO  [stdout] (ServerService Thread Pool -- 105)     
+2020-07-19 14:27:38,203 INFO  [stdout] (ServerService Thread Pool -- 105)     alter table SolicitudDeCredito 
+2020-07-19 14:27:38,203 INFO  [stdout] (ServerService Thread Pool -- 105)        add column garanteEstado varchar(255)
+2020-07-19 14:27:38,244 INFO  [stdout] (ServerService Thread Pool -- 105) Hibernate: 
+2020-07-19 14:27:38,244 INFO  [stdout] (ServerService Thread Pool -- 105)     
+2020-07-19 14:27:38,244 INFO  [stdout] (ServerService Thread Pool -- 105)     alter table SolicitudDeCredito 
+2020-07-19 14:27:38,244 INFO  [stdout] (ServerService Thread Pool -- 105)        add column historialCredito varchar(255)
+2020-07-19 14:27:38,258 INFO  [stdout] (ServerService Thread Pool -- 105) Hibernate: 
+2020-07-19 14:27:38,258 INFO  [stdout] (ServerService Thread Pool -- 105)     
+2020-07-19 14:27:38,258 INFO  [stdout] (ServerService Thread Pool -- 105)     alter table SolicitudDeCredito 
+2020-07-19 14:27:38,258 INFO  [stdout] (ServerService Thread Pool -- 105)        add column saldoCuenta double precision not null
+2020-07-19 14:27:38,272 INFO  [stdout] (ServerService Thread Pool -- 105) Hibernate: 
+2020-07-19 14:27:38,272 INFO  [stdout] (ServerService Thread Pool -- 105)     
+2020-07-19 14:27:38,272 INFO  [stdout] (ServerService Thread Pool -- 105)     alter table SolicitudDeCredito 
+2020-07-19 14:27:38,272 INFO  [stdout] (ServerService Thread Pool -- 105)        add column tasaPago double precision not null
+2020-07-19 14:27:38,485 INFO  [io.smallrye.metrics] (MSC service thread 1-6) MicroProfile: Metrics activated
+2020-07-19 14:27:38,493 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-6) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-07-19 14:27:38,661 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 105) Inicializando Mojarra 2.3.9.SP04 para el contexto '/coopjam'
+2020-07-19 14:27:40,048 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 105) Running on PrimeFaces 8.0
+2020-07-19 14:27:40,079 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 105) RESTEASY002225: Deploying javax.ws.rs.core.Application: class ec.edu.ups.coopjam.servicios.RestApplication
+2020-07-19 14:27:40,084 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 105) WFLYUT0021: Registered web context: '/coopjam' for server 'default-server'
+2020-07-19 14:27:40,125 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "coopjam.war" (runtime-name : "coopjam.war")
+2020-07-19 14:28:45,159 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-5) HHH000397: Using ASTQueryTranslatorFactory
+2020-07-19 14:28:45,162 INFO  [stdout] (default task-5) Hibernate: 
+2020-07-19 14:28:45,162 INFO  [stdout] (default task-5)     select
+2020-07-19 14:28:45,162 INFO  [stdout] (default task-5)         cliente0_.cedula_cliente as cedula_c1_0_,
+2020-07-19 14:28:45,162 INFO  [stdout] (default task-5)         cliente0_.apellido as apellido2_0_,
+2020-07-19 14:28:45,162 INFO  [stdout] (default task-5)         cliente0_.clave as clave3_0_,
+2020-07-19 14:28:45,162 INFO  [stdout] (default task-5)         cliente0_.correo as correo4_0_,
+2020-07-19 14:28:45,162 INFO  [stdout] (default task-5)         cliente0_.direccion as direccio5_0_,
+2020-07-19 14:28:45,162 INFO  [stdout] (default task-5)         cliente0_.fechaNacimiento as fechaNac6_0_,
+2020-07-19 14:28:45,162 INFO  [stdout] (default task-5)         cliente0_.nombre as nombre7_0_,
+2020-07-19 14:28:45,162 INFO  [stdout] (default task-5)         cliente0_.telefono1 as telefono8_0_,
+2020-07-19 14:28:45,162 INFO  [stdout] (default task-5)         cliente0_.telefono2 as telefono9_0_,
+2020-07-19 14:28:45,162 INFO  [stdout] (default task-5)         cliente0_.usuario as usuario10_0_ 
+2020-07-19 14:28:45,162 INFO  [stdout] (default task-5)     from
+2020-07-19 14:28:45,162 INFO  [stdout] (default task-5)         Cliente cliente0_
+2020-07-19 14:28:45,167 INFO  [stdout] (default task-5) PASO LA LISTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+2020-07-19 14:28:45,167 INFO  [stdout] (default task-5) ENTROOOOOOOOOOOO EN EL FORRRRRR
+2020-07-19 14:28:45,167 INFO  [stdout] (default task-5) ENTROOOOOOOOOOOO EN EL FORRRRRR
+2020-07-19 14:28:45,167 INFO  [stdout] (default task-5) ENTROOOOOOOOOOOO EN EL IFFFFFFFFFFFFFF CORRECTO
+2020-07-19 14:28:51,839 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:28:51,839 INFO  [stdout] (default task-4)     select
+2020-07-19 14:28:51,839 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_,
+2020-07-19 14:28:51,839 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_,
+2020-07-19 14:28:51,839 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_,
+2020-07-19 14:28:51,839 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_,
+2020-07-19 14:28:51,839 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_,
+2020-07-19 14:28:51,839 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_,
+2020-07-19 14:28:51,839 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_,
+2020-07-19 14:28:51,839 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_,
+2020-07-19 14:28:51,839 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_,
+2020-07-19 14:28:51,839 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_ 
+2020-07-19 14:28:51,839 INFO  [stdout] (default task-4)     from
+2020-07-19 14:28:51,839 INFO  [stdout] (default task-4)         Cliente cliente0_
+2020-07-19 14:28:51,841 INFO  [stdout] (default task-4) PASO LA LISTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+2020-07-19 14:28:51,841 INFO  [stdout] (default task-4) ENTROOOOOOOOOOOO EN EL FORRRRRR
+2020-07-19 14:28:51,841 INFO  [stdout] (default task-4) ENTROOOOOOOOOOOO EN EL FORRRRRR
+2020-07-19 14:28:51,841 INFO  [stdout] (default task-4) ENTROOOOOOOOOOOO EN EL IFFFFFFFFFFFFFF CORRECTO
+2020-07-19 14:28:58,757 INFO  [stdout] (default task-5) Hibernate: 
+2020-07-19 14:28:58,758 INFO  [stdout] (default task-5)     select
+2020-07-19 14:28:58,758 INFO  [stdout] (default task-5)         cliente_.cedula_cliente,
+2020-07-19 14:28:58,758 INFO  [stdout] (default task-5)         cliente_.apellido as apellido2_0_,
+2020-07-19 14:28:58,758 INFO  [stdout] (default task-5)         cliente_.clave as clave3_0_,
+2020-07-19 14:28:58,758 INFO  [stdout] (default task-5)         cliente_.correo as correo4_0_,
+2020-07-19 14:28:58,758 INFO  [stdout] (default task-5)         cliente_.direccion as direccio5_0_,
+2020-07-19 14:28:58,758 INFO  [stdout] (default task-5)         cliente_.fechaNacimiento as fechaNac6_0_,
+2020-07-19 14:28:58,758 INFO  [stdout] (default task-5)         cliente_.nombre as nombre7_0_,
+2020-07-19 14:28:58,758 INFO  [stdout] (default task-5)         cliente_.telefono1 as telefono8_0_,
+2020-07-19 14:28:58,758 INFO  [stdout] (default task-5)         cliente_.telefono2 as telefono9_0_,
+2020-07-19 14:28:58,758 INFO  [stdout] (default task-5)         cliente_.usuario as usuario10_0_ 
+2020-07-19 14:28:58,758 INFO  [stdout] (default task-5)     from
+2020-07-19 14:28:58,758 INFO  [stdout] (default task-5)         Cliente cliente_ 
+2020-07-19 14:28:58,758 INFO  [stdout] (default task-5)     where
+2020-07-19 14:28:58,758 INFO  [stdout] (default task-5)         cliente_.cedula_cliente=?
+2020-07-19 14:28:58,760 INFO  [stdout] (default task-5) Hibernate: 
+2020-07-19 14:28:58,760 INFO  [stdout] (default task-5)     insert 
+2020-07-19 14:28:58,760 INFO  [stdout] (default task-5)     into
+2020-07-19 14:28:58,760 INFO  [stdout] (default task-5)         SesionCliente
+2020-07-19 14:28:58,760 INFO  [stdout] (default task-5)         (cedula_cliente, estado, fechaSesion) 
+2020-07-19 14:28:58,760 INFO  [stdout] (default task-5)     values
+2020-07-19 14:28:58,760 INFO  [stdout] (default task-5)         (?, ?, ?)
+2020-07-19 14:29:03,981 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:03,981 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:03,981 INFO  [stdout] (default task-4)         cliente_.cedula_cliente,
+2020-07-19 14:29:03,981 INFO  [stdout] (default task-4)         cliente_.apellido as apellido2_0_,
+2020-07-19 14:29:03,981 INFO  [stdout] (default task-4)         cliente_.clave as clave3_0_,
+2020-07-19 14:29:03,981 INFO  [stdout] (default task-4)         cliente_.correo as correo4_0_,
+2020-07-19 14:29:03,981 INFO  [stdout] (default task-4)         cliente_.direccion as direccio5_0_,
+2020-07-19 14:29:03,981 INFO  [stdout] (default task-4)         cliente_.fechaNacimiento as fechaNac6_0_,
+2020-07-19 14:29:03,981 INFO  [stdout] (default task-4)         cliente_.nombre as nombre7_0_,
+2020-07-19 14:29:03,981 INFO  [stdout] (default task-4)         cliente_.telefono1 as telefono8_0_,
+2020-07-19 14:29:03,981 INFO  [stdout] (default task-4)         cliente_.telefono2 as telefono9_0_,
+2020-07-19 14:29:03,981 INFO  [stdout] (default task-4)         cliente_.usuario as usuario10_0_ 
+2020-07-19 14:29:03,981 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:03,981 INFO  [stdout] (default task-4)         Cliente cliente_ 
+2020-07-19 14:29:03,981 INFO  [stdout] (default task-4)     where
+2020-07-19 14:29:03,981 INFO  [stdout] (default task-4)         cliente_.cedula_cliente=?
+2020-07-19 14:29:03,983 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:03,983 INFO  [stdout] (default task-4)     insert 
+2020-07-19 14:29:03,983 INFO  [stdout] (default task-4)     into
+2020-07-19 14:29:03,983 INFO  [stdout] (default task-4)         SesionCliente
+2020-07-19 14:29:03,983 INFO  [stdout] (default task-4)         (cedula_cliente, estado, fechaSesion) 
+2020-07-19 14:29:03,983 INFO  [stdout] (default task-4)     values
+2020-07-19 14:29:03,983 INFO  [stdout] (default task-4)         (?, ?, ?)
+2020-07-19 14:29:03,998 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:03,998 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:03,998 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_,
+2020-07-19 14:29:03,998 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_,
+2020-07-19 14:29:03,998 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_,
+2020-07-19 14:29:03,998 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_,
+2020-07-19 14:29:03,998 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_,
+2020-07-19 14:29:03,998 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_,
+2020-07-19 14:29:03,998 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_,
+2020-07-19 14:29:03,998 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_,
+2020-07-19 14:29:03,998 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_,
+2020-07-19 14:29:03,998 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_ 
+2020-07-19 14:29:03,998 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:03,998 INFO  [stdout] (default task-4)         Cliente cliente0_
+2020-07-19 14:29:04,000 INFO  [stdout] (default task-4) 2
+2020-07-19 14:29:04,006 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:04,006 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:04,006 INFO  [stdout] (default task-4)         cuentadeah0_.numero_cuenta as numero_c1_2_,
+2020-07-19 14:29:04,006 INFO  [stdout] (default task-4)         cuentadeah0_.cedula_cliente as cedula_c4_2_,
+2020-07-19 14:29:04,006 INFO  [stdout] (default task-4)         cuentadeah0_.fechaDeRegistro as fechaDeR2_2_,
+2020-07-19 14:29:04,006 INFO  [stdout] (default task-4)         cuentadeah0_.saldoCuentaDeAhorro as saldoCue3_2_ 
+2020-07-19 14:29:04,006 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:04,006 INFO  [stdout] (default task-4)         CuentaDeAhorro cuentadeah0_ 
+2020-07-19 14:29:04,006 INFO  [stdout] (default task-4)     where
+2020-07-19 14:29:04,006 INFO  [stdout] (default task-4)         cuentadeah0_.cedula_cliente=?
+2020-07-19 14:29:04,008 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:04,008 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:04,008 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 14:29:04,008 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 14:29:04,008 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_0_,
+2020-07-19 14:29:04,008 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_0_,
+2020-07-19 14:29:04,008 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 14:29:04,008 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_0_,
+2020-07-19 14:29:04,008 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_0_,
+2020-07-19 14:29:04,008 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_0_,
+2020-07-19 14:29:04,008 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_0_,
+2020-07-19 14:29:04,008 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_0_ 
+2020-07-19 14:29:04,008 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:04,008 INFO  [stdout] (default task-4)         Cliente cliente0_ 
+2020-07-19 14:29:04,008 INFO  [stdout] (default task-4)     where
+2020-07-19 14:29:04,008 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente=?
+2020-07-19 14:29:04,012 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:04,012 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:04,012 INFO  [stdout] (default task-4)         transaccio0_.codigoTransaccion as codigoTr1_7_,
+2020-07-19 14:29:04,012 INFO  [stdout] (default task-4)         transaccio0_.cedula_cliente as cedula_c6_7_,
+2020-07-19 14:29:04,012 INFO  [stdout] (default task-4)         transaccio0_.fecha as fecha2_7_,
+2020-07-19 14:29:04,012 INFO  [stdout] (default task-4)         transaccio0_.monto as monto3_7_,
+2020-07-19 14:29:04,012 INFO  [stdout] (default task-4)         transaccio0_.saldoCuenta as saldoCue4_7_,
+2020-07-19 14:29:04,012 INFO  [stdout] (default task-4)         transaccio0_.tipo as tipo5_7_ 
+2020-07-19 14:29:04,012 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:04,012 INFO  [stdout] (default task-4)         Transaccion transaccio0_ 
+2020-07-19 14:29:04,013 INFO  [stdout] (default task-4)     where
+2020-07-19 14:29:04,013 INFO  [stdout] (default task-4)         transaccio0_.cedula_cliente=?
+2020-07-19 14:29:04,014 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:04,014 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:04,014 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 14:29:04,014 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 14:29:04,014 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_0_,
+2020-07-19 14:29:04,014 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_0_,
+2020-07-19 14:29:04,014 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 14:29:04,014 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_0_,
+2020-07-19 14:29:04,014 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_0_,
+2020-07-19 14:29:04,014 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_0_,
+2020-07-19 14:29:04,014 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_0_,
+2020-07-19 14:29:04,014 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_0_ 
+2020-07-19 14:29:04,014 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:04,014 INFO  [stdout] (default task-4)         Cliente cliente0_ 
+2020-07-19 14:29:04,014 INFO  [stdout] (default task-4)     where
+2020-07-19 14:29:04,014 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente=?
+2020-07-19 14:29:04,016 INFO  [stdout] (default task-4) 2020-06-19 00:00:00.000000
+2020-07-19 14:29:04,017 INFO  [stdout] (default task-4) 2020-07-19 23:59:59.000000
+2020-07-19 14:29:04,019 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:04,019 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:04,019 INFO  [stdout] (default task-4)         transaccio0_.codigoTransaccion as codigoTr1_7_,
+2020-07-19 14:29:04,019 INFO  [stdout] (default task-4)         transaccio0_.cedula_cliente as cedula_c6_7_,
+2020-07-19 14:29:04,019 INFO  [stdout] (default task-4)         transaccio0_.fecha as fecha2_7_,
+2020-07-19 14:29:04,019 INFO  [stdout] (default task-4)         transaccio0_.monto as monto3_7_,
+2020-07-19 14:29:04,019 INFO  [stdout] (default task-4)         transaccio0_.saldoCuenta as saldoCue4_7_,
+2020-07-19 14:29:04,019 INFO  [stdout] (default task-4)         transaccio0_.tipo as tipo5_7_ 
+2020-07-19 14:29:04,019 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:04,019 INFO  [stdout] (default task-4)         Transaccion transaccio0_ 
+2020-07-19 14:29:04,019 INFO  [stdout] (default task-4)     where
+2020-07-19 14:29:04,019 INFO  [stdout] (default task-4)         transaccio0_.cedula_cliente='0150350668' 
+2020-07-19 14:29:04,019 INFO  [stdout] (default task-4)         and (
+2020-07-19 14:29:04,019 INFO  [stdout] (default task-4)             transaccio0_.fecha between '2020-06-19 00:00:00.000000' and '2020-07-19 23:59:59.000000'
+2020-07-19 14:29:04,019 INFO  [stdout] (default task-4)         ) 
+2020-07-19 14:29:04,019 INFO  [stdout] (default task-4)     order by
+2020-07-19 14:29:04,019 INFO  [stdout] (default task-4)         transaccio0_.fecha DESC
+2020-07-19 14:29:04,022 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:04,022 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:04,022 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 14:29:04,022 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 14:29:04,022 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_0_,
+2020-07-19 14:29:04,022 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_0_,
+2020-07-19 14:29:04,022 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 14:29:04,022 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_0_,
+2020-07-19 14:29:04,022 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_0_,
+2020-07-19 14:29:04,022 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_0_,
+2020-07-19 14:29:04,022 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_0_,
+2020-07-19 14:29:04,022 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_0_ 
+2020-07-19 14:29:04,022 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:04,022 INFO  [stdout] (default task-4)         Cliente cliente0_ 
+2020-07-19 14:29:04,022 INFO  [stdout] (default task-4)     where
+2020-07-19 14:29:04,022 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente=?
+2020-07-19 14:29:04,024 INFO  [stdout] (default task-4) 1
+2020-07-19 14:29:04,024 INFO  [stdout] (default task-4) 0150350668
+2020-07-19 14:29:42,093 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:42,093 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:42,093 INFO  [stdout] (default task-4)         solicitudd0_.codigoCredito as codigoCr1_6_,
+2020-07-19 14:29:42,093 INFO  [stdout] (default task-4)         solicitudd0_.activo as activo2_6_,
+2020-07-19 14:29:42,093 INFO  [stdout] (default task-4)         solicitudd0_.arCedula as arCedula3_6_,
+2020-07-19 14:29:42,094 INFO  [stdout] (default task-4)         solicitudd0_.arPlanillaServicios as arPlanil4_6_,
+2020-07-19 14:29:42,094 INFO  [stdout] (default task-4)         solicitudd0_.arRolDePagos as arRolDeP5_6_,
+2020-07-19 14:29:42,094 INFO  [stdout] (default task-4)         solicitudd0_.avaluoDeVivienda as avaluoDe6_6_,
+2020-07-19 14:29:42,094 INFO  [stdout] (default task-4)         solicitudd0_.cedula_cliente as cedula_20_6_,
+2020-07-19 14:29:42,094 INFO  [stdout] (default task-4)         solicitudd0_.estadoCivilSexo as estadoCi7_6_,
+2020-07-19 14:29:42,094 INFO  [stdout] (default task-4)         solicitudd0_.estadoCredito as estadoCr8_6_,
+2020-07-19 14:29:42,094 INFO  [stdout] (default task-4)         solicitudd0_.cedula_garante as cedula_21_6_,
+2020-07-19 14:29:42,094 INFO  [stdout] (default task-4)         solicitudd0_.garanteEstado as garanteE9_6_,
+2020-07-19 14:29:42,094 INFO  [stdout] (default task-4)         solicitudd0_.historialCredito as histori10_6_,
+2020-07-19 14:29:42,094 INFO  [stdout] (default task-4)         solicitudd0_.mesesCredito as mesesCr11_6_,
+2020-07-19 14:29:42,094 INFO  [stdout] (default task-4)         solicitudd0_.montoCredito as montoCr12_6_,
+2020-07-19 14:29:42,094 INFO  [stdout] (default task-4)         solicitudd0_.propositoCredito as proposi13_6_,
+2020-07-19 14:29:42,094 INFO  [stdout] (default task-4)         solicitudd0_.saldoCuenta as saldoCu14_6_,
+2020-07-19 14:29:42,094 INFO  [stdout] (default task-4)         solicitudd0_.tasaPago as tasaPag15_6_,
+2020-07-19 14:29:42,094 INFO  [stdout] (default task-4)         solicitudd0_.tiempoEmpleo as tiempoE16_6_,
+2020-07-19 14:29:42,094 INFO  [stdout] (default task-4)         solicitudd0_.tipoEmpleo as tipoEmp17_6_,
+2020-07-19 14:29:42,094 INFO  [stdout] (default task-4)         solicitudd0_.tipoVivienda as tipoViv18_6_,
+2020-07-19 14:29:42,094 INFO  [stdout] (default task-4)         solicitudd0_.trabajadorExtranjero as trabaja19_6_ 
+2020-07-19 14:29:42,094 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:42,094 INFO  [stdout] (default task-4)         SolicitudDeCredito solicitudd0_
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_0_,
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_0_,
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_0_,
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_0_,
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_0_,
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_0_,
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_0_ 
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         Cliente cliente0_ 
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)     where
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente=?
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_0_,
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_0_,
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_0_,
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_0_,
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_0_,
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_0_,
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_0_ 
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         Cliente cliente0_ 
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)     where
+2020-07-19 14:29:42,124 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente=?
+2020-07-19 14:29:47,997 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:47,997 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:47,997 INFO  [stdout] (default task-4)         empleado0_.cedula as cedula1_4_,
+2020-07-19 14:29:47,997 INFO  [stdout] (default task-4)         empleado0_.apellido as apellido2_4_,
+2020-07-19 14:29:47,997 INFO  [stdout] (default task-4)         empleado0_.contrasena as contrase3_4_,
+2020-07-19 14:29:47,997 INFO  [stdout] (default task-4)         empleado0_.correo as correo4_4_,
+2020-07-19 14:29:47,997 INFO  [stdout] (default task-4)         empleado0_.direccion as direccio5_4_,
+2020-07-19 14:29:47,997 INFO  [stdout] (default task-4)         empleado0_.nombre as nombre6_4_,
+2020-07-19 14:29:47,997 INFO  [stdout] (default task-4)         empleado0_.rol as rol7_4_,
+2020-07-19 14:29:47,997 INFO  [stdout] (default task-4)         empleado0_.telefono as telefono8_4_,
+2020-07-19 14:29:47,997 INFO  [stdout] (default task-4)         empleado0_.usuario as usuario9_4_ 
+2020-07-19 14:29:47,997 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:47,997 INFO  [stdout] (default task-4)         Empleado empleado0_ 
+2020-07-19 14:29:47,997 INFO  [stdout] (default task-4)     where
+2020-07-19 14:29:47,997 INFO  [stdout] (default task-4)         empleado0_.usuario=? 
+2020-07-19 14:29:47,997 INFO  [stdout] (default task-4)         and empleado0_.contrasena=?
+2020-07-19 14:29:48,000 INFO  [stdout] (default task-4) ***************Malki Katari
+2020-07-19 14:29:48,015 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:48,016 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:48,016 INFO  [stdout] (default task-4)         empleado0_.cedula as cedula1_4_,
+2020-07-19 14:29:48,016 INFO  [stdout] (default task-4)         empleado0_.apellido as apellido2_4_,
+2020-07-19 14:29:48,016 INFO  [stdout] (default task-4)         empleado0_.contrasena as contrase3_4_,
+2020-07-19 14:29:48,016 INFO  [stdout] (default task-4)         empleado0_.correo as correo4_4_,
+2020-07-19 14:29:48,016 INFO  [stdout] (default task-4)         empleado0_.direccion as direccio5_4_,
+2020-07-19 14:29:48,016 INFO  [stdout] (default task-4)         empleado0_.nombre as nombre6_4_,
+2020-07-19 14:29:48,016 INFO  [stdout] (default task-4)         empleado0_.rol as rol7_4_,
+2020-07-19 14:29:48,016 INFO  [stdout] (default task-4)         empleado0_.telefono as telefono8_4_,
+2020-07-19 14:29:48,016 INFO  [stdout] (default task-4)         empleado0_.usuario as usuario9_4_ 
+2020-07-19 14:29:48,016 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:48,016 INFO  [stdout] (default task-4)         Empleado empleado0_
+2020-07-19 14:29:48,019 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:48,019 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:48,019 INFO  [stdout] (default task-4)         solicitudd0_.codigoCredito as codigoCr1_6_,
+2020-07-19 14:29:48,019 INFO  [stdout] (default task-4)         solicitudd0_.activo as activo2_6_,
+2020-07-19 14:29:48,019 INFO  [stdout] (default task-4)         solicitudd0_.arCedula as arCedula3_6_,
+2020-07-19 14:29:48,019 INFO  [stdout] (default task-4)         solicitudd0_.arPlanillaServicios as arPlanil4_6_,
+2020-07-19 14:29:48,019 INFO  [stdout] (default task-4)         solicitudd0_.arRolDePagos as arRolDeP5_6_,
+2020-07-19 14:29:48,019 INFO  [stdout] (default task-4)         solicitudd0_.avaluoDeVivienda as avaluoDe6_6_,
+2020-07-19 14:29:48,019 INFO  [stdout] (default task-4)         solicitudd0_.cedula_cliente as cedula_20_6_,
+2020-07-19 14:29:48,019 INFO  [stdout] (default task-4)         solicitudd0_.estadoCivilSexo as estadoCi7_6_,
+2020-07-19 14:29:48,019 INFO  [stdout] (default task-4)         solicitudd0_.estadoCredito as estadoCr8_6_,
+2020-07-19 14:29:48,019 INFO  [stdout] (default task-4)         solicitudd0_.cedula_garante as cedula_21_6_,
+2020-07-19 14:29:48,020 INFO  [stdout] (default task-4)         solicitudd0_.garanteEstado as garanteE9_6_,
+2020-07-19 14:29:48,020 INFO  [stdout] (default task-4)         solicitudd0_.historialCredito as histori10_6_,
+2020-07-19 14:29:48,020 INFO  [stdout] (default task-4)         solicitudd0_.mesesCredito as mesesCr11_6_,
+2020-07-19 14:29:48,020 INFO  [stdout] (default task-4)         solicitudd0_.montoCredito as montoCr12_6_,
+2020-07-19 14:29:48,020 INFO  [stdout] (default task-4)         solicitudd0_.propositoCredito as proposi13_6_,
+2020-07-19 14:29:48,020 INFO  [stdout] (default task-4)         solicitudd0_.saldoCuenta as saldoCu14_6_,
+2020-07-19 14:29:48,020 INFO  [stdout] (default task-4)         solicitudd0_.tasaPago as tasaPag15_6_,
+2020-07-19 14:29:48,020 INFO  [stdout] (default task-4)         solicitudd0_.tiempoEmpleo as tiempoE16_6_,
+2020-07-19 14:29:48,020 INFO  [stdout] (default task-4)         solicitudd0_.tipoEmpleo as tipoEmp17_6_,
+2020-07-19 14:29:48,020 INFO  [stdout] (default task-4)         solicitudd0_.tipoVivienda as tipoViv18_6_,
+2020-07-19 14:29:48,020 INFO  [stdout] (default task-4)         solicitudd0_.trabajadorExtranjero as trabaja19_6_ 
+2020-07-19 14:29:48,020 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:48,020 INFO  [stdout] (default task-4)         SolicitudDeCredito solicitudd0_
+2020-07-19 14:29:48,024 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:48,024 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:48,024 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 14:29:48,024 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 14:29:48,024 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_0_,
+2020-07-19 14:29:48,024 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_0_,
+2020-07-19 14:29:48,024 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 14:29:48,024 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_0_,
+2020-07-19 14:29:48,024 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_0_,
+2020-07-19 14:29:48,024 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_0_,
+2020-07-19 14:29:48,024 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_0_,
+2020-07-19 14:29:48,024 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_0_ 
+2020-07-19 14:29:48,024 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:48,024 INFO  [stdout] (default task-4)         Cliente cliente0_ 
+2020-07-19 14:29:48,024 INFO  [stdout] (default task-4)     where
+2020-07-19 14:29:48,024 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente=?
+2020-07-19 14:29:48,026 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:48,026 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:48,026 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 14:29:48,026 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 14:29:48,026 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_0_,
+2020-07-19 14:29:48,026 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_0_,
+2020-07-19 14:29:48,026 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 14:29:48,026 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_0_,
+2020-07-19 14:29:48,026 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_0_,
+2020-07-19 14:29:48,026 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_0_,
+2020-07-19 14:29:48,026 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_0_,
+2020-07-19 14:29:48,026 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_0_ 
+2020-07-19 14:29:48,026 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:48,026 INFO  [stdout] (default task-4)         Cliente cliente0_ 
+2020-07-19 14:29:48,026 INFO  [stdout] (default task-4)     where
+2020-07-19 14:29:48,026 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente=?
+2020-07-19 14:29:48,045 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:48,045 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:48,045 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_,
+2020-07-19 14:29:48,045 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_,
+2020-07-19 14:29:48,045 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_,
+2020-07-19 14:29:48,045 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_,
+2020-07-19 14:29:48,045 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_,
+2020-07-19 14:29:48,045 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_,
+2020-07-19 14:29:48,045 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_,
+2020-07-19 14:29:48,045 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_,
+2020-07-19 14:29:48,045 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_,
+2020-07-19 14:29:48,045 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_ 
+2020-07-19 14:29:48,045 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:48,045 INFO  [stdout] (default task-4)         Cliente cliente0_
+2020-07-19 14:29:48,048 INFO  [stdout] (default task-4) 2
+2020-07-19 14:29:48,049 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:48,049 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:48,049 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_,
+2020-07-19 14:29:48,049 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_,
+2020-07-19 14:29:48,049 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_,
+2020-07-19 14:29:48,049 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_,
+2020-07-19 14:29:48,049 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_,
+2020-07-19 14:29:48,049 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_,
+2020-07-19 14:29:48,049 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_,
+2020-07-19 14:29:48,049 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_,
+2020-07-19 14:29:48,049 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_,
+2020-07-19 14:29:48,049 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_ 
+2020-07-19 14:29:48,049 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:48,049 INFO  [stdout] (default task-4)         Cliente cliente0_
+2020-07-19 14:29:48,054 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:48,054 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:48,054 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_,
+2020-07-19 14:29:48,054 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_,
+2020-07-19 14:29:48,054 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_,
+2020-07-19 14:29:48,054 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_,
+2020-07-19 14:29:48,054 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_,
+2020-07-19 14:29:48,054 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_,
+2020-07-19 14:29:48,054 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_,
+2020-07-19 14:29:48,054 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_,
+2020-07-19 14:29:48,054 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_,
+2020-07-19 14:29:48,054 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_ 
+2020-07-19 14:29:48,054 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:48,054 INFO  [stdout] (default task-4)         Cliente cliente0_
+2020-07-19 14:29:48,056 INFO  [stdout] (default task-4) 2
+2020-07-19 14:29:48,056 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:48,057 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:48,057 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_,
+2020-07-19 14:29:48,057 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_,
+2020-07-19 14:29:48,057 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_,
+2020-07-19 14:29:48,057 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_,
+2020-07-19 14:29:48,057 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_,
+2020-07-19 14:29:48,057 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_,
+2020-07-19 14:29:48,057 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_,
+2020-07-19 14:29:48,057 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_,
+2020-07-19 14:29:48,057 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_,
+2020-07-19 14:29:48,057 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_ 
+2020-07-19 14:29:48,057 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:48,057 INFO  [stdout] (default task-4)         Cliente cliente0_
+2020-07-19 14:29:48,061 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:48,061 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:48,061 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_,
+2020-07-19 14:29:48,061 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_,
+2020-07-19 14:29:48,061 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_,
+2020-07-19 14:29:48,061 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_,
+2020-07-19 14:29:48,061 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_,
+2020-07-19 14:29:48,061 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_,
+2020-07-19 14:29:48,061 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_,
+2020-07-19 14:29:48,061 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_,
+2020-07-19 14:29:48,061 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_,
+2020-07-19 14:29:48,061 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_ 
+2020-07-19 14:29:48,061 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:48,061 INFO  [stdout] (default task-4)         Cliente cliente0_
+2020-07-19 14:29:48,064 INFO  [stdout] (default task-4) 2
+2020-07-19 14:29:48,065 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:48,065 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:48,065 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_,
+2020-07-19 14:29:48,065 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_,
+2020-07-19 14:29:48,065 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_,
+2020-07-19 14:29:48,065 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_,
+2020-07-19 14:29:48,065 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_,
+2020-07-19 14:29:48,065 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_,
+2020-07-19 14:29:48,065 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_,
+2020-07-19 14:29:48,065 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_,
+2020-07-19 14:29:48,065 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_,
+2020-07-19 14:29:48,065 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_ 
+2020-07-19 14:29:48,065 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:48,065 INFO  [stdout] (default task-4)         Cliente cliente0_
+2020-07-19 14:29:52,529 SEVERE [javax.enterprise.resource.webcontainer.jsf.facelets.tag.meta] (default task-4) /CrearCliente.xhtml @72,47 maximun="100" Unhandled by MetaTagHandler for type org.primefaces.validate.LengthValidator
+2020-07-19 14:29:52,534 SEVERE [javax.enterprise.resource.webcontainer.jsf.facelets.tag.meta] (default task-4) /CrearCliente.xhtml @84,47 maximun="100" Unhandled by MetaTagHandler for type org.primefaces.validate.LengthValidator
+2020-07-19 14:29:52,534 SEVERE [javax.enterprise.resource.webcontainer.jsf.facelets.tag.meta] (default task-4) /CrearCliente.xhtml @96,47 maximun="100" Unhandled by MetaTagHandler for type org.primefaces.validate.LengthValidator
+2020-07-19 14:29:52,535 SEVERE [javax.enterprise.resource.webcontainer.jsf.facelets.tag.meta] (default task-4) /CrearCliente.xhtml @108,46 maximun="10" Unhandled by MetaTagHandler for type org.primefaces.validate.LengthValidator
+2020-07-19 14:29:52,536 SEVERE [javax.enterprise.resource.webcontainer.jsf.facelets.tag.meta] (default task-4) /CrearCliente.xhtml @120,46 maximun="10" Unhandled by MetaTagHandler for type org.primefaces.validate.LengthValidator
+2020-07-19 14:29:52,571 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:52,571 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:52,571 INFO  [stdout] (default task-4)         cuentadeah0_.numero_cuenta as numero_c1_2_,
+2020-07-19 14:29:52,571 INFO  [stdout] (default task-4)         cuentadeah0_.cedula_cliente as cedula_c4_2_,
+2020-07-19 14:29:52,571 INFO  [stdout] (default task-4)         cuentadeah0_.fechaDeRegistro as fechaDeR2_2_,
+2020-07-19 14:29:52,571 INFO  [stdout] (default task-4)         cuentadeah0_.saldoCuentaDeAhorro as saldoCue3_2_ 
+2020-07-19 14:29:52,571 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:52,571 INFO  [stdout] (default task-4)         CuentaDeAhorro cuentadeah0_
+2020-07-19 14:29:52,573 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:52,573 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:52,573 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 14:29:52,573 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 14:29:52,573 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_0_,
+2020-07-19 14:29:52,573 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_0_,
+2020-07-19 14:29:52,573 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 14:29:52,573 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_0_,
+2020-07-19 14:29:52,573 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_0_,
+2020-07-19 14:29:52,573 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_0_,
+2020-07-19 14:29:52,573 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_0_,
+2020-07-19 14:29:52,573 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_0_ 
+2020-07-19 14:29:52,573 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:52,573 INFO  [stdout] (default task-4)         Cliente cliente0_ 
+2020-07-19 14:29:52,573 INFO  [stdout] (default task-4)     where
+2020-07-19 14:29:52,573 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente=?
+2020-07-19 14:29:52,574 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:29:52,574 INFO  [stdout] (default task-4)     select
+2020-07-19 14:29:52,574 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 14:29:52,574 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 14:29:52,574 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_0_,
+2020-07-19 14:29:52,574 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_0_,
+2020-07-19 14:29:52,574 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 14:29:52,574 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_0_,
+2020-07-19 14:29:52,574 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_0_,
+2020-07-19 14:29:52,574 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_0_,
+2020-07-19 14:29:52,574 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_0_,
+2020-07-19 14:29:52,574 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_0_ 
+2020-07-19 14:29:52,574 INFO  [stdout] (default task-4)     from
+2020-07-19 14:29:52,574 INFO  [stdout] (default task-4)         Cliente cliente0_ 
+2020-07-19 14:29:52,574 INFO  [stdout] (default task-4)     where
+2020-07-19 14:29:52,574 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente=?
+2020-07-19 14:30:15,554 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:30:15,554 INFO  [stdout] (default task-4)     select
+2020-07-19 14:30:15,554 INFO  [stdout] (default task-4)         empleado0_.cedula as cedula1_4_,
+2020-07-19 14:30:15,554 INFO  [stdout] (default task-4)         empleado0_.apellido as apellido2_4_,
+2020-07-19 14:30:15,554 INFO  [stdout] (default task-4)         empleado0_.contrasena as contrase3_4_,
+2020-07-19 14:30:15,554 INFO  [stdout] (default task-4)         empleado0_.correo as correo4_4_,
+2020-07-19 14:30:15,554 INFO  [stdout] (default task-4)         empleado0_.direccion as direccio5_4_,
+2020-07-19 14:30:15,554 INFO  [stdout] (default task-4)         empleado0_.nombre as nombre6_4_,
+2020-07-19 14:30:15,554 INFO  [stdout] (default task-4)         empleado0_.rol as rol7_4_,
+2020-07-19 14:30:15,554 INFO  [stdout] (default task-4)         empleado0_.telefono as telefono8_4_,
+2020-07-19 14:30:15,554 INFO  [stdout] (default task-4)         empleado0_.usuario as usuario9_4_ 
+2020-07-19 14:30:15,554 INFO  [stdout] (default task-4)     from
+2020-07-19 14:30:15,554 INFO  [stdout] (default task-4)         Empleado empleado0_
+2020-07-19 14:30:15,556 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:30:15,556 INFO  [stdout] (default task-4)     select
+2020-07-19 14:30:15,556 INFO  [stdout] (default task-4)         solicitudd0_.codigoCredito as codigoCr1_6_,
+2020-07-19 14:30:15,556 INFO  [stdout] (default task-4)         solicitudd0_.activo as activo2_6_,
+2020-07-19 14:30:15,556 INFO  [stdout] (default task-4)         solicitudd0_.arCedula as arCedula3_6_,
+2020-07-19 14:30:15,556 INFO  [stdout] (default task-4)         solicitudd0_.arPlanillaServicios as arPlanil4_6_,
+2020-07-19 14:30:15,556 INFO  [stdout] (default task-4)         solicitudd0_.arRolDePagos as arRolDeP5_6_,
+2020-07-19 14:30:15,556 INFO  [stdout] (default task-4)         solicitudd0_.avaluoDeVivienda as avaluoDe6_6_,
+2020-07-19 14:30:15,556 INFO  [stdout] (default task-4)         solicitudd0_.cedula_cliente as cedula_20_6_,
+2020-07-19 14:30:15,556 INFO  [stdout] (default task-4)         solicitudd0_.estadoCivilSexo as estadoCi7_6_,
+2020-07-19 14:30:15,556 INFO  [stdout] (default task-4)         solicitudd0_.estadoCredito as estadoCr8_6_,
+2020-07-19 14:30:15,556 INFO  [stdout] (default task-4)         solicitudd0_.cedula_garante as cedula_21_6_,
+2020-07-19 14:30:15,556 INFO  [stdout] (default task-4)         solicitudd0_.garanteEstado as garanteE9_6_,
+2020-07-19 14:30:15,556 INFO  [stdout] (default task-4)         solicitudd0_.historialCredito as histori10_6_,
+2020-07-19 14:30:15,556 INFO  [stdout] (default task-4)         solicitudd0_.mesesCredito as mesesCr11_6_,
+2020-07-19 14:30:15,556 INFO  [stdout] (default task-4)         solicitudd0_.montoCredito as montoCr12_6_,
+2020-07-19 14:30:15,557 INFO  [stdout] (default task-4)         solicitudd0_.propositoCredito as proposi13_6_,
+2020-07-19 14:30:15,557 INFO  [stdout] (default task-4)         solicitudd0_.saldoCuenta as saldoCu14_6_,
+2020-07-19 14:30:15,557 INFO  [stdout] (default task-4)         solicitudd0_.tasaPago as tasaPag15_6_,
+2020-07-19 14:30:15,557 INFO  [stdout] (default task-4)         solicitudd0_.tiempoEmpleo as tiempoE16_6_,
+2020-07-19 14:30:15,557 INFO  [stdout] (default task-4)         solicitudd0_.tipoEmpleo as tipoEmp17_6_,
+2020-07-19 14:30:15,557 INFO  [stdout] (default task-4)         solicitudd0_.tipoVivienda as tipoViv18_6_,
+2020-07-19 14:30:15,557 INFO  [stdout] (default task-4)         solicitudd0_.trabajadorExtranjero as trabaja19_6_ 
+2020-07-19 14:30:15,557 INFO  [stdout] (default task-4)     from
+2020-07-19 14:30:15,557 INFO  [stdout] (default task-4)         SolicitudDeCredito solicitudd0_
+2020-07-19 14:30:15,560 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:30:15,560 INFO  [stdout] (default task-4)     select
+2020-07-19 14:30:15,560 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 14:30:15,560 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 14:30:15,560 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_0_,
+2020-07-19 14:30:15,560 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_0_,
+2020-07-19 14:30:15,560 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 14:30:15,560 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_0_,
+2020-07-19 14:30:15,560 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_0_,
+2020-07-19 14:30:15,560 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_0_,
+2020-07-19 14:30:15,560 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_0_,
+2020-07-19 14:30:15,560 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_0_ 
+2020-07-19 14:30:15,560 INFO  [stdout] (default task-4)     from
+2020-07-19 14:30:15,560 INFO  [stdout] (default task-4)         Cliente cliente0_ 
+2020-07-19 14:30:15,560 INFO  [stdout] (default task-4)     where
+2020-07-19 14:30:15,560 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente=?
+2020-07-19 14:30:15,561 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:30:15,561 INFO  [stdout] (default task-4)     select
+2020-07-19 14:30:15,561 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 14:30:15,561 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 14:30:15,561 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_0_,
+2020-07-19 14:30:15,561 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_0_,
+2020-07-19 14:30:15,561 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 14:30:15,561 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_0_,
+2020-07-19 14:30:15,562 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_0_,
+2020-07-19 14:30:15,562 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_0_,
+2020-07-19 14:30:15,562 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_0_,
+2020-07-19 14:30:15,562 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_0_ 
+2020-07-19 14:30:15,562 INFO  [stdout] (default task-4)     from
+2020-07-19 14:30:15,562 INFO  [stdout] (default task-4)         Cliente cliente0_ 
+2020-07-19 14:30:15,562 INFO  [stdout] (default task-4)     where
+2020-07-19 14:30:15,562 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente=?
+2020-07-19 14:30:15,565 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:30:15,565 INFO  [stdout] (default task-4)     select
+2020-07-19 14:30:15,565 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_,
+2020-07-19 14:30:15,565 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_,
+2020-07-19 14:30:15,565 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_,
+2020-07-19 14:30:15,565 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_,
+2020-07-19 14:30:15,565 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_,
+2020-07-19 14:30:15,565 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_,
+2020-07-19 14:30:15,565 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_,
+2020-07-19 14:30:15,565 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_,
+2020-07-19 14:30:15,565 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_,
+2020-07-19 14:30:15,565 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_ 
+2020-07-19 14:30:15,565 INFO  [stdout] (default task-4)     from
+2020-07-19 14:30:15,565 INFO  [stdout] (default task-4)         Cliente cliente0_
+2020-07-19 14:30:15,567 INFO  [stdout] (default task-4) 2
+2020-07-19 14:30:15,568 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:30:15,568 INFO  [stdout] (default task-4)     select
+2020-07-19 14:30:15,568 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_,
+2020-07-19 14:30:15,568 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_,
+2020-07-19 14:30:15,568 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_,
+2020-07-19 14:30:15,568 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_,
+2020-07-19 14:30:15,568 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_,
+2020-07-19 14:30:15,568 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_,
+2020-07-19 14:30:15,568 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_,
+2020-07-19 14:30:15,568 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_,
+2020-07-19 14:30:15,568 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_,
+2020-07-19 14:30:15,568 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_ 
+2020-07-19 14:30:15,568 INFO  [stdout] (default task-4)     from
+2020-07-19 14:30:15,568 INFO  [stdout] (default task-4)         Cliente cliente0_
+2020-07-19 14:30:15,571 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:30:15,571 INFO  [stdout] (default task-4)     select
+2020-07-19 14:30:15,571 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_,
+2020-07-19 14:30:15,571 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_,
+2020-07-19 14:30:15,571 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_,
+2020-07-19 14:30:15,571 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_,
+2020-07-19 14:30:15,571 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_,
+2020-07-19 14:30:15,571 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_,
+2020-07-19 14:30:15,571 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_,
+2020-07-19 14:30:15,571 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_,
+2020-07-19 14:30:15,571 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_,
+2020-07-19 14:30:15,571 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_ 
+2020-07-19 14:30:15,571 INFO  [stdout] (default task-4)     from
+2020-07-19 14:30:15,571 INFO  [stdout] (default task-4)         Cliente cliente0_
+2020-07-19 14:30:15,573 INFO  [stdout] (default task-4) 2
+2020-07-19 14:30:15,574 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:30:15,574 INFO  [stdout] (default task-4)     select
+2020-07-19 14:30:15,574 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_,
+2020-07-19 14:30:15,574 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_,
+2020-07-19 14:30:15,574 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_,
+2020-07-19 14:30:15,574 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_,
+2020-07-19 14:30:15,574 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_,
+2020-07-19 14:30:15,574 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_,
+2020-07-19 14:30:15,574 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_,
+2020-07-19 14:30:15,574 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_,
+2020-07-19 14:30:15,574 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_,
+2020-07-19 14:30:15,574 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_ 
+2020-07-19 14:30:15,574 INFO  [stdout] (default task-4)     from
+2020-07-19 14:30:15,574 INFO  [stdout] (default task-4)         Cliente cliente0_
+2020-07-19 14:30:15,577 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:30:15,577 INFO  [stdout] (default task-4)     select
+2020-07-19 14:30:15,577 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_,
+2020-07-19 14:30:15,577 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_,
+2020-07-19 14:30:15,577 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_,
+2020-07-19 14:30:15,577 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_,
+2020-07-19 14:30:15,577 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_,
+2020-07-19 14:30:15,577 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_,
+2020-07-19 14:30:15,577 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_,
+2020-07-19 14:30:15,577 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_,
+2020-07-19 14:30:15,577 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_,
+2020-07-19 14:30:15,577 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_ 
+2020-07-19 14:30:15,577 INFO  [stdout] (default task-4)     from
+2020-07-19 14:30:15,577 INFO  [stdout] (default task-4)         Cliente cliente0_
+2020-07-19 14:30:15,580 INFO  [stdout] (default task-4) 2
+2020-07-19 14:30:15,580 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:30:15,580 INFO  [stdout] (default task-4)     select
+2020-07-19 14:30:15,580 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_,
+2020-07-19 14:30:15,580 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_,
+2020-07-19 14:30:15,580 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_,
+2020-07-19 14:30:15,580 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_,
+2020-07-19 14:30:15,580 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_,
+2020-07-19 14:30:15,581 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_,
+2020-07-19 14:30:15,581 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_,
+2020-07-19 14:30:15,581 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_,
+2020-07-19 14:30:15,581 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_,
+2020-07-19 14:30:15,581 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_ 
+2020-07-19 14:30:15,581 INFO  [stdout] (default task-4)     from
+2020-07-19 14:30:15,581 INFO  [stdout] (default task-4)         Cliente cliente0_
+2020-07-19 14:30:37,935 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:30:37,935 INFO  [stdout] (default task-4)     select
+2020-07-19 14:30:37,935 INFO  [stdout] (default task-4)         cuentadeah0_.numero_cuenta as numero_c1_2_,
+2020-07-19 14:30:37,935 INFO  [stdout] (default task-4)         cuentadeah0_.cedula_cliente as cedula_c4_2_,
+2020-07-19 14:30:37,935 INFO  [stdout] (default task-4)         cuentadeah0_.fechaDeRegistro as fechaDeR2_2_,
+2020-07-19 14:30:37,935 INFO  [stdout] (default task-4)         cuentadeah0_.saldoCuentaDeAhorro as saldoCue3_2_ 
+2020-07-19 14:30:37,935 INFO  [stdout] (default task-4)     from
+2020-07-19 14:30:37,935 INFO  [stdout] (default task-4)         CuentaDeAhorro cuentadeah0_
+2020-07-19 14:30:37,938 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:30:37,938 INFO  [stdout] (default task-4)     select
+2020-07-19 14:30:37,938 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 14:30:37,938 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 14:30:37,938 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_0_,
+2020-07-19 14:30:37,938 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_0_,
+2020-07-19 14:30:37,938 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 14:30:37,938 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_0_,
+2020-07-19 14:30:37,938 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_0_,
+2020-07-19 14:30:37,938 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_0_,
+2020-07-19 14:30:37,938 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_0_,
+2020-07-19 14:30:37,938 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_0_ 
+2020-07-19 14:30:37,938 INFO  [stdout] (default task-4)     from
+2020-07-19 14:30:37,938 INFO  [stdout] (default task-4)         Cliente cliente0_ 
+2020-07-19 14:30:37,938 INFO  [stdout] (default task-4)     where
+2020-07-19 14:30:37,938 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente=?
+2020-07-19 14:30:37,940 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:30:37,940 INFO  [stdout] (default task-4)     select
+2020-07-19 14:30:37,940 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 14:30:37,940 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 14:30:37,940 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_0_,
+2020-07-19 14:30:37,940 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_0_,
+2020-07-19 14:30:37,940 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 14:30:37,940 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_0_,
+2020-07-19 14:30:37,940 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_0_,
+2020-07-19 14:30:37,940 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_0_,
+2020-07-19 14:30:37,940 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_0_,
+2020-07-19 14:30:37,940 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_0_ 
+2020-07-19 14:30:37,940 INFO  [stdout] (default task-4)     from
+2020-07-19 14:30:37,940 INFO  [stdout] (default task-4)         Cliente cliente0_ 
+2020-07-19 14:30:37,940 INFO  [stdout] (default task-4)     where
+2020-07-19 14:30:37,940 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente=?
+2020-07-19 14:30:43,318 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:30:43,318 INFO  [stdout] (default task-4)     select
+2020-07-19 14:30:43,318 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 14:30:43,318 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 14:30:43,318 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_0_,
+2020-07-19 14:30:43,318 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_0_,
+2020-07-19 14:30:43,318 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 14:30:43,318 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_0_,
+2020-07-19 14:30:43,318 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_0_,
+2020-07-19 14:30:43,318 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_0_,
+2020-07-19 14:30:43,318 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_0_,
+2020-07-19 14:30:43,318 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_0_ 
+2020-07-19 14:30:43,318 INFO  [stdout] (default task-4)     from
+2020-07-19 14:30:43,319 INFO  [stdout] (default task-4)         Cliente cliente0_ 
+2020-07-19 14:30:43,319 INFO  [stdout] (default task-4)     where
+2020-07-19 14:30:43,319 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente=?
+2020-07-19 14:30:43,322 INFO  [stdout] (default task-4) 1103693535    En Metodo 
+2020-07-19 14:30:43,323 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:30:43,323 INFO  [stdout] (default task-4)     select
+2020-07-19 14:30:43,323 INFO  [stdout] (default task-4)         cuentadeah0_.numero_cuenta as numero_c1_2_,
+2020-07-19 14:30:43,323 INFO  [stdout] (default task-4)         cuentadeah0_.cedula_cliente as cedula_c4_2_,
+2020-07-19 14:30:43,323 INFO  [stdout] (default task-4)         cuentadeah0_.fechaDeRegistro as fechaDeR2_2_,
+2020-07-19 14:30:43,323 INFO  [stdout] (default task-4)         cuentadeah0_.saldoCuentaDeAhorro as saldoCue3_2_ 
+2020-07-19 14:30:43,323 INFO  [stdout] (default task-4)     from
+2020-07-19 14:30:43,323 INFO  [stdout] (default task-4)         CuentaDeAhorro cuentadeah0_
+2020-07-19 14:30:43,324 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:30:43,324 INFO  [stdout] (default task-4)     select
+2020-07-19 14:30:43,324 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 14:30:43,324 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 14:30:43,324 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_0_,
+2020-07-19 14:30:43,324 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_0_,
+2020-07-19 14:30:43,324 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 14:30:43,324 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_0_,
+2020-07-19 14:30:43,324 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_0_,
+2020-07-19 14:30:43,324 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_0_,
+2020-07-19 14:30:43,324 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_0_,
+2020-07-19 14:30:43,324 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_0_ 
+2020-07-19 14:30:43,324 INFO  [stdout] (default task-4)     from
+2020-07-19 14:30:43,324 INFO  [stdout] (default task-4)         Cliente cliente0_ 
+2020-07-19 14:30:43,324 INFO  [stdout] (default task-4)     where
+2020-07-19 14:30:43,324 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente=?
+2020-07-19 14:30:43,325 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:30:43,325 INFO  [stdout] (default task-4)     select
+2020-07-19 14:30:43,325 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 14:30:43,325 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 14:30:43,325 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_0_,
+2020-07-19 14:30:43,325 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_0_,
+2020-07-19 14:30:43,325 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 14:30:43,325 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_0_,
+2020-07-19 14:30:43,325 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_0_,
+2020-07-19 14:30:43,325 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_0_,
+2020-07-19 14:30:43,325 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_0_,
+2020-07-19 14:30:43,325 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_0_ 
+2020-07-19 14:30:43,325 INFO  [stdout] (default task-4)     from
+2020-07-19 14:30:43,325 INFO  [stdout] (default task-4)         Cliente cliente0_ 
+2020-07-19 14:30:43,325 INFO  [stdout] (default task-4)     where
+2020-07-19 14:30:43,325 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente=?
+2020-07-19 14:33:17,121 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:33:17,121 INFO  [stdout] (default task-4)     select
+2020-07-19 14:33:17,121 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 14:33:17,121 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 14:33:17,121 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_0_,
+2020-07-19 14:33:17,121 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_0_,
+2020-07-19 14:33:17,121 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 14:33:17,121 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_0_,
+2020-07-19 14:33:17,121 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_0_,
+2020-07-19 14:33:17,121 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_0_,
+2020-07-19 14:33:17,121 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_0_,
+2020-07-19 14:33:17,121 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_0_ 
+2020-07-19 14:33:17,121 INFO  [stdout] (default task-4)     from
+2020-07-19 14:33:17,121 INFO  [stdout] (default task-4)         Cliente cliente0_ 
+2020-07-19 14:33:17,121 INFO  [stdout] (default task-4)     where
+2020-07-19 14:33:17,121 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente=?
+2020-07-19 14:33:17,123 INFO  [stdout] (default task-4) 1103693535
+2020-07-19 14:33:17,123 INFO  [stdout] (default task-4) Maria Angelina
+2020-07-19 14:33:17,123 INFO  [stdout] (default task-4) Medina Seraquive
+2020-07-19 14:33:17,123 INFO  [stdout] (default task-4) 82
+2020-07-19 14:33:29,364 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:33:29,364 INFO  [stdout] (default task-4)     insert 
+2020-07-19 14:33:29,364 INFO  [stdout] (default task-4)     into
+2020-07-19 14:33:29,364 INFO  [stdout] (default task-4)         Cliente
+2020-07-19 14:33:29,364 INFO  [stdout] (default task-4)         (apellido, clave, correo, direccion, fechaNacimiento, nombre, telefono1, telefono2, usuario, cedula_cliente) 
+2020-07-19 14:33:29,364 INFO  [stdout] (default task-4)     values
+2020-07-19 14:33:29,364 INFO  [stdout] (default task-4)         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2020-07-19 14:33:29,367 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:33:29,367 INFO  [stdout] (default task-4)     insert 
+2020-07-19 14:33:29,367 INFO  [stdout] (default task-4)     into
+2020-07-19 14:33:29,367 INFO  [stdout] (default task-4)         CuentaDeAhorro
+2020-07-19 14:33:29,367 INFO  [stdout] (default task-4)         (cedula_cliente, fechaDeRegistro, saldoCuentaDeAhorro, numero_cuenta) 
+2020-07-19 14:33:29,367 INFO  [stdout] (default task-4)     values
+2020-07-19 14:33:29,367 INFO  [stdout] (default task-4)         (?, ?, ?, ?)
+2020-07-19 14:33:29,372 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:33:29,372 INFO  [stdout] (default task-4)     select
+2020-07-19 14:33:29,372 INFO  [stdout] (default task-4)         cliente_.cedula_cliente,
+2020-07-19 14:33:29,372 INFO  [stdout] (default task-4)         cliente_.apellido as apellido2_0_,
+2020-07-19 14:33:29,372 INFO  [stdout] (default task-4)         cliente_.clave as clave3_0_,
+2020-07-19 14:33:29,372 INFO  [stdout] (default task-4)         cliente_.correo as correo4_0_,
+2020-07-19 14:33:29,372 INFO  [stdout] (default task-4)         cliente_.direccion as direccio5_0_,
+2020-07-19 14:33:29,372 INFO  [stdout] (default task-4)         cliente_.fechaNacimiento as fechaNac6_0_,
+2020-07-19 14:33:29,372 INFO  [stdout] (default task-4)         cliente_.nombre as nombre7_0_,
+2020-07-19 14:33:29,372 INFO  [stdout] (default task-4)         cliente_.telefono1 as telefono8_0_,
+2020-07-19 14:33:29,372 INFO  [stdout] (default task-4)         cliente_.telefono2 as telefono9_0_,
+2020-07-19 14:33:29,372 INFO  [stdout] (default task-4)         cliente_.usuario as usuario10_0_ 
+2020-07-19 14:33:29,372 INFO  [stdout] (default task-4)     from
+2020-07-19 14:33:29,373 INFO  [stdout] (default task-4)         Cliente cliente_ 
+2020-07-19 14:33:29,373 INFO  [stdout] (default task-4)     where
+2020-07-19 14:33:29,373 INFO  [stdout] (default task-4)         cliente_.cedula_cliente=?
+2020-07-19 14:33:29,375 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:33:29,375 INFO  [stdout] (default task-4)     insert 
+2020-07-19 14:33:29,375 INFO  [stdout] (default task-4)     into
+2020-07-19 14:33:29,375 INFO  [stdout] (default task-4)         Transaccion
+2020-07-19 14:33:29,375 INFO  [stdout] (default task-4)         (cedula_cliente, fecha, monto, saldoCuenta, tipo) 
+2020-07-19 14:33:29,375 INFO  [stdout] (default task-4)     values
+2020-07-19 14:33:29,375 INFO  [stdout] (default task-4)         (?, ?, ?, ?, ?)
+2020-07-19 14:33:30,965 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:33:30,965 INFO  [stdout] (default task-4)     select
+2020-07-19 14:33:30,965 INFO  [stdout] (default task-4)         cuentadeah0_.numero_cuenta as numero_c1_2_,
+2020-07-19 14:33:30,965 INFO  [stdout] (default task-4)         cuentadeah0_.cedula_cliente as cedula_c4_2_,
+2020-07-19 14:33:30,965 INFO  [stdout] (default task-4)         cuentadeah0_.fechaDeRegistro as fechaDeR2_2_,
+2020-07-19 14:33:30,965 INFO  [stdout] (default task-4)         cuentadeah0_.saldoCuentaDeAhorro as saldoCue3_2_ 
+2020-07-19 14:33:30,965 INFO  [stdout] (default task-4)     from
+2020-07-19 14:33:30,965 INFO  [stdout] (default task-4)         CuentaDeAhorro cuentadeah0_
+2020-07-19 14:33:30,967 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:33:30,967 INFO  [stdout] (default task-4)     select
+2020-07-19 14:33:30,967 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 14:33:30,967 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 14:33:30,967 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_0_,
+2020-07-19 14:33:30,967 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_0_,
+2020-07-19 14:33:30,967 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 14:33:30,967 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_0_,
+2020-07-19 14:33:30,967 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_0_,
+2020-07-19 14:33:30,967 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_0_,
+2020-07-19 14:33:30,967 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_0_,
+2020-07-19 14:33:30,967 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_0_ 
+2020-07-19 14:33:30,967 INFO  [stdout] (default task-4)     from
+2020-07-19 14:33:30,967 INFO  [stdout] (default task-4)         Cliente cliente0_ 
+2020-07-19 14:33:30,967 INFO  [stdout] (default task-4)     where
+2020-07-19 14:33:30,967 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente=?
+2020-07-19 14:33:30,968 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:33:30,968 INFO  [stdout] (default task-4)     select
+2020-07-19 14:33:30,968 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 14:33:30,968 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 14:33:30,968 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_0_,
+2020-07-19 14:33:30,968 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_0_,
+2020-07-19 14:33:30,968 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 14:33:30,968 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_0_,
+2020-07-19 14:33:30,968 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_0_,
+2020-07-19 14:33:30,968 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_0_,
+2020-07-19 14:33:30,968 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_0_,
+2020-07-19 14:33:30,968 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_0_ 
+2020-07-19 14:33:30,968 INFO  [stdout] (default task-4)     from
+2020-07-19 14:33:30,968 INFO  [stdout] (default task-4)         Cliente cliente0_ 
+2020-07-19 14:33:30,968 INFO  [stdout] (default task-4)     where
+2020-07-19 14:33:30,968 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente=?
+2020-07-19 14:33:30,970 INFO  [stdout] (default task-4) Hibernate: 
+2020-07-19 14:33:30,970 INFO  [stdout] (default task-4)     select
+2020-07-19 14:33:30,970 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-07-19 14:33:30,970 INFO  [stdout] (default task-4)         cliente0_.apellido as apellido2_0_0_,
+2020-07-19 14:33:30,970 INFO  [stdout] (default task-4)         cliente0_.clave as clave3_0_0_,
+2020-07-19 14:33:30,970 INFO  [stdout] (default task-4)         cliente0_.correo as correo4_0_0_,
+2020-07-19 14:33:30,970 INFO  [stdout] (default task-4)         cliente0_.direccion as direccio5_0_0_,
+2020-07-19 14:33:30,970 INFO  [stdout] (default task-4)         cliente0_.fechaNacimiento as fechaNac6_0_0_,
+2020-07-19 14:33:30,970 INFO  [stdout] (default task-4)         cliente0_.nombre as nombre7_0_0_,
+2020-07-19 14:33:30,970 INFO  [stdout] (default task-4)         cliente0_.telefono1 as telefono8_0_0_,
+2020-07-19 14:33:30,970 INFO  [stdout] (default task-4)         cliente0_.telefono2 as telefono9_0_0_,
+2020-07-19 14:33:30,970 INFO  [stdout] (default task-4)         cliente0_.usuario as usuario10_0_0_ 
+2020-07-19 14:33:30,970 INFO  [stdout] (default task-4)     from
+2020-07-19 14:33:30,970 INFO  [stdout] (default task-4)         Cliente cliente0_ 
+2020-07-19 14:33:30,970 INFO  [stdout] (default task-4)     where
+2020-07-19 14:33:30,970 INFO  [stdout] (default task-4)         cliente0_.cedula_cliente=?

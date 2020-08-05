@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://Servicios.EvaluacionCorrecion.aplicacion.ups.edu.ec/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="ServicioPruebaSOAPService" targetNamespace="http://Servicios.EvaluacionCorrecion.aplicacion.ups.edu.ec/">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://Servicios.EvaluacionCorrecion.aplicacion.ups.edu.ec/" elementFormDefault="unqualified" targetNamespace="http://Servicios.EvaluacionCorrecion.aplicacion.ups.edu.ec/" version="1.0">
+
+  <xs:element name="listarTitulosRespuesta" type="tns:listarTitulosRespuesta"/>
+
+  <xs:element name="listarTitulosRespuestaResponse" type="tns:listarTitulosRespuestaResponse"/>
+
+  <xs:element name="registroTitulo" type="tns:registroTitulo"/>
+
+  <xs:element name="registroTituloResponse" type="tns:registroTituloResponse"/>
+
+  <xs:complexType name="registroTitulo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+      <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="registroTituloResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:respuesta"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="respuesta">
+    <xs:sequence>
+      <xs:element name="codigo" type="xs:int"/>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="lista" nillable="true" type="tns:titulo"/>
+      <xs:element minOccurs="0" name="mensaje" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="titulo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="cedula" type="tns:persona"/>
+      <xs:element name="codigo" type="xs:int"/>
+      <xs:element minOccurs="0" name="estado" type="xs:string"/>
+      <xs:element minOccurs="0" name="fecha" type="xs:dateTime"/>
+      <xs:element minOccurs="0" name="titulo" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="persona">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="apellido" type="xs:string"/>
+      <xs:element minOccurs="0" name="cedula" type="xs:string"/>
+      <xs:element minOccurs="0" name="nombre" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="listarTitulosRespuesta">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="listarTitulosRespuestaResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:respuesta"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="registroTituloResponse">
+    <wsdl:part element="tns:registroTituloResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="listarTitulosRespuestaResponse">
+    <wsdl:part element="tns:listarTitulosRespuestaResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="listarTitulosRespuesta">
+    <wsdl:part element="tns:listarTitulosRespuesta" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="registroTitulo">
+    <wsdl:part element="tns:registroTitulo" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="ServicioPruebaSOAP">
+    <wsdl:operation name="registroTitulo">
+      <wsdl:input message="tns:registroTitulo" name="registroTitulo">
+    </wsdl:input>
+      <wsdl:output message="tns:registroTituloResponse" name="registroTituloResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listarTitulosRespuesta">
+      <wsdl:input message="tns:listarTitulosRespuesta" name="listarTitulosRespuesta">
+    </wsdl:input>
+      <wsdl:output message="tns:listarTitulosRespuestaResponse" name="listarTitulosRespuestaResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServicioPruebaSOAPServiceSoapBinding" type="tns:ServicioPruebaSOAP">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="registroTitulo">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="registroTitulo">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="registroTituloResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listarTitulosRespuesta">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="listarTitulosRespuesta">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="listarTitulosRespuestaResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicioPruebaSOAPService">
+    <wsdl:port binding="tns:ServicioPruebaSOAPServiceSoapBinding" name="ServicioPruebaSOAPPort">
+      <soap:address location="http://localhost:8080/EvaluacionCorrecion/ServicioPruebaSOAP"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,1948 @@
+2020-06-24 00:02:38,392 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:02:38,394 INFO  [stdout] (default task-1)     select
+2020-06-24 00:02:38,394 INFO  [stdout] (default task-1)         empleado0_.cedula as cedula1_2_,
+2020-06-24 00:02:38,394 INFO  [stdout] (default task-1)         empleado0_.apellido as apellido2_2_,
+2020-06-24 00:02:38,394 INFO  [stdout] (default task-1)         empleado0_.contrasena as contrase3_2_,
+2020-06-24 00:02:38,394 INFO  [stdout] (default task-1)         empleado0_.correo as correo4_2_,
+2020-06-24 00:02:38,394 INFO  [stdout] (default task-1)         empleado0_.direccion as direccio5_2_,
+2020-06-24 00:02:38,394 INFO  [stdout] (default task-1)         empleado0_.nombre as nombre6_2_,
+2020-06-24 00:02:38,394 INFO  [stdout] (default task-1)         empleado0_.rol as rol7_2_,
+2020-06-24 00:02:38,394 INFO  [stdout] (default task-1)         empleado0_.telefono as telefono8_2_,
+2020-06-24 00:02:38,394 INFO  [stdout] (default task-1)         empleado0_.usuario as usuario9_2_ 
+2020-06-24 00:02:38,394 INFO  [stdout] (default task-1)     from
+2020-06-24 00:02:38,394 INFO  [stdout] (default task-1)         Empleado empleado0_
+2020-06-24 00:02:38,397 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:02:38,397 INFO  [stdout] (default task-1)     select
+2020-06-24 00:02:38,397 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito as codigoCr1_4_,
+2020-06-24 00:02:38,397 INFO  [stdout] (default task-1)         solicitudd0_.activo as activo2_4_,
+2020-06-24 00:02:38,397 INFO  [stdout] (default task-1)         solicitudd0_.avaluoDeVivienda as avaluoDe3_4_,
+2020-06-24 00:02:38,397 INFO  [stdout] (default task-1)         solicitudd0_.cedulaCliente as cedulaCl4_4_,
+2020-06-24 00:02:38,397 INFO  [stdout] (default task-1)         solicitudd0_.cedula_cliente as cedula_16_4_,
+2020-06-24 00:02:38,397 INFO  [stdout] (default task-1)         solicitudd0_.estadoCivilSexo as estadoCi5_4_,
+2020-06-24 00:02:38,397 INFO  [stdout] (default task-1)         solicitudd0_.estadoCredito as estadoCr6_4_,
+2020-06-24 00:02:38,397 INFO  [stdout] (default task-1)         solicitudd0_.mesesCredito as mesesCre7_4_,
+2020-06-24 00:02:38,397 INFO  [stdout] (default task-1)         solicitudd0_.montoCredito as montoCre8_4_,
+2020-06-24 00:02:38,397 INFO  [stdout] (default task-1)         solicitudd0_.plantillaServicios as plantill9_4_,
+2020-06-24 00:02:38,397 INFO  [stdout] (default task-1)         solicitudd0_.propositoCredito as proposi10_4_,
+2020-06-24 00:02:38,397 INFO  [stdout] (default task-1)         solicitudd0_.rolDePagos as rolDePa11_4_,
+2020-06-24 00:02:38,397 INFO  [stdout] (default task-1)         solicitudd0_.tiempoEmpleo as tiempoE12_4_,
+2020-06-24 00:02:38,397 INFO  [stdout] (default task-1)         solicitudd0_.tipoEmpleo as tipoEmp13_4_,
+2020-06-24 00:02:38,397 INFO  [stdout] (default task-1)         solicitudd0_.tipoVivienda as tipoViv14_4_,
+2020-06-24 00:02:38,397 INFO  [stdout] (default task-1)         solicitudd0_.trabajadorExtranjero as trabaja15_4_ 
+2020-06-24 00:02:38,397 INFO  [stdout] (default task-1)     from
+2020-06-24 00:02:38,397 INFO  [stdout] (default task-1)         SolicitudDeCredito solicitudd0_
+2020-06-24 00:02:38,398 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:02:38,398 INFO  [stdout] (default task-1)     select
+2020-06-24 00:02:38,398 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-06-24 00:02:38,398 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-06-24 00:02:38,398 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-06-24 00:02:38,398 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-06-24 00:02:38,398 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-06-24 00:02:38,398 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-06-24 00:02:38,398 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-06-24 00:02:38,398 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-06-24 00:02:38,398 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-06-24 00:02:38,398 INFO  [stdout] (default task-1)     from
+2020-06-24 00:02:38,398 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-06-24 00:02:38,398 INFO  [stdout] (default task-1)     where
+2020-06-24 00:02:38,398 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-06-24 00:02:41,728 INFO  [stdout] (default task-1) **********/****/--1true
+2020-06-24 00:02:44,654 WARNING [javax.enterprise.resource.webcontainer.jsf.lifecycle] (default task-1) #{empleadosBean.cambio(soli.codigoCredito)}: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer): javax.faces.FacesException: #{empleadosBean.cambio(soli.codigoCredito)}: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer)
+	at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:90)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:71)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:222)
+	at javax.faces.component.UIData.broadcast(UIData.java:1127)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:847)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1395)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:58)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:76)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:177)
+	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:707)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:451)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:52)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.el.MethodNotFoundException: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:68)
+	at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:82)
+	... 58 more
+Caused by: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:69)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:66)
+	... 59 more
+
+2020-06-24 00:02:44,655 SEVERE [javax.enterprise.resource.webcontainer.jsf.context] (default task-1) javax.faces.el.MethodNotFoundException: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:68)
+	at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:82)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:71)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:222)
+	at javax.faces.component.UIData.broadcast(UIData.java:1127)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:847)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1395)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:58)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:76)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:177)
+	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:707)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:451)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:52)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:69)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:66)
+	... 59 more
+
+2020-06-24 00:02:46,165 WARNING [javax.enterprise.resource.webcontainer.jsf.lifecycle] (default task-1) #{empleadosBean.cambio(soli.codigoCredito)}: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer): javax.faces.FacesException: #{empleadosBean.cambio(soli.codigoCredito)}: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer)
+	at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:90)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:71)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:222)
+	at javax.faces.component.UIData.broadcast(UIData.java:1127)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:847)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1395)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:58)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:76)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:177)
+	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:707)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:451)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:52)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.el.MethodNotFoundException: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:68)
+	at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:82)
+	... 58 more
+Caused by: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:69)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:66)
+	... 59 more
+
+2020-06-24 00:02:46,166 SEVERE [javax.enterprise.resource.webcontainer.jsf.context] (default task-1) javax.faces.el.MethodNotFoundException: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:68)
+	at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:82)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:71)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:222)
+	at javax.faces.component.UIData.broadcast(UIData.java:1127)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:847)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1395)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:58)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:76)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:177)
+	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:707)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:451)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:52)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:69)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:66)
+	... 59 more
+
+2020-06-24 00:02:46,804 WARNING [javax.enterprise.resource.webcontainer.jsf.lifecycle] (default task-1) #{empleadosBean.cambio(soli.codigoCredito)}: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer): javax.faces.FacesException: #{empleadosBean.cambio(soli.codigoCredito)}: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer)
+	at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:90)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:71)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:222)
+	at javax.faces.component.UIData.broadcast(UIData.java:1127)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:847)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1395)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:58)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:76)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:177)
+	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:707)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:451)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:52)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.el.MethodNotFoundException: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:68)
+	at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:82)
+	... 58 more
+Caused by: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:69)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:66)
+	... 59 more
+
+2020-06-24 00:02:46,805 SEVERE [javax.enterprise.resource.webcontainer.jsf.context] (default task-1) javax.faces.el.MethodNotFoundException: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:68)
+	at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:82)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:71)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:222)
+	at javax.faces.component.UIData.broadcast(UIData.java:1127)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:847)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1395)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:58)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:76)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:177)
+	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:707)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:451)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:52)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:69)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:66)
+	... 59 more
+
+2020-06-24 00:02:47,501 WARNING [javax.enterprise.resource.webcontainer.jsf.lifecycle] (default task-1) #{empleadosBean.cambio(soli.codigoCredito)}: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer): javax.faces.FacesException: #{empleadosBean.cambio(soli.codigoCredito)}: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer)
+	at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:90)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:71)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:222)
+	at javax.faces.component.UIData.broadcast(UIData.java:1127)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:847)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1395)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:58)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:76)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:177)
+	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:707)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:451)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:52)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.el.MethodNotFoundException: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:68)
+	at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:82)
+	... 58 more
+Caused by: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:69)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:66)
+	... 59 more
+
+2020-06-24 00:02:47,502 SEVERE [javax.enterprise.resource.webcontainer.jsf.context] (default task-1) javax.faces.el.MethodNotFoundException: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:68)
+	at com.sun.faces.application.ActionListenerImpl.getNavigationOutcome(ActionListenerImpl.java:82)
+	at com.sun.faces.application.ActionListenerImpl.processAction(ActionListenerImpl.java:71)
+	at javax.faces.component.UICommand.broadcast(UICommand.java:222)
+	at javax.faces.component.UIData.broadcast(UIData.java:1127)
+	at javax.faces.component.UIViewRoot.broadcastEvents(UIViewRoot.java:847)
+	at javax.faces.component.UIViewRoot.processApplication(UIViewRoot.java:1395)
+	at com.sun.faces.lifecycle.InvokeApplicationPhase.execute(InvokeApplicationPhase.java:58)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:76)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:177)
+	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:707)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:451)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:52)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1504)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:376)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.el.MethodNotFoundException: /PaginaJefeCredito.xhtml @70,57 action="#{empleadosBean.cambio(soli.codigoCredito)}": Method not found: class ec.edu.ups.coopjam.view.EmpleadosBean.cambio(java.lang.Integer)
+	at com.sun.faces.facelets.el.TagMethodExpression.invoke(TagMethodExpression.java:69)
+	at com.sun.faces.application.MethodBindingMethodExpressionAdapter.invoke(MethodBindingMethodExpressionAdapter.java:66)
+	... 59 more
+
+2020-06-24 00:03:17,152 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:03:17,152 INFO  [stdout] (default task-1)     select
+2020-06-24 00:03:17,152 INFO  [stdout] (default task-1)         empleado0_.cedula as cedula1_2_,
+2020-06-24 00:03:17,153 INFO  [stdout] (default task-1)         empleado0_.apellido as apellido2_2_,
+2020-06-24 00:03:17,153 INFO  [stdout] (default task-1)         empleado0_.contrasena as contrase3_2_,
+2020-06-24 00:03:17,153 INFO  [stdout] (default task-1)         empleado0_.correo as correo4_2_,
+2020-06-24 00:03:17,153 INFO  [stdout] (default task-1)         empleado0_.direccion as direccio5_2_,
+2020-06-24 00:03:17,153 INFO  [stdout] (default task-1)         empleado0_.nombre as nombre6_2_,
+2020-06-24 00:03:17,153 INFO  [stdout] (default task-1)         empleado0_.rol as rol7_2_,
+2020-06-24 00:03:17,153 INFO  [stdout] (default task-1)         empleado0_.telefono as telefono8_2_,
+2020-06-24 00:03:17,153 INFO  [stdout] (default task-1)         empleado0_.usuario as usuario9_2_ 
+2020-06-24 00:03:17,153 INFO  [stdout] (default task-1)     from
+2020-06-24 00:03:17,153 INFO  [stdout] (default task-1)         Empleado empleado0_
+2020-06-24 00:03:17,155 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:03:17,155 INFO  [stdout] (default task-1)     select
+2020-06-24 00:03:17,155 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito as codigoCr1_4_,
+2020-06-24 00:03:17,155 INFO  [stdout] (default task-1)         solicitudd0_.activo as activo2_4_,
+2020-06-24 00:03:17,155 INFO  [stdout] (default task-1)         solicitudd0_.avaluoDeVivienda as avaluoDe3_4_,
+2020-06-24 00:03:17,155 INFO  [stdout] (default task-1)         solicitudd0_.cedulaCliente as cedulaCl4_4_,
+2020-06-24 00:03:17,155 INFO  [stdout] (default task-1)         solicitudd0_.cedula_cliente as cedula_16_4_,
+2020-06-24 00:03:17,155 INFO  [stdout] (default task-1)         solicitudd0_.estadoCivilSexo as estadoCi5_4_,
+2020-06-24 00:03:17,155 INFO  [stdout] (default task-1)         solicitudd0_.estadoCredito as estadoCr6_4_,
+2020-06-24 00:03:17,155 INFO  [stdout] (default task-1)         solicitudd0_.mesesCredito as mesesCre7_4_,
+2020-06-24 00:03:17,155 INFO  [stdout] (default task-1)         solicitudd0_.montoCredito as montoCre8_4_,
+2020-06-24 00:03:17,155 INFO  [stdout] (default task-1)         solicitudd0_.plantillaServicios as plantill9_4_,
+2020-06-24 00:03:17,155 INFO  [stdout] (default task-1)         solicitudd0_.propositoCredito as proposi10_4_,
+2020-06-24 00:03:17,155 INFO  [stdout] (default task-1)         solicitudd0_.rolDePagos as rolDePa11_4_,
+2020-06-24 00:03:17,155 INFO  [stdout] (default task-1)         solicitudd0_.tiempoEmpleo as tiempoE12_4_,
+2020-06-24 00:03:17,155 INFO  [stdout] (default task-1)         solicitudd0_.tipoEmpleo as tipoEmp13_4_,
+2020-06-24 00:03:17,155 INFO  [stdout] (default task-1)         solicitudd0_.tipoVivienda as tipoViv14_4_,
+2020-06-24 00:03:17,155 INFO  [stdout] (default task-1)         solicitudd0_.trabajadorExtranjero as trabaja15_4_ 
+2020-06-24 00:03:17,155 INFO  [stdout] (default task-1)     from
+2020-06-24 00:03:17,155 INFO  [stdout] (default task-1)         SolicitudDeCredito solicitudd0_
+2020-06-24 00:03:17,156 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:03:17,156 INFO  [stdout] (default task-1)     select
+2020-06-24 00:03:17,156 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-06-24 00:03:17,156 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-06-24 00:03:17,156 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-06-24 00:03:17,156 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-06-24 00:03:17,156 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-06-24 00:03:17,156 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-06-24 00:03:17,156 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-06-24 00:03:17,156 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-06-24 00:03:17,156 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-06-24 00:03:17,156 INFO  [stdout] (default task-1)     from
+2020-06-24 00:03:17,156 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-06-24 00:03:17,156 INFO  [stdout] (default task-1)     where
+2020-06-24 00:03:17,156 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-06-24 00:03:19,835 INFO  [stdout] (default task-1) **********/****/--1true
+2020-06-24 00:03:34,765 INFO  [stdout] (default task-1) **********/****/--2true
+2020-06-24 00:04:46,064 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 324) WFLYUT0022: Unregistered web context: '/coopjam' from server 'default-server'
+2020-06-24 00:04:46,068 INFO  [org.jboss.as.webservices] (MSC service thread 1-5) WFLYWS0004: Stopping service jboss.ws.endpoint."coopjam.war"."ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP"
+2020-06-24 00:04:46,069 INFO  [org.jboss.as.webservices] (MSC service thread 1-1) WFLYWS0004: Stopping service jboss.ws.endpoint."coopjam.war"."ec.edu.ups.coopjam.servicios.ServicioSOAP"
+2020-06-24 00:04:46,073 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 326) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'coopjam.war#coopjamPersistenceUnit'
+2020-06-24 00:04:46,075 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 326) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@737e18d7
+2020-06-24 00:04:46,075 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 326) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'coopjam.war#coopjamPersistenceUnit'
+2020-06-24 00:04:46,108 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment coopjam.war (runtime-name: coopjam.war) in 46ms
+2020-06-24 00:04:46,127 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "coopjam.war" (runtime-name: "coopjam.war")
+2020-06-24 00:04:51,145 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found coopjam.war in deployment directory. To trigger deployment create a file called coopjam.war.dodeploy
+2020-06-24 00:04:51,147 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "coopjam.war" (runtime-name: "coopjam.war")
+2020-06-24 00:04:51,424 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for coopjamPersistenceUnit
+2020-06-24 00:04:51,479 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 326) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'coopjam.war#coopjamPersistenceUnit'
+2020-06-24 00:04:51,479 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 326) HHH000204: Processing PersistenceUnitInfo [
+	name: coopjamPersistenceUnit
+	...]
+2020-06-24 00:04:51,497 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment coopjam.war
+2020-06-24 00:04:51,511 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'GestionUsuarios' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/GestionUsuarios!ec.edu.ups.coopjam.business.GestionUsuarioLocal
+	java:app/coopjam/GestionUsuarios!ec.edu.ups.coopjam.business.GestionUsuarioLocal
+	java:module/GestionUsuarios!ec.edu.ups.coopjam.business.GestionUsuarioLocal
+	ejb:/coopjam/GestionUsuarios!ec.edu.ups.coopjam.business.GestionUsuarioLocal
+	java:global/coopjam/GestionUsuarios
+	java:app/coopjam/GestionUsuarios
+	java:module/GestionUsuarios
+
+2020-06-24 00:04:51,511 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'EmpleadoDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/EmpleadoDAO!ec.edu.ups.coopjam.data.EmpleadoDAO
+	java:app/coopjam/EmpleadoDAO!ec.edu.ups.coopjam.data.EmpleadoDAO
+	java:module/EmpleadoDAO!ec.edu.ups.coopjam.data.EmpleadoDAO
+	ejb:/coopjam/EmpleadoDAO!ec.edu.ups.coopjam.data.EmpleadoDAO
+	java:global/coopjam/EmpleadoDAO
+	java:app/coopjam/EmpleadoDAO
+	java:module/EmpleadoDAO
+
+2020-06-24 00:04:51,511 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/ClienteDAO!ec.edu.ups.coopjam.data.ClienteDAO
+	java:app/coopjam/ClienteDAO!ec.edu.ups.coopjam.data.ClienteDAO
+	java:module/ClienteDAO!ec.edu.ups.coopjam.data.ClienteDAO
+	ejb:/coopjam/ClienteDAO!ec.edu.ups.coopjam.data.ClienteDAO
+	java:global/coopjam/ClienteDAO
+	java:app/coopjam/ClienteDAO
+	java:module/ClienteDAO
+
+2020-06-24 00:04:51,511 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'CuentaDeAhorroDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/CuentaDeAhorroDAO!ec.edu.ups.coopjam.data.CuentaDeAhorroDAO
+	java:app/coopjam/CuentaDeAhorroDAO!ec.edu.ups.coopjam.data.CuentaDeAhorroDAO
+	java:module/CuentaDeAhorroDAO!ec.edu.ups.coopjam.data.CuentaDeAhorroDAO
+	ejb:/coopjam/CuentaDeAhorroDAO!ec.edu.ups.coopjam.data.CuentaDeAhorroDAO
+	java:global/coopjam/CuentaDeAhorroDAO
+	java:app/coopjam/CuentaDeAhorroDAO
+	java:module/CuentaDeAhorroDAO
+
+2020-06-24 00:04:51,511 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'TransaccionDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/TransaccionDAO!ec.edu.ups.coopjam.data.TransaccionDAO
+	java:app/coopjam/TransaccionDAO!ec.edu.ups.coopjam.data.TransaccionDAO
+	java:module/TransaccionDAO!ec.edu.ups.coopjam.data.TransaccionDAO
+	ejb:/coopjam/TransaccionDAO!ec.edu.ups.coopjam.data.TransaccionDAO
+	java:global/coopjam/TransaccionDAO
+	java:app/coopjam/TransaccionDAO
+	java:module/TransaccionDAO
+
+2020-06-24 00:04:51,511 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'TransferenciaLocalDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/TransferenciaLocalDAO!ec.edu.ups.coopjam.data.TransferenciaLocalDAO
+	java:app/coopjam/TransferenciaLocalDAO!ec.edu.ups.coopjam.data.TransferenciaLocalDAO
+	java:module/TransferenciaLocalDAO!ec.edu.ups.coopjam.data.TransferenciaLocalDAO
+	ejb:/coopjam/TransferenciaLocalDAO!ec.edu.ups.coopjam.data.TransferenciaLocalDAO
+	java:global/coopjam/TransferenciaLocalDAO
+	java:app/coopjam/TransferenciaLocalDAO
+	java:module/TransferenciaLocalDAO
+
+2020-06-24 00:04:51,511 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'SesionClienteDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/SesionClienteDAO!ec.edu.ups.coopjam.data.SesionClienteDAO
+	java:app/coopjam/SesionClienteDAO!ec.edu.ups.coopjam.data.SesionClienteDAO
+	java:module/SesionClienteDAO!ec.edu.ups.coopjam.data.SesionClienteDAO
+	ejb:/coopjam/SesionClienteDAO!ec.edu.ups.coopjam.data.SesionClienteDAO
+	java:global/coopjam/SesionClienteDAO
+	java:app/coopjam/SesionClienteDAO
+	java:module/SesionClienteDAO
+
+2020-06-24 00:04:51,511 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'SolicitudDeCreditoDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/SolicitudDeCreditoDAO!ec.edu.ups.coopjam.data.SolicitudDeCreditoDAO
+	java:app/coopjam/SolicitudDeCreditoDAO!ec.edu.ups.coopjam.data.SolicitudDeCreditoDAO
+	java:module/SolicitudDeCreditoDAO!ec.edu.ups.coopjam.data.SolicitudDeCreditoDAO
+	ejb:/coopjam/SolicitudDeCreditoDAO!ec.edu.ups.coopjam.data.SolicitudDeCreditoDAO
+	java:global/coopjam/SolicitudDeCreditoDAO
+	java:app/coopjam/SolicitudDeCreditoDAO
+	java:module/SolicitudDeCreditoDAO
+
+2020-06-24 00:04:51,683 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-1) JBWS024061: Adding service endpoint metadata: id=ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP
+ address=http://localhost:8080/coopjam/ServiciosBancoSOAP
+ implementor=ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP
+ serviceName={http://servicios.coopjam.ups.edu.ec/}ServiciosBancoSOAPService
+ portName={http://servicios.coopjam.ups.edu.ec/}ServiciosBancoSOAPPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2020-06-24 00:04:51,683 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-1) JBWS024061: Adding service endpoint metadata: id=ec.edu.ups.coopjam.servicios.ServicioSOAP
+ address=http://localhost:8080/coopjam/ServicioSOAP
+ implementor=ec.edu.ups.coopjam.servicios.ServicioSOAP
+ serviceName={http://servicios.coopjam.ups.edu.ec/}ServicioSOAPService
+ portName={http://servicios.coopjam.ups.edu.ec/}ServicioSOAPPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2020-06-24 00:04:51,690 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-1) Creating Service {http://servicios.coopjam.ups.edu.ec/}ServiciosBancoSOAPService from class ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP
+2020-06-24 00:04:51,700 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-1) Setting the server's publish address to be http://localhost:8080/coopjam/ServiciosBancoSOAP
+2020-06-24 00:04:51,703 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-1) JBWS024074: WSDL published to: file:/C:/eclipse/wildfly-18.0.1.Final/standalone/data/wsdl/coopjam.war/ServiciosBancoSOAPService.wsdl
+2020-06-24 00:04:51,704 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-1) Creating Service {http://servicios.coopjam.ups.edu.ec/}ServicioSOAPService from class ec.edu.ups.coopjam.servicios.ServicioSOAP
+2020-06-24 00:04:51,708 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-1) Setting the server's publish address to be http://localhost:8080/coopjam/ServicioSOAP
+2020-06-24 00:04:51,711 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-1) JBWS024074: WSDL published to: file:/C:/eclipse/wildfly-18.0.1.Final/standalone/data/wsdl/coopjam.war/ServicioSOAPService.wsdl
+2020-06-24 00:04:51,723 INFO  [org.jboss.as.webservices] (MSC service thread 1-2) WFLYWS0003: Starting service jboss.ws.endpoint."coopjam.war"."ec.edu.ups.coopjam.servicios.ServicioSOAP"
+2020-06-24 00:04:51,723 INFO  [org.jboss.as.webservices] (MSC service thread 1-1) WFLYWS0003: Starting service jboss.ws.endpoint."coopjam.war"."ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP"
+2020-06-24 00:04:51,732 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 326) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'coopjam.war#coopjamPersistenceUnit'
+2020-06-24 00:04:51,733 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 326) HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-06-24 00:04:51,734 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 326) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2020-06-24 00:04:51,735 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 326) Envers integration enabled? : true
+2020-06-24 00:04:51,917 INFO  [stdout] (ServerService Thread Pool -- 326) Hibernate: 
+2020-06-24 00:04:51,917 INFO  [stdout] (ServerService Thread Pool -- 326)     
+2020-06-24 00:04:51,917 INFO  [stdout] (ServerService Thread Pool -- 326)     alter table TransfereciaLocal 
+2020-06-24 00:04:51,917 INFO  [stdout] (ServerService Thread Pool -- 326)        add constraint FKhayrkyofjl99i2hsiyyh6xbm5 
+2020-06-24 00:04:51,917 INFO  [stdout] (ServerService Thread Pool -- 326)        foreign key (numero_cuenta) 
+2020-06-24 00:04:51,917 INFO  [stdout] (ServerService Thread Pool -- 326)        references CuentaDeAhorro (numero_cuenta)
+2020-06-24 00:04:51,982 WARN  [org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl] (ServerService Thread Pool -- 326) GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table TransfereciaLocal 
+       add constraint FKhayrkyofjl99i2hsiyyh6xbm5 
+       foreign key (numero_cuenta) 
+       references CuentaDeAhorro (numero_cuenta)" via JDBC Statement: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table TransfereciaLocal 
+       add constraint FKhayrkyofjl99i2hsiyyh6xbm5 
+       foreign key (numero_cuenta) 
+       references CuentaDeAhorro (numero_cuenta)" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:559)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:504)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:433)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:249)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:183)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939)
+	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:170)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:128)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:658)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:212)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+Caused by: java.sql.SQLException: Can't create table `baseproyecto`.`transferecialocal` (errno: 150 "Foreign key constraint is incorrectly formed")
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1075)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3566)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3498)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1959)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2113)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2562)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2512)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:781)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:624)
+	at org.jboss.jca.adapters.jdbc.WrappedStatement.execute(WrappedStatement.java:198)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 21 more
+
+2020-06-24 00:04:52,000 INFO  [io.smallrye.metrics] (MSC service thread 1-4) MicroProfile: Metrics activated
+2020-06-24 00:04:52,002 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-4) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-06-24 00:04:52,099 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 326) Inicializando Mojarra 2.3.9.SP04 para el contexto '/coopjam'
+2020-06-24 00:04:52,720 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 326) Running on PrimeFaces 8.0
+2020-06-24 00:04:52,725 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 326) WFLYUT0021: Registered web context: '/coopjam' for server 'default-server'
+2020-06-24 00:04:52,752 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "coopjam.war" (runtime-name : "coopjam.war")
+2020-06-24 00:05:22,771 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 326) WFLYUT0022: Unregistered web context: '/coopjam' from server 'default-server'
+2020-06-24 00:05:22,778 INFO  [org.jboss.as.webservices] (MSC service thread 1-2) WFLYWS0004: Stopping service jboss.ws.endpoint."coopjam.war"."ec.edu.ups.coopjam.servicios.ServicioSOAP"
+2020-06-24 00:05:22,780 INFO  [org.jboss.as.webservices] (MSC service thread 1-2) WFLYWS0004: Stopping service jboss.ws.endpoint."coopjam.war"."ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP"
+2020-06-24 00:05:22,785 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 351) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'coopjam.war#coopjamPersistenceUnit'
+2020-06-24 00:05:22,787 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 351) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@4ee9bc27
+2020-06-24 00:05:22,788 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 351) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'coopjam.war#coopjamPersistenceUnit'
+2020-06-24 00:05:22,821 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment coopjam.war (runtime-name: coopjam.war) in 52ms
+2020-06-24 00:05:22,835 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "coopjam.war" (runtime-name: "coopjam.war")
+2020-06-24 00:05:27,852 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found coopjam.war in deployment directory. To trigger deployment create a file called coopjam.war.dodeploy
+2020-06-24 00:05:27,854 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "coopjam.war" (runtime-name: "coopjam.war")
+2020-06-24 00:05:28,126 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for coopjamPersistenceUnit
+2020-06-24 00:05:28,180 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 351) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'coopjam.war#coopjamPersistenceUnit'
+2020-06-24 00:05:28,180 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 351) HHH000204: Processing PersistenceUnitInfo [
+	name: coopjamPersistenceUnit
+	...]
+2020-06-24 00:05:28,197 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment coopjam.war
+2020-06-24 00:05:28,211 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'GestionUsuarios' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/GestionUsuarios!ec.edu.ups.coopjam.business.GestionUsuarioLocal
+	java:app/coopjam/GestionUsuarios!ec.edu.ups.coopjam.business.GestionUsuarioLocal
+	java:module/GestionUsuarios!ec.edu.ups.coopjam.business.GestionUsuarioLocal
+	ejb:/coopjam/GestionUsuarios!ec.edu.ups.coopjam.business.GestionUsuarioLocal
+	java:global/coopjam/GestionUsuarios
+	java:app/coopjam/GestionUsuarios
+	java:module/GestionUsuarios
+
+2020-06-24 00:05:28,211 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'EmpleadoDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/EmpleadoDAO!ec.edu.ups.coopjam.data.EmpleadoDAO
+	java:app/coopjam/EmpleadoDAO!ec.edu.ups.coopjam.data.EmpleadoDAO
+	java:module/EmpleadoDAO!ec.edu.ups.coopjam.data.EmpleadoDAO
+	ejb:/coopjam/EmpleadoDAO!ec.edu.ups.coopjam.data.EmpleadoDAO
+	java:global/coopjam/EmpleadoDAO
+	java:app/coopjam/EmpleadoDAO
+	java:module/EmpleadoDAO
+
+2020-06-24 00:05:28,211 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/ClienteDAO!ec.edu.ups.coopjam.data.ClienteDAO
+	java:app/coopjam/ClienteDAO!ec.edu.ups.coopjam.data.ClienteDAO
+	java:module/ClienteDAO!ec.edu.ups.coopjam.data.ClienteDAO
+	ejb:/coopjam/ClienteDAO!ec.edu.ups.coopjam.data.ClienteDAO
+	java:global/coopjam/ClienteDAO
+	java:app/coopjam/ClienteDAO
+	java:module/ClienteDAO
+
+2020-06-24 00:05:28,211 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'CuentaDeAhorroDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/CuentaDeAhorroDAO!ec.edu.ups.coopjam.data.CuentaDeAhorroDAO
+	java:app/coopjam/CuentaDeAhorroDAO!ec.edu.ups.coopjam.data.CuentaDeAhorroDAO
+	java:module/CuentaDeAhorroDAO!ec.edu.ups.coopjam.data.CuentaDeAhorroDAO
+	ejb:/coopjam/CuentaDeAhorroDAO!ec.edu.ups.coopjam.data.CuentaDeAhorroDAO
+	java:global/coopjam/CuentaDeAhorroDAO
+	java:app/coopjam/CuentaDeAhorroDAO
+	java:module/CuentaDeAhorroDAO
+
+2020-06-24 00:05:28,212 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'TransaccionDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/TransaccionDAO!ec.edu.ups.coopjam.data.TransaccionDAO
+	java:app/coopjam/TransaccionDAO!ec.edu.ups.coopjam.data.TransaccionDAO
+	java:module/TransaccionDAO!ec.edu.ups.coopjam.data.TransaccionDAO
+	ejb:/coopjam/TransaccionDAO!ec.edu.ups.coopjam.data.TransaccionDAO
+	java:global/coopjam/TransaccionDAO
+	java:app/coopjam/TransaccionDAO
+	java:module/TransaccionDAO
+
+2020-06-24 00:05:28,212 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'TransferenciaLocalDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/TransferenciaLocalDAO!ec.edu.ups.coopjam.data.TransferenciaLocalDAO
+	java:app/coopjam/TransferenciaLocalDAO!ec.edu.ups.coopjam.data.TransferenciaLocalDAO
+	java:module/TransferenciaLocalDAO!ec.edu.ups.coopjam.data.TransferenciaLocalDAO
+	ejb:/coopjam/TransferenciaLocalDAO!ec.edu.ups.coopjam.data.TransferenciaLocalDAO
+	java:global/coopjam/TransferenciaLocalDAO
+	java:app/coopjam/TransferenciaLocalDAO
+	java:module/TransferenciaLocalDAO
+
+2020-06-24 00:05:28,212 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'SesionClienteDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/SesionClienteDAO!ec.edu.ups.coopjam.data.SesionClienteDAO
+	java:app/coopjam/SesionClienteDAO!ec.edu.ups.coopjam.data.SesionClienteDAO
+	java:module/SesionClienteDAO!ec.edu.ups.coopjam.data.SesionClienteDAO
+	ejb:/coopjam/SesionClienteDAO!ec.edu.ups.coopjam.data.SesionClienteDAO
+	java:global/coopjam/SesionClienteDAO
+	java:app/coopjam/SesionClienteDAO
+	java:module/SesionClienteDAO
+
+2020-06-24 00:05:28,212 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'SolicitudDeCreditoDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/SolicitudDeCreditoDAO!ec.edu.ups.coopjam.data.SolicitudDeCreditoDAO
+	java:app/coopjam/SolicitudDeCreditoDAO!ec.edu.ups.coopjam.data.SolicitudDeCreditoDAO
+	java:module/SolicitudDeCreditoDAO!ec.edu.ups.coopjam.data.SolicitudDeCreditoDAO
+	ejb:/coopjam/SolicitudDeCreditoDAO!ec.edu.ups.coopjam.data.SolicitudDeCreditoDAO
+	java:global/coopjam/SolicitudDeCreditoDAO
+	java:app/coopjam/SolicitudDeCreditoDAO
+	java:module/SolicitudDeCreditoDAO
+
+2020-06-24 00:05:28,390 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-3) JBWS024061: Adding service endpoint metadata: id=ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP
+ address=http://localhost:8080/coopjam/ServiciosBancoSOAP
+ implementor=ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP
+ serviceName={http://servicios.coopjam.ups.edu.ec/}ServiciosBancoSOAPService
+ portName={http://servicios.coopjam.ups.edu.ec/}ServiciosBancoSOAPPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2020-06-24 00:05:28,390 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-3) JBWS024061: Adding service endpoint metadata: id=ec.edu.ups.coopjam.servicios.ServicioSOAP
+ address=http://localhost:8080/coopjam/ServicioSOAP
+ implementor=ec.edu.ups.coopjam.servicios.ServicioSOAP
+ serviceName={http://servicios.coopjam.ups.edu.ec/}ServicioSOAPService
+ portName={http://servicios.coopjam.ups.edu.ec/}ServicioSOAPPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2020-06-24 00:05:28,399 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-3) Creating Service {http://servicios.coopjam.ups.edu.ec/}ServiciosBancoSOAPService from class ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP
+2020-06-24 00:05:28,410 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-3) Setting the server's publish address to be http://localhost:8080/coopjam/ServiciosBancoSOAP
+2020-06-24 00:05:28,413 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-3) JBWS024074: WSDL published to: file:/C:/eclipse/wildfly-18.0.1.Final/standalone/data/wsdl/coopjam.war/ServiciosBancoSOAPService.wsdl
+2020-06-24 00:05:28,414 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-3) Creating Service {http://servicios.coopjam.ups.edu.ec/}ServicioSOAPService from class ec.edu.ups.coopjam.servicios.ServicioSOAP
+2020-06-24 00:05:28,419 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-3) Setting the server's publish address to be http://localhost:8080/coopjam/ServicioSOAP
+2020-06-24 00:05:28,421 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-3) JBWS024074: WSDL published to: file:/C:/eclipse/wildfly-18.0.1.Final/standalone/data/wsdl/coopjam.war/ServicioSOAPService.wsdl
+2020-06-24 00:05:28,437 INFO  [org.jboss.as.webservices] (MSC service thread 1-6) WFLYWS0003: Starting service jboss.ws.endpoint."coopjam.war"."ec.edu.ups.coopjam.servicios.ServicioSOAP"
+2020-06-24 00:05:28,437 INFO  [org.jboss.as.webservices] (MSC service thread 1-1) WFLYWS0003: Starting service jboss.ws.endpoint."coopjam.war"."ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP"
+2020-06-24 00:05:28,447 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 351) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'coopjam.war#coopjamPersistenceUnit'
+2020-06-24 00:05:28,448 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 351) HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-06-24 00:05:28,449 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 351) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2020-06-24 00:05:28,450 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 351) Envers integration enabled? : true
+2020-06-24 00:05:28,625 INFO  [stdout] (ServerService Thread Pool -- 351) Hibernate: 
+2020-06-24 00:05:28,625 INFO  [stdout] (ServerService Thread Pool -- 351)     
+2020-06-24 00:05:28,625 INFO  [stdout] (ServerService Thread Pool -- 351)     alter table TransfereciaLocal 
+2020-06-24 00:05:28,625 INFO  [stdout] (ServerService Thread Pool -- 351)        add constraint FKhayrkyofjl99i2hsiyyh6xbm5 
+2020-06-24 00:05:28,625 INFO  [stdout] (ServerService Thread Pool -- 351)        foreign key (numero_cuenta) 
+2020-06-24 00:05:28,625 INFO  [stdout] (ServerService Thread Pool -- 351)        references CuentaDeAhorro (numero_cuenta)
+2020-06-24 00:05:30,248 WARN  [org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl] (ServerService Thread Pool -- 351) GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table TransfereciaLocal 
+       add constraint FKhayrkyofjl99i2hsiyyh6xbm5 
+       foreign key (numero_cuenta) 
+       references CuentaDeAhorro (numero_cuenta)" via JDBC Statement: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table TransfereciaLocal 
+       add constraint FKhayrkyofjl99i2hsiyyh6xbm5 
+       foreign key (numero_cuenta) 
+       references CuentaDeAhorro (numero_cuenta)" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:559)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:504)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:433)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:249)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:183)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939)
+	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:170)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:128)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:658)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:212)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+Caused by: java.sql.SQLException: Can't create table `baseproyecto`.`transferecialocal` (errno: 150 "Foreign key constraint is incorrectly formed")
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1075)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3566)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3498)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1959)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2113)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2562)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2512)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:781)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:624)
+	at org.jboss.jca.adapters.jdbc.WrappedStatement.execute(WrappedStatement.java:198)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 21 more
+
+2020-06-24 00:05:30,277 INFO  [io.smallrye.metrics] (MSC service thread 1-2) MicroProfile: Metrics activated
+2020-06-24 00:05:30,281 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-2) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-06-24 00:05:30,354 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 351) Inicializando Mojarra 2.3.9.SP04 para el contexto '/coopjam'
+2020-06-24 00:05:30,943 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 351) Running on PrimeFaces 8.0
+2020-06-24 00:05:30,946 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 351) WFLYUT0021: Registered web context: '/coopjam' for server 'default-server'
+2020-06-24 00:05:30,967 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "coopjam.war" (runtime-name : "coopjam.war")
+2020-06-24 00:05:39,505 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2020-06-24 00:05:39,506 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:05:39,506 INFO  [stdout] (default task-1)     select
+2020-06-24 00:05:39,506 INFO  [stdout] (default task-1)         empleado0_.cedula as cedula1_2_,
+2020-06-24 00:05:39,506 INFO  [stdout] (default task-1)         empleado0_.apellido as apellido2_2_,
+2020-06-24 00:05:39,506 INFO  [stdout] (default task-1)         empleado0_.contrasena as contrase3_2_,
+2020-06-24 00:05:39,506 INFO  [stdout] (default task-1)         empleado0_.correo as correo4_2_,
+2020-06-24 00:05:39,506 INFO  [stdout] (default task-1)         empleado0_.direccion as direccio5_2_,
+2020-06-24 00:05:39,506 INFO  [stdout] (default task-1)         empleado0_.nombre as nombre6_2_,
+2020-06-24 00:05:39,506 INFO  [stdout] (default task-1)         empleado0_.rol as rol7_2_,
+2020-06-24 00:05:39,506 INFO  [stdout] (default task-1)         empleado0_.telefono as telefono8_2_,
+2020-06-24 00:05:39,506 INFO  [stdout] (default task-1)         empleado0_.usuario as usuario9_2_ 
+2020-06-24 00:05:39,506 INFO  [stdout] (default task-1)     from
+2020-06-24 00:05:39,506 INFO  [stdout] (default task-1)         Empleado empleado0_
+2020-06-24 00:05:39,509 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:05:39,509 INFO  [stdout] (default task-1)     select
+2020-06-24 00:05:39,509 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito as codigoCr1_4_,
+2020-06-24 00:05:39,509 INFO  [stdout] (default task-1)         solicitudd0_.activo as activo2_4_,
+2020-06-24 00:05:39,509 INFO  [stdout] (default task-1)         solicitudd0_.avaluoDeVivienda as avaluoDe3_4_,
+2020-06-24 00:05:39,509 INFO  [stdout] (default task-1)         solicitudd0_.cedulaCliente as cedulaCl4_4_,
+2020-06-24 00:05:39,509 INFO  [stdout] (default task-1)         solicitudd0_.cedula_cliente as cedula_16_4_,
+2020-06-24 00:05:39,509 INFO  [stdout] (default task-1)         solicitudd0_.estadoCivilSexo as estadoCi5_4_,
+2020-06-24 00:05:39,509 INFO  [stdout] (default task-1)         solicitudd0_.estadoCredito as estadoCr6_4_,
+2020-06-24 00:05:39,509 INFO  [stdout] (default task-1)         solicitudd0_.mesesCredito as mesesCre7_4_,
+2020-06-24 00:05:39,509 INFO  [stdout] (default task-1)         solicitudd0_.montoCredito as montoCre8_4_,
+2020-06-24 00:05:39,509 INFO  [stdout] (default task-1)         solicitudd0_.plantillaServicios as plantill9_4_,
+2020-06-24 00:05:39,509 INFO  [stdout] (default task-1)         solicitudd0_.propositoCredito as proposi10_4_,
+2020-06-24 00:05:39,509 INFO  [stdout] (default task-1)         solicitudd0_.rolDePagos as rolDePa11_4_,
+2020-06-24 00:05:39,509 INFO  [stdout] (default task-1)         solicitudd0_.tiempoEmpleo as tiempoE12_4_,
+2020-06-24 00:05:39,509 INFO  [stdout] (default task-1)         solicitudd0_.tipoEmpleo as tipoEmp13_4_,
+2020-06-24 00:05:39,509 INFO  [stdout] (default task-1)         solicitudd0_.tipoVivienda as tipoViv14_4_,
+2020-06-24 00:05:39,509 INFO  [stdout] (default task-1)         solicitudd0_.trabajadorExtranjero as trabaja15_4_ 
+2020-06-24 00:05:39,509 INFO  [stdout] (default task-1)     from
+2020-06-24 00:05:39,509 INFO  [stdout] (default task-1)         SolicitudDeCredito solicitudd0_
+2020-06-24 00:05:39,510 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:05:39,510 INFO  [stdout] (default task-1)     select
+2020-06-24 00:05:39,510 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-06-24 00:05:39,510 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-06-24 00:05:39,510 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-06-24 00:05:39,510 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-06-24 00:05:39,510 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-06-24 00:05:39,510 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-06-24 00:05:39,510 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-06-24 00:05:39,510 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-06-24 00:05:39,510 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-06-24 00:05:39,510 INFO  [stdout] (default task-1)     from
+2020-06-24 00:05:39,510 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-06-24 00:05:39,510 INFO  [stdout] (default task-1)     where
+2020-06-24 00:05:39,510 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-06-24 00:05:47,839 INFO  [stdout] (default task-1) **********/****/--1true
+2020-06-24 00:06:01,044 INFO  [stdout] (default task-1) 1
+2020-06-24 00:06:01,046 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:06:01,046 INFO  [stdout] (default task-1)     select
+2020-06-24 00:06:01,046 INFO  [stdout] (default task-1)         empleado0_.cedula as cedula1_2_,
+2020-06-24 00:06:01,046 INFO  [stdout] (default task-1)         empleado0_.apellido as apellido2_2_,
+2020-06-24 00:06:01,046 INFO  [stdout] (default task-1)         empleado0_.contrasena as contrase3_2_,
+2020-06-24 00:06:01,046 INFO  [stdout] (default task-1)         empleado0_.correo as correo4_2_,
+2020-06-24 00:06:01,046 INFO  [stdout] (default task-1)         empleado0_.direccion as direccio5_2_,
+2020-06-24 00:06:01,046 INFO  [stdout] (default task-1)         empleado0_.nombre as nombre6_2_,
+2020-06-24 00:06:01,046 INFO  [stdout] (default task-1)         empleado0_.rol as rol7_2_,
+2020-06-24 00:06:01,046 INFO  [stdout] (default task-1)         empleado0_.telefono as telefono8_2_,
+2020-06-24 00:06:01,046 INFO  [stdout] (default task-1)         empleado0_.usuario as usuario9_2_ 
+2020-06-24 00:06:01,046 INFO  [stdout] (default task-1)     from
+2020-06-24 00:06:01,046 INFO  [stdout] (default task-1)         Empleado empleado0_
+2020-06-24 00:06:01,048 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:06:01,048 INFO  [stdout] (default task-1)     select
+2020-06-24 00:06:01,048 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito as codigoCr1_4_,
+2020-06-24 00:06:01,048 INFO  [stdout] (default task-1)         solicitudd0_.activo as activo2_4_,
+2020-06-24 00:06:01,048 INFO  [stdout] (default task-1)         solicitudd0_.avaluoDeVivienda as avaluoDe3_4_,
+2020-06-24 00:06:01,048 INFO  [stdout] (default task-1)         solicitudd0_.cedulaCliente as cedulaCl4_4_,
+2020-06-24 00:06:01,048 INFO  [stdout] (default task-1)         solicitudd0_.cedula_cliente as cedula_16_4_,
+2020-06-24 00:06:01,048 INFO  [stdout] (default task-1)         solicitudd0_.estadoCivilSexo as estadoCi5_4_,
+2020-06-24 00:06:01,048 INFO  [stdout] (default task-1)         solicitudd0_.estadoCredito as estadoCr6_4_,
+2020-06-24 00:06:01,048 INFO  [stdout] (default task-1)         solicitudd0_.mesesCredito as mesesCre7_4_,
+2020-06-24 00:06:01,048 INFO  [stdout] (default task-1)         solicitudd0_.montoCredito as montoCre8_4_,
+2020-06-24 00:06:01,048 INFO  [stdout] (default task-1)         solicitudd0_.plantillaServicios as plantill9_4_,
+2020-06-24 00:06:01,048 INFO  [stdout] (default task-1)         solicitudd0_.propositoCredito as proposi10_4_,
+2020-06-24 00:06:01,048 INFO  [stdout] (default task-1)         solicitudd0_.rolDePagos as rolDePa11_4_,
+2020-06-24 00:06:01,048 INFO  [stdout] (default task-1)         solicitudd0_.tiempoEmpleo as tiempoE12_4_,
+2020-06-24 00:06:01,048 INFO  [stdout] (default task-1)         solicitudd0_.tipoEmpleo as tipoEmp13_4_,
+2020-06-24 00:06:01,048 INFO  [stdout] (default task-1)         solicitudd0_.tipoVivienda as tipoViv14_4_,
+2020-06-24 00:06:01,048 INFO  [stdout] (default task-1)         solicitudd0_.trabajadorExtranjero as trabaja15_4_ 
+2020-06-24 00:06:01,048 INFO  [stdout] (default task-1)     from
+2020-06-24 00:06:01,048 INFO  [stdout] (default task-1)         SolicitudDeCredito solicitudd0_
+2020-06-24 00:06:01,049 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:06:01,049 INFO  [stdout] (default task-1)     select
+2020-06-24 00:06:01,049 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-06-24 00:06:01,049 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-06-24 00:06:01,049 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-06-24 00:06:01,049 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-06-24 00:06:01,049 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-06-24 00:06:01,049 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-06-24 00:06:01,049 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-06-24 00:06:01,049 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-06-24 00:06:01,049 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-06-24 00:06:01,049 INFO  [stdout] (default task-1)     from
+2020-06-24 00:06:01,049 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-06-24 00:06:01,049 INFO  [stdout] (default task-1)     where
+2020-06-24 00:06:01,049 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-06-24 00:06:10,807 INFO  [stdout] (default task-1) **********/****/--2true
+2020-06-24 00:06:14,953 INFO  [stdout] (default task-1) **********/****/--1true
+2020-06-24 00:06:16,310 INFO  [stdout] (default task-1) **********/****/--2true
+2020-06-24 00:06:21,386 INFO  [stdout] (default task-1) 2
+2020-06-24 00:06:21,388 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:06:21,388 INFO  [stdout] (default task-1)     select
+2020-06-24 00:06:21,388 INFO  [stdout] (default task-1)         empleado0_.cedula as cedula1_2_,
+2020-06-24 00:06:21,388 INFO  [stdout] (default task-1)         empleado0_.apellido as apellido2_2_,
+2020-06-24 00:06:21,388 INFO  [stdout] (default task-1)         empleado0_.contrasena as contrase3_2_,
+2020-06-24 00:06:21,388 INFO  [stdout] (default task-1)         empleado0_.correo as correo4_2_,
+2020-06-24 00:06:21,388 INFO  [stdout] (default task-1)         empleado0_.direccion as direccio5_2_,
+2020-06-24 00:06:21,388 INFO  [stdout] (default task-1)         empleado0_.nombre as nombre6_2_,
+2020-06-24 00:06:21,388 INFO  [stdout] (default task-1)         empleado0_.rol as rol7_2_,
+2020-06-24 00:06:21,388 INFO  [stdout] (default task-1)         empleado0_.telefono as telefono8_2_,
+2020-06-24 00:06:21,388 INFO  [stdout] (default task-1)         empleado0_.usuario as usuario9_2_ 
+2020-06-24 00:06:21,388 INFO  [stdout] (default task-1)     from
+2020-06-24 00:06:21,388 INFO  [stdout] (default task-1)         Empleado empleado0_
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1)     select
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito as codigoCr1_4_,
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1)         solicitudd0_.activo as activo2_4_,
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1)         solicitudd0_.avaluoDeVivienda as avaluoDe3_4_,
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1)         solicitudd0_.cedulaCliente as cedulaCl4_4_,
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1)         solicitudd0_.cedula_cliente as cedula_16_4_,
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1)         solicitudd0_.estadoCivilSexo as estadoCi5_4_,
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1)         solicitudd0_.estadoCredito as estadoCr6_4_,
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1)         solicitudd0_.mesesCredito as mesesCre7_4_,
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1)         solicitudd0_.montoCredito as montoCre8_4_,
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1)         solicitudd0_.plantillaServicios as plantill9_4_,
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1)         solicitudd0_.propositoCredito as proposi10_4_,
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1)         solicitudd0_.rolDePagos as rolDePa11_4_,
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1)         solicitudd0_.tiempoEmpleo as tiempoE12_4_,
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1)         solicitudd0_.tipoEmpleo as tipoEmp13_4_,
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1)         solicitudd0_.tipoVivienda as tipoViv14_4_,
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1)         solicitudd0_.trabajadorExtranjero as trabaja15_4_ 
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1)     from
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1)         SolicitudDeCredito solicitudd0_
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:06:21,390 INFO  [stdout] (default task-1)     select
+2020-06-24 00:06:21,391 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-06-24 00:06:21,391 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-06-24 00:06:21,391 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-06-24 00:06:21,391 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-06-24 00:06:21,391 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-06-24 00:06:21,391 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-06-24 00:06:21,391 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-06-24 00:06:21,391 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-06-24 00:06:21,391 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-06-24 00:06:21,391 INFO  [stdout] (default task-1)     from
+2020-06-24 00:06:21,391 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-06-24 00:06:21,391 INFO  [stdout] (default task-1)     where
+2020-06-24 00:06:21,391 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-06-24 00:08:26,065 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 355) WFLYUT0022: Unregistered web context: '/coopjam' from server 'default-server'
+2020-06-24 00:08:26,070 INFO  [org.jboss.as.webservices] (MSC service thread 1-5) WFLYWS0004: Stopping service jboss.ws.endpoint."coopjam.war"."ec.edu.ups.coopjam.servicios.ServicioSOAP"
+2020-06-24 00:08:26,071 INFO  [org.jboss.as.webservices] (MSC service thread 1-2) WFLYWS0004: Stopping service jboss.ws.endpoint."coopjam.war"."ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP"
+2020-06-24 00:08:26,078 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 359) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'coopjam.war#coopjamPersistenceUnit'
+2020-06-24 00:08:26,079 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 359) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@6b57566e
+2020-06-24 00:08:26,080 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 359) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'coopjam.war#coopjamPersistenceUnit'
+2020-06-24 00:08:26,113 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment coopjam.war (runtime-name: coopjam.war) in 50ms
+2020-06-24 00:08:26,129 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "coopjam.war" (runtime-name: "coopjam.war")
+2020-06-24 00:08:31,147 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found coopjam.war in deployment directory. To trigger deployment create a file called coopjam.war.dodeploy
+2020-06-24 00:08:31,149 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "coopjam.war" (runtime-name: "coopjam.war")
+2020-06-24 00:08:31,431 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for coopjamPersistenceUnit
+2020-06-24 00:08:31,498 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 359) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'coopjam.war#coopjamPersistenceUnit'
+2020-06-24 00:08:31,498 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 359) HHH000204: Processing PersistenceUnitInfo [
+	name: coopjamPersistenceUnit
+	...]
+2020-06-24 00:08:31,518 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment coopjam.war
+2020-06-24 00:08:31,534 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'GestionUsuarios' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/GestionUsuarios!ec.edu.ups.coopjam.business.GestionUsuarioLocal
+	java:app/coopjam/GestionUsuarios!ec.edu.ups.coopjam.business.GestionUsuarioLocal
+	java:module/GestionUsuarios!ec.edu.ups.coopjam.business.GestionUsuarioLocal
+	ejb:/coopjam/GestionUsuarios!ec.edu.ups.coopjam.business.GestionUsuarioLocal
+	java:global/coopjam/GestionUsuarios
+	java:app/coopjam/GestionUsuarios
+	java:module/GestionUsuarios
+
+2020-06-24 00:08:31,534 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'EmpleadoDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/EmpleadoDAO!ec.edu.ups.coopjam.data.EmpleadoDAO
+	java:app/coopjam/EmpleadoDAO!ec.edu.ups.coopjam.data.EmpleadoDAO
+	java:module/EmpleadoDAO!ec.edu.ups.coopjam.data.EmpleadoDAO
+	ejb:/coopjam/EmpleadoDAO!ec.edu.ups.coopjam.data.EmpleadoDAO
+	java:global/coopjam/EmpleadoDAO
+	java:app/coopjam/EmpleadoDAO
+	java:module/EmpleadoDAO
+
+2020-06-24 00:08:31,534 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/ClienteDAO!ec.edu.ups.coopjam.data.ClienteDAO
+	java:app/coopjam/ClienteDAO!ec.edu.ups.coopjam.data.ClienteDAO
+	java:module/ClienteDAO!ec.edu.ups.coopjam.data.ClienteDAO
+	ejb:/coopjam/ClienteDAO!ec.edu.ups.coopjam.data.ClienteDAO
+	java:global/coopjam/ClienteDAO
+	java:app/coopjam/ClienteDAO
+	java:module/ClienteDAO
+
+2020-06-24 00:08:31,534 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'CuentaDeAhorroDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/CuentaDeAhorroDAO!ec.edu.ups.coopjam.data.CuentaDeAhorroDAO
+	java:app/coopjam/CuentaDeAhorroDAO!ec.edu.ups.coopjam.data.CuentaDeAhorroDAO
+	java:module/CuentaDeAhorroDAO!ec.edu.ups.coopjam.data.CuentaDeAhorroDAO
+	ejb:/coopjam/CuentaDeAhorroDAO!ec.edu.ups.coopjam.data.CuentaDeAhorroDAO
+	java:global/coopjam/CuentaDeAhorroDAO
+	java:app/coopjam/CuentaDeAhorroDAO
+	java:module/CuentaDeAhorroDAO
+
+2020-06-24 00:08:31,534 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'TransaccionDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/TransaccionDAO!ec.edu.ups.coopjam.data.TransaccionDAO
+	java:app/coopjam/TransaccionDAO!ec.edu.ups.coopjam.data.TransaccionDAO
+	java:module/TransaccionDAO!ec.edu.ups.coopjam.data.TransaccionDAO
+	ejb:/coopjam/TransaccionDAO!ec.edu.ups.coopjam.data.TransaccionDAO
+	java:global/coopjam/TransaccionDAO
+	java:app/coopjam/TransaccionDAO
+	java:module/TransaccionDAO
+
+2020-06-24 00:08:31,534 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'TransferenciaLocalDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/TransferenciaLocalDAO!ec.edu.ups.coopjam.data.TransferenciaLocalDAO
+	java:app/coopjam/TransferenciaLocalDAO!ec.edu.ups.coopjam.data.TransferenciaLocalDAO
+	java:module/TransferenciaLocalDAO!ec.edu.ups.coopjam.data.TransferenciaLocalDAO
+	ejb:/coopjam/TransferenciaLocalDAO!ec.edu.ups.coopjam.data.TransferenciaLocalDAO
+	java:global/coopjam/TransferenciaLocalDAO
+	java:app/coopjam/TransferenciaLocalDAO
+	java:module/TransferenciaLocalDAO
+
+2020-06-24 00:08:31,534 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'SesionClienteDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/SesionClienteDAO!ec.edu.ups.coopjam.data.SesionClienteDAO
+	java:app/coopjam/SesionClienteDAO!ec.edu.ups.coopjam.data.SesionClienteDAO
+	java:module/SesionClienteDAO!ec.edu.ups.coopjam.data.SesionClienteDAO
+	ejb:/coopjam/SesionClienteDAO!ec.edu.ups.coopjam.data.SesionClienteDAO
+	java:global/coopjam/SesionClienteDAO
+	java:app/coopjam/SesionClienteDAO
+	java:module/SesionClienteDAO
+
+2020-06-24 00:08:31,534 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'SolicitudDeCreditoDAO' in deployment unit 'deployment "coopjam.war"' are as follows:
+
+	java:global/coopjam/SolicitudDeCreditoDAO!ec.edu.ups.coopjam.data.SolicitudDeCreditoDAO
+	java:app/coopjam/SolicitudDeCreditoDAO!ec.edu.ups.coopjam.data.SolicitudDeCreditoDAO
+	java:module/SolicitudDeCreditoDAO!ec.edu.ups.coopjam.data.SolicitudDeCreditoDAO
+	ejb:/coopjam/SolicitudDeCreditoDAO!ec.edu.ups.coopjam.data.SolicitudDeCreditoDAO
+	java:global/coopjam/SolicitudDeCreditoDAO
+	java:app/coopjam/SolicitudDeCreditoDAO
+	java:module/SolicitudDeCreditoDAO
+
+2020-06-24 00:08:31,702 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-4) JBWS024061: Adding service endpoint metadata: id=ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP
+ address=http://localhost:8080/coopjam/ServiciosBancoSOAP
+ implementor=ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP
+ serviceName={http://servicios.coopjam.ups.edu.ec/}ServiciosBancoSOAPService
+ portName={http://servicios.coopjam.ups.edu.ec/}ServiciosBancoSOAPPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2020-06-24 00:08:31,702 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-4) JBWS024061: Adding service endpoint metadata: id=ec.edu.ups.coopjam.servicios.ServicioSOAP
+ address=http://localhost:8080/coopjam/ServicioSOAP
+ implementor=ec.edu.ups.coopjam.servicios.ServicioSOAP
+ serviceName={http://servicios.coopjam.ups.edu.ec/}ServicioSOAPService
+ portName={http://servicios.coopjam.ups.edu.ec/}ServicioSOAPPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2020-06-24 00:08:31,709 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-4) Creating Service {http://servicios.coopjam.ups.edu.ec/}ServiciosBancoSOAPService from class ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP
+2020-06-24 00:08:31,720 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-4) Setting the server's publish address to be http://localhost:8080/coopjam/ServiciosBancoSOAP
+2020-06-24 00:08:31,723 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-4) JBWS024074: WSDL published to: file:/C:/eclipse/wildfly-18.0.1.Final/standalone/data/wsdl/coopjam.war/ServiciosBancoSOAPService.wsdl
+2020-06-24 00:08:31,723 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-4) Creating Service {http://servicios.coopjam.ups.edu.ec/}ServicioSOAPService from class ec.edu.ups.coopjam.servicios.ServicioSOAP
+2020-06-24 00:08:31,729 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-4) Setting the server's publish address to be http://localhost:8080/coopjam/ServicioSOAP
+2020-06-24 00:08:31,731 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-4) JBWS024074: WSDL published to: file:/C:/eclipse/wildfly-18.0.1.Final/standalone/data/wsdl/coopjam.war/ServicioSOAPService.wsdl
+2020-06-24 00:08:31,745 INFO  [org.jboss.as.webservices] (MSC service thread 1-4) WFLYWS0003: Starting service jboss.ws.endpoint."coopjam.war"."ec.edu.ups.coopjam.servicios.ServiciosBancoSOAP"
+2020-06-24 00:08:31,745 INFO  [org.jboss.as.webservices] (MSC service thread 1-2) WFLYWS0003: Starting service jboss.ws.endpoint."coopjam.war"."ec.edu.ups.coopjam.servicios.ServicioSOAP"
+2020-06-24 00:08:31,754 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 359) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'coopjam.war#coopjamPersistenceUnit'
+2020-06-24 00:08:31,756 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 359) HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-06-24 00:08:31,757 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 359) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2020-06-24 00:08:31,758 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 359) Envers integration enabled? : true
+2020-06-24 00:08:31,950 INFO  [stdout] (ServerService Thread Pool -- 359) Hibernate: 
+2020-06-24 00:08:31,950 INFO  [stdout] (ServerService Thread Pool -- 359)     
+2020-06-24 00:08:31,950 INFO  [stdout] (ServerService Thread Pool -- 359)     alter table TransfereciaLocal 
+2020-06-24 00:08:31,950 INFO  [stdout] (ServerService Thread Pool -- 359)        add constraint FKhayrkyofjl99i2hsiyyh6xbm5 
+2020-06-24 00:08:31,950 INFO  [stdout] (ServerService Thread Pool -- 359)        foreign key (numero_cuenta) 
+2020-06-24 00:08:31,950 INFO  [stdout] (ServerService Thread Pool -- 359)        references CuentaDeAhorro (numero_cuenta)
+2020-06-24 00:08:32,020 WARN  [org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl] (ServerService Thread Pool -- 359) GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table TransfereciaLocal 
+       add constraint FKhayrkyofjl99i2hsiyyh6xbm5 
+       foreign key (numero_cuenta) 
+       references CuentaDeAhorro (numero_cuenta)" via JDBC Statement: org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table TransfereciaLocal 
+       add constraint FKhayrkyofjl99i2hsiyyh6xbm5 
+       foreign key (numero_cuenta) 
+       references CuentaDeAhorro (numero_cuenta)" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:559)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:504)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:433)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:249)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:183)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:72)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:310)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:467)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:939)
+	at org.jboss.as.jpa.hibernate5.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:170)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:128)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:658)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:212)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+Caused by: java.sql.SQLException: Can't create table `baseproyecto`.`transferecialocal` (errno: 150 "Foreign key constraint is incorrectly formed")
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1075)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3566)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3498)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1959)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2113)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2562)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2512)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:781)
+	at com.mysql.jdbc.StatementImpl.execute(StatementImpl.java:624)
+	at org.jboss.jca.adapters.jdbc.WrappedStatement.execute(WrappedStatement.java:198)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 21 more
+
+2020-06-24 00:08:32,037 INFO  [io.smallrye.metrics] (MSC service thread 1-2) MicroProfile: Metrics activated
+2020-06-24 00:08:32,039 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-2) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2020-06-24 00:08:32,111 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 359) Inicializando Mojarra 2.3.9.SP04 para el contexto '/coopjam'
+2020-06-24 00:08:32,728 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 359) Running on PrimeFaces 8.0
+2020-06-24 00:08:32,731 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 359) WFLYUT0021: Registered web context: '/coopjam' for server 'default-server'
+2020-06-24 00:08:32,755 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "coopjam.war" (runtime-name : "coopjam.war")
+2020-06-24 00:08:50,649 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2020-06-24 00:08:50,649 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:08:50,650 INFO  [stdout] (default task-1)     select
+2020-06-24 00:08:50,650 INFO  [stdout] (default task-1)         empleado0_.cedula as cedula1_2_,
+2020-06-24 00:08:50,650 INFO  [stdout] (default task-1)         empleado0_.apellido as apellido2_2_,
+2020-06-24 00:08:50,650 INFO  [stdout] (default task-1)         empleado0_.contrasena as contrase3_2_,
+2020-06-24 00:08:50,650 INFO  [stdout] (default task-1)         empleado0_.correo as correo4_2_,
+2020-06-24 00:08:50,650 INFO  [stdout] (default task-1)         empleado0_.direccion as direccio5_2_,
+2020-06-24 00:08:50,650 INFO  [stdout] (default task-1)         empleado0_.nombre as nombre6_2_,
+2020-06-24 00:08:50,650 INFO  [stdout] (default task-1)         empleado0_.rol as rol7_2_,
+2020-06-24 00:08:50,650 INFO  [stdout] (default task-1)         empleado0_.telefono as telefono8_2_,
+2020-06-24 00:08:50,650 INFO  [stdout] (default task-1)         empleado0_.usuario as usuario9_2_ 
+2020-06-24 00:08:50,650 INFO  [stdout] (default task-1)     from
+2020-06-24 00:08:50,650 INFO  [stdout] (default task-1)         Empleado empleado0_
+2020-06-24 00:08:50,654 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:08:50,654 INFO  [stdout] (default task-1)     select
+2020-06-24 00:08:50,654 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito as codigoCr1_4_,
+2020-06-24 00:08:50,654 INFO  [stdout] (default task-1)         solicitudd0_.activo as activo2_4_,
+2020-06-24 00:08:50,654 INFO  [stdout] (default task-1)         solicitudd0_.avaluoDeVivienda as avaluoDe3_4_,
+2020-06-24 00:08:50,654 INFO  [stdout] (default task-1)         solicitudd0_.cedulaCliente as cedulaCl4_4_,
+2020-06-24 00:08:50,654 INFO  [stdout] (default task-1)         solicitudd0_.cedula_cliente as cedula_16_4_,
+2020-06-24 00:08:50,654 INFO  [stdout] (default task-1)         solicitudd0_.estadoCivilSexo as estadoCi5_4_,
+2020-06-24 00:08:50,654 INFO  [stdout] (default task-1)         solicitudd0_.estadoCredito as estadoCr6_4_,
+2020-06-24 00:08:50,654 INFO  [stdout] (default task-1)         solicitudd0_.mesesCredito as mesesCre7_4_,
+2020-06-24 00:08:50,654 INFO  [stdout] (default task-1)         solicitudd0_.montoCredito as montoCre8_4_,
+2020-06-24 00:08:50,654 INFO  [stdout] (default task-1)         solicitudd0_.plantillaServicios as plantill9_4_,
+2020-06-24 00:08:50,654 INFO  [stdout] (default task-1)         solicitudd0_.propositoCredito as proposi10_4_,
+2020-06-24 00:08:50,654 INFO  [stdout] (default task-1)         solicitudd0_.rolDePagos as rolDePa11_4_,
+2020-06-24 00:08:50,654 INFO  [stdout] (default task-1)         solicitudd0_.tiempoEmpleo as tiempoE12_4_,
+2020-06-24 00:08:50,654 INFO  [stdout] (default task-1)         solicitudd0_.tipoEmpleo as tipoEmp13_4_,
+2020-06-24 00:08:50,654 INFO  [stdout] (default task-1)         solicitudd0_.tipoVivienda as tipoViv14_4_,
+2020-06-24 00:08:50,654 INFO  [stdout] (default task-1)         solicitudd0_.trabajadorExtranjero as trabaja15_4_ 
+2020-06-24 00:08:50,654 INFO  [stdout] (default task-1)     from
+2020-06-24 00:08:50,654 INFO  [stdout] (default task-1)         SolicitudDeCredito solicitudd0_
+2020-06-24 00:08:50,656 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:08:50,656 INFO  [stdout] (default task-1)     select
+2020-06-24 00:08:50,656 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-06-24 00:08:50,656 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-06-24 00:08:50,656 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-06-24 00:08:50,656 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-06-24 00:08:50,656 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-06-24 00:08:50,656 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-06-24 00:08:50,656 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-06-24 00:08:50,656 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-06-24 00:08:50,656 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-06-24 00:08:50,656 INFO  [stdout] (default task-1)     from
+2020-06-24 00:08:50,656 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-06-24 00:08:50,656 INFO  [stdout] (default task-1)     where
+2020-06-24 00:08:50,656 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-06-24 00:08:57,115 INFO  [stdout] (default task-1) **********/****/--1true
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1)     select
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito as codigoCr1_4_0_,
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1)         solicitudd0_.activo as activo2_4_0_,
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1)         solicitudd0_.avaluoDeVivienda as avaluoDe3_4_0_,
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1)         solicitudd0_.cedulaCliente as cedulaCl4_4_0_,
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1)         solicitudd0_.cedula_cliente as cedula_16_4_0_,
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1)         solicitudd0_.estadoCivilSexo as estadoCi5_4_0_,
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1)         solicitudd0_.estadoCredito as estadoCr6_4_0_,
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1)         solicitudd0_.mesesCredito as mesesCre7_4_0_,
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1)         solicitudd0_.montoCredito as montoCre8_4_0_,
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1)         solicitudd0_.plantillaServicios as plantill9_4_0_,
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1)         solicitudd0_.propositoCredito as proposi10_4_0_,
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1)         solicitudd0_.rolDePagos as rolDePa11_4_0_,
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1)         solicitudd0_.tiempoEmpleo as tiempoE12_4_0_,
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1)         solicitudd0_.tipoEmpleo as tipoEmp13_4_0_,
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1)         solicitudd0_.tipoVivienda as tipoViv14_4_0_,
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1)         solicitudd0_.trabajadorExtranjero as trabaja15_4_0_ 
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1)     from
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1)         SolicitudDeCredito solicitudd0_ 
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1)     where
+2020-06-24 00:09:19,953 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito=?
+2020-06-24 00:09:19,954 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:09:19,954 INFO  [stdout] (default task-1)     select
+2020-06-24 00:09:19,954 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-06-24 00:09:19,954 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-06-24 00:09:19,954 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-06-24 00:09:19,954 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-06-24 00:09:19,954 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-06-24 00:09:19,954 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-06-24 00:09:19,954 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-06-24 00:09:19,954 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-06-24 00:09:19,954 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-06-24 00:09:19,954 INFO  [stdout] (default task-1)     from
+2020-06-24 00:09:19,954 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-06-24 00:09:19,954 INFO  [stdout] (default task-1)     where
+2020-06-24 00:09:19,954 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-06-24 00:09:19,960 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:09:19,960 INFO  [stdout] (default task-1)     update
+2020-06-24 00:09:19,960 INFO  [stdout] (default task-1)         SolicitudDeCredito 
+2020-06-24 00:09:19,960 INFO  [stdout] (default task-1)     set
+2020-06-24 00:09:19,960 INFO  [stdout] (default task-1)         activo=?,
+2020-06-24 00:09:19,960 INFO  [stdout] (default task-1)         avaluoDeVivienda=?,
+2020-06-24 00:09:19,960 INFO  [stdout] (default task-1)         cedulaCliente=?,
+2020-06-24 00:09:19,961 INFO  [stdout] (default task-1)         cedula_cliente=?,
+2020-06-24 00:09:19,961 INFO  [stdout] (default task-1)         estadoCivilSexo=?,
+2020-06-24 00:09:19,961 INFO  [stdout] (default task-1)         estadoCredito=?,
+2020-06-24 00:09:19,961 INFO  [stdout] (default task-1)         mesesCredito=?,
+2020-06-24 00:09:19,961 INFO  [stdout] (default task-1)         montoCredito=?,
+2020-06-24 00:09:19,961 INFO  [stdout] (default task-1)         plantillaServicios=?,
+2020-06-24 00:09:19,961 INFO  [stdout] (default task-1)         propositoCredito=?,
+2020-06-24 00:09:19,961 INFO  [stdout] (default task-1)         rolDePagos=?,
+2020-06-24 00:09:19,961 INFO  [stdout] (default task-1)         tiempoEmpleo=?,
+2020-06-24 00:09:19,961 INFO  [stdout] (default task-1)         tipoEmpleo=?,
+2020-06-24 00:09:19,961 INFO  [stdout] (default task-1)         tipoVivienda=?,
+2020-06-24 00:09:19,961 INFO  [stdout] (default task-1)         trabajadorExtranjero=? 
+2020-06-24 00:09:19,961 INFO  [stdout] (default task-1)     where
+2020-06-24 00:09:19,961 INFO  [stdout] (default task-1)         codigoCredito=?
+2020-06-24 00:09:19,968 INFO  [stdout] (default task-1) null
+2020-06-24 00:09:19,970 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:09:19,970 INFO  [stdout] (default task-1)     select
+2020-06-24 00:09:19,970 INFO  [stdout] (default task-1)         empleado0_.cedula as cedula1_2_,
+2020-06-24 00:09:19,970 INFO  [stdout] (default task-1)         empleado0_.apellido as apellido2_2_,
+2020-06-24 00:09:19,970 INFO  [stdout] (default task-1)         empleado0_.contrasena as contrase3_2_,
+2020-06-24 00:09:19,970 INFO  [stdout] (default task-1)         empleado0_.correo as correo4_2_,
+2020-06-24 00:09:19,970 INFO  [stdout] (default task-1)         empleado0_.direccion as direccio5_2_,
+2020-06-24 00:09:19,970 INFO  [stdout] (default task-1)         empleado0_.nombre as nombre6_2_,
+2020-06-24 00:09:19,970 INFO  [stdout] (default task-1)         empleado0_.rol as rol7_2_,
+2020-06-24 00:09:19,970 INFO  [stdout] (default task-1)         empleado0_.telefono as telefono8_2_,
+2020-06-24 00:09:19,970 INFO  [stdout] (default task-1)         empleado0_.usuario as usuario9_2_ 
+2020-06-24 00:09:19,970 INFO  [stdout] (default task-1)     from
+2020-06-24 00:09:19,970 INFO  [stdout] (default task-1)         Empleado empleado0_
+2020-06-24 00:09:19,972 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:09:19,972 INFO  [stdout] (default task-1)     select
+2020-06-24 00:09:19,972 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito as codigoCr1_4_,
+2020-06-24 00:09:19,972 INFO  [stdout] (default task-1)         solicitudd0_.activo as activo2_4_,
+2020-06-24 00:09:19,972 INFO  [stdout] (default task-1)         solicitudd0_.avaluoDeVivienda as avaluoDe3_4_,
+2020-06-24 00:09:19,972 INFO  [stdout] (default task-1)         solicitudd0_.cedulaCliente as cedulaCl4_4_,
+2020-06-24 00:09:19,972 INFO  [stdout] (default task-1)         solicitudd0_.cedula_cliente as cedula_16_4_,
+2020-06-24 00:09:19,972 INFO  [stdout] (default task-1)         solicitudd0_.estadoCivilSexo as estadoCi5_4_,
+2020-06-24 00:09:19,972 INFO  [stdout] (default task-1)         solicitudd0_.estadoCredito as estadoCr6_4_,
+2020-06-24 00:09:19,972 INFO  [stdout] (default task-1)         solicitudd0_.mesesCredito as mesesCre7_4_,
+2020-06-24 00:09:19,972 INFO  [stdout] (default task-1)         solicitudd0_.montoCredito as montoCre8_4_,
+2020-06-24 00:09:19,972 INFO  [stdout] (default task-1)         solicitudd0_.plantillaServicios as plantill9_4_,
+2020-06-24 00:09:19,972 INFO  [stdout] (default task-1)         solicitudd0_.propositoCredito as proposi10_4_,
+2020-06-24 00:09:19,972 INFO  [stdout] (default task-1)         solicitudd0_.rolDePagos as rolDePa11_4_,
+2020-06-24 00:09:19,972 INFO  [stdout] (default task-1)         solicitudd0_.tiempoEmpleo as tiempoE12_4_,
+2020-06-24 00:09:19,972 INFO  [stdout] (default task-1)         solicitudd0_.tipoEmpleo as tipoEmp13_4_,
+2020-06-24 00:09:19,972 INFO  [stdout] (default task-1)         solicitudd0_.tipoVivienda as tipoViv14_4_,
+2020-06-24 00:09:19,972 INFO  [stdout] (default task-1)         solicitudd0_.trabajadorExtranjero as trabaja15_4_ 
+2020-06-24 00:09:19,972 INFO  [stdout] (default task-1)     from
+2020-06-24 00:09:19,972 INFO  [stdout] (default task-1)         SolicitudDeCredito solicitudd0_
+2020-06-24 00:09:19,973 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:09:19,973 INFO  [stdout] (default task-1)     select
+2020-06-24 00:09:19,973 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-06-24 00:09:19,973 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-06-24 00:09:19,973 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-06-24 00:09:19,973 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-06-24 00:09:19,973 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-06-24 00:09:19,973 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-06-24 00:09:19,973 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-06-24 00:09:19,973 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-06-24 00:09:19,973 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-06-24 00:09:19,973 INFO  [stdout] (default task-1)     from
+2020-06-24 00:09:19,973 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-06-24 00:09:19,973 INFO  [stdout] (default task-1)     where
+2020-06-24 00:09:19,973 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-06-24 00:12:16,355 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:12:16,355 INFO  [stdout] (default task-1)     select
+2020-06-24 00:12:16,355 INFO  [stdout] (default task-1)         empleado0_.cedula as cedula1_2_,
+2020-06-24 00:12:16,355 INFO  [stdout] (default task-1)         empleado0_.apellido as apellido2_2_,
+2020-06-24 00:12:16,355 INFO  [stdout] (default task-1)         empleado0_.contrasena as contrase3_2_,
+2020-06-24 00:12:16,355 INFO  [stdout] (default task-1)         empleado0_.correo as correo4_2_,
+2020-06-24 00:12:16,355 INFO  [stdout] (default task-1)         empleado0_.direccion as direccio5_2_,
+2020-06-24 00:12:16,355 INFO  [stdout] (default task-1)         empleado0_.nombre as nombre6_2_,
+2020-06-24 00:12:16,355 INFO  [stdout] (default task-1)         empleado0_.rol as rol7_2_,
+2020-06-24 00:12:16,355 INFO  [stdout] (default task-1)         empleado0_.telefono as telefono8_2_,
+2020-06-24 00:12:16,355 INFO  [stdout] (default task-1)         empleado0_.usuario as usuario9_2_ 
+2020-06-24 00:12:16,355 INFO  [stdout] (default task-1)     from
+2020-06-24 00:12:16,355 INFO  [stdout] (default task-1)         Empleado empleado0_
+2020-06-24 00:12:16,357 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:12:16,357 INFO  [stdout] (default task-1)     select
+2020-06-24 00:12:16,357 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito as codigoCr1_4_,
+2020-06-24 00:12:16,358 INFO  [stdout] (default task-1)         solicitudd0_.activo as activo2_4_,
+2020-06-24 00:12:16,358 INFO  [stdout] (default task-1)         solicitudd0_.avaluoDeVivienda as avaluoDe3_4_,
+2020-06-24 00:12:16,358 INFO  [stdout] (default task-1)         solicitudd0_.cedulaCliente as cedulaCl4_4_,
+2020-06-24 00:12:16,358 INFO  [stdout] (default task-1)         solicitudd0_.cedula_cliente as cedula_16_4_,
+2020-06-24 00:12:16,358 INFO  [stdout] (default task-1)         solicitudd0_.estadoCivilSexo as estadoCi5_4_,
+2020-06-24 00:12:16,358 INFO  [stdout] (default task-1)         solicitudd0_.estadoCredito as estadoCr6_4_,
+2020-06-24 00:12:16,358 INFO  [stdout] (default task-1)         solicitudd0_.mesesCredito as mesesCre7_4_,
+2020-06-24 00:12:16,358 INFO  [stdout] (default task-1)         solicitudd0_.montoCredito as montoCre8_4_,
+2020-06-24 00:12:16,358 INFO  [stdout] (default task-1)         solicitudd0_.plantillaServicios as plantill9_4_,
+2020-06-24 00:12:16,358 INFO  [stdout] (default task-1)         solicitudd0_.propositoCredito as proposi10_4_,
+2020-06-24 00:12:16,358 INFO  [stdout] (default task-1)         solicitudd0_.rolDePagos as rolDePa11_4_,
+2020-06-24 00:12:16,358 INFO  [stdout] (default task-1)         solicitudd0_.tiempoEmpleo as tiempoE12_4_,
+2020-06-24 00:12:16,358 INFO  [stdout] (default task-1)         solicitudd0_.tipoEmpleo as tipoEmp13_4_,
+2020-06-24 00:12:16,358 INFO  [stdout] (default task-1)         solicitudd0_.tipoVivienda as tipoViv14_4_,
+2020-06-24 00:12:16,358 INFO  [stdout] (default task-1)         solicitudd0_.trabajadorExtranjero as trabaja15_4_ 
+2020-06-24 00:12:16,358 INFO  [stdout] (default task-1)     from
+2020-06-24 00:12:16,358 INFO  [stdout] (default task-1)         SolicitudDeCredito solicitudd0_
+2020-06-24 00:12:16,359 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:12:16,359 INFO  [stdout] (default task-1)     select
+2020-06-24 00:12:16,359 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-06-24 00:12:16,359 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-06-24 00:12:16,359 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-06-24 00:12:16,359 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-06-24 00:12:16,359 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-06-24 00:12:16,359 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-06-24 00:12:16,359 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-06-24 00:12:16,359 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-06-24 00:12:16,359 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-06-24 00:12:16,359 INFO  [stdout] (default task-1)     from
+2020-06-24 00:12:16,359 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-06-24 00:12:16,359 INFO  [stdout] (default task-1)     where
+2020-06-24 00:12:16,359 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-06-24 00:12:21,842 INFO  [stdout] (default task-1) **********/****/--1true
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1)     select
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito as codigoCr1_4_0_,
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1)         solicitudd0_.activo as activo2_4_0_,
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1)         solicitudd0_.avaluoDeVivienda as avaluoDe3_4_0_,
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1)         solicitudd0_.cedulaCliente as cedulaCl4_4_0_,
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1)         solicitudd0_.cedula_cliente as cedula_16_4_0_,
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1)         solicitudd0_.estadoCivilSexo as estadoCi5_4_0_,
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1)         solicitudd0_.estadoCredito as estadoCr6_4_0_,
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1)         solicitudd0_.mesesCredito as mesesCre7_4_0_,
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1)         solicitudd0_.montoCredito as montoCre8_4_0_,
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1)         solicitudd0_.plantillaServicios as plantill9_4_0_,
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1)         solicitudd0_.propositoCredito as proposi10_4_0_,
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1)         solicitudd0_.rolDePagos as rolDePa11_4_0_,
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1)         solicitudd0_.tiempoEmpleo as tiempoE12_4_0_,
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1)         solicitudd0_.tipoEmpleo as tipoEmp13_4_0_,
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1)         solicitudd0_.tipoVivienda as tipoViv14_4_0_,
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1)         solicitudd0_.trabajadorExtranjero as trabaja15_4_0_ 
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1)     from
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1)         SolicitudDeCredito solicitudd0_ 
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1)     where
+2020-06-24 00:12:35,306 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito=?
+2020-06-24 00:12:35,307 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:12:35,307 INFO  [stdout] (default task-1)     select
+2020-06-24 00:12:35,307 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-06-24 00:12:35,307 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-06-24 00:12:35,307 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-06-24 00:12:35,307 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-06-24 00:12:35,307 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-06-24 00:12:35,307 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-06-24 00:12:35,307 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-06-24 00:12:35,307 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-06-24 00:12:35,307 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-06-24 00:12:35,307 INFO  [stdout] (default task-1)     from
+2020-06-24 00:12:35,307 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-06-24 00:12:35,307 INFO  [stdout] (default task-1)     where
+2020-06-24 00:12:35,307 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-06-24 00:12:35,308 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:12:35,308 INFO  [stdout] (default task-1)     update
+2020-06-24 00:12:35,308 INFO  [stdout] (default task-1)         SolicitudDeCredito 
+2020-06-24 00:12:35,308 INFO  [stdout] (default task-1)     set
+2020-06-24 00:12:35,308 INFO  [stdout] (default task-1)         activo=?,
+2020-06-24 00:12:35,308 INFO  [stdout] (default task-1)         avaluoDeVivienda=?,
+2020-06-24 00:12:35,308 INFO  [stdout] (default task-1)         cedulaCliente=?,
+2020-06-24 00:12:35,308 INFO  [stdout] (default task-1)         cedula_cliente=?,
+2020-06-24 00:12:35,308 INFO  [stdout] (default task-1)         estadoCivilSexo=?,
+2020-06-24 00:12:35,308 INFO  [stdout] (default task-1)         estadoCredito=?,
+2020-06-24 00:12:35,309 INFO  [stdout] (default task-1)         mesesCredito=?,
+2020-06-24 00:12:35,309 INFO  [stdout] (default task-1)         montoCredito=?,
+2020-06-24 00:12:35,309 INFO  [stdout] (default task-1)         plantillaServicios=?,
+2020-06-24 00:12:35,309 INFO  [stdout] (default task-1)         propositoCredito=?,
+2020-06-24 00:12:35,309 INFO  [stdout] (default task-1)         rolDePagos=?,
+2020-06-24 00:12:35,309 INFO  [stdout] (default task-1)         tiempoEmpleo=?,
+2020-06-24 00:12:35,309 INFO  [stdout] (default task-1)         tipoEmpleo=?,
+2020-06-24 00:12:35,309 INFO  [stdout] (default task-1)         tipoVivienda=?,
+2020-06-24 00:12:35,309 INFO  [stdout] (default task-1)         trabajadorExtranjero=? 
+2020-06-24 00:12:35,309 INFO  [stdout] (default task-1)     where
+2020-06-24 00:12:35,309 INFO  [stdout] (default task-1)         codigoCredito=?
+2020-06-24 00:12:35,415 INFO  [stdout] (default task-1) no cumple
+2020-06-24 00:12:35,417 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:12:35,417 INFO  [stdout] (default task-1)     select
+2020-06-24 00:12:35,417 INFO  [stdout] (default task-1)         empleado0_.cedula as cedula1_2_,
+2020-06-24 00:12:35,417 INFO  [stdout] (default task-1)         empleado0_.apellido as apellido2_2_,
+2020-06-24 00:12:35,417 INFO  [stdout] (default task-1)         empleado0_.contrasena as contrase3_2_,
+2020-06-24 00:12:35,417 INFO  [stdout] (default task-1)         empleado0_.correo as correo4_2_,
+2020-06-24 00:12:35,417 INFO  [stdout] (default task-1)         empleado0_.direccion as direccio5_2_,
+2020-06-24 00:12:35,417 INFO  [stdout] (default task-1)         empleado0_.nombre as nombre6_2_,
+2020-06-24 00:12:35,417 INFO  [stdout] (default task-1)         empleado0_.rol as rol7_2_,
+2020-06-24 00:12:35,417 INFO  [stdout] (default task-1)         empleado0_.telefono as telefono8_2_,
+2020-06-24 00:12:35,417 INFO  [stdout] (default task-1)         empleado0_.usuario as usuario9_2_ 
+2020-06-24 00:12:35,417 INFO  [stdout] (default task-1)     from
+2020-06-24 00:12:35,417 INFO  [stdout] (default task-1)         Empleado empleado0_
+2020-06-24 00:12:35,419 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:12:35,419 INFO  [stdout] (default task-1)     select
+2020-06-24 00:12:35,419 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito as codigoCr1_4_,
+2020-06-24 00:12:35,419 INFO  [stdout] (default task-1)         solicitudd0_.activo as activo2_4_,
+2020-06-24 00:12:35,419 INFO  [stdout] (default task-1)         solicitudd0_.avaluoDeVivienda as avaluoDe3_4_,
+2020-06-24 00:12:35,419 INFO  [stdout] (default task-1)         solicitudd0_.cedulaCliente as cedulaCl4_4_,
+2020-06-24 00:12:35,419 INFO  [stdout] (default task-1)         solicitudd0_.cedula_cliente as cedula_16_4_,
+2020-06-24 00:12:35,419 INFO  [stdout] (default task-1)         solicitudd0_.estadoCivilSexo as estadoCi5_4_,
+2020-06-24 00:12:35,419 INFO  [stdout] (default task-1)         solicitudd0_.estadoCredito as estadoCr6_4_,
+2020-06-24 00:12:35,419 INFO  [stdout] (default task-1)         solicitudd0_.mesesCredito as mesesCre7_4_,
+2020-06-24 00:12:35,419 INFO  [stdout] (default task-1)         solicitudd0_.montoCredito as montoCre8_4_,
+2020-06-24 00:12:35,419 INFO  [stdout] (default task-1)         solicitudd0_.plantillaServicios as plantill9_4_,
+2020-06-24 00:12:35,419 INFO  [stdout] (default task-1)         solicitudd0_.propositoCredito as proposi10_4_,
+2020-06-24 00:12:35,419 INFO  [stdout] (default task-1)         solicitudd0_.rolDePagos as rolDePa11_4_,
+2020-06-24 00:12:35,419 INFO  [stdout] (default task-1)         solicitudd0_.tiempoEmpleo as tiempoE12_4_,
+2020-06-24 00:12:35,419 INFO  [stdout] (default task-1)         solicitudd0_.tipoEmpleo as tipoEmp13_4_,
+2020-06-24 00:12:35,419 INFO  [stdout] (default task-1)         solicitudd0_.tipoVivienda as tipoViv14_4_,
+2020-06-24 00:12:35,419 INFO  [stdout] (default task-1)         solicitudd0_.trabajadorExtranjero as trabaja15_4_ 
+2020-06-24 00:12:35,419 INFO  [stdout] (default task-1)     from
+2020-06-24 00:12:35,419 INFO  [stdout] (default task-1)         SolicitudDeCredito solicitudd0_
+2020-06-24 00:12:35,420 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:12:35,420 INFO  [stdout] (default task-1)     select
+2020-06-24 00:12:35,420 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-06-24 00:12:35,420 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-06-24 00:12:35,420 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-06-24 00:12:35,420 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-06-24 00:12:35,420 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-06-24 00:12:35,420 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-06-24 00:12:35,420 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-06-24 00:12:35,420 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-06-24 00:12:35,420 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-06-24 00:12:35,420 INFO  [stdout] (default task-1)     from
+2020-06-24 00:12:35,420 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-06-24 00:12:35,420 INFO  [stdout] (default task-1)     where
+2020-06-24 00:12:35,420 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-06-24 00:14:21,409 INFO  [stdout] (default task-1) **********/****/--2true
+2020-06-24 00:15:20,218 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:15:20,219 INFO  [stdout] (default task-1)     select
+2020-06-24 00:15:20,219 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito as codigoCr1_4_0_,
+2020-06-24 00:15:20,219 INFO  [stdout] (default task-1)         solicitudd0_.activo as activo2_4_0_,
+2020-06-24 00:15:20,219 INFO  [stdout] (default task-1)         solicitudd0_.avaluoDeVivienda as avaluoDe3_4_0_,
+2020-06-24 00:15:20,219 INFO  [stdout] (default task-1)         solicitudd0_.cedulaCliente as cedulaCl4_4_0_,
+2020-06-24 00:15:20,219 INFO  [stdout] (default task-1)         solicitudd0_.cedula_cliente as cedula_16_4_0_,
+2020-06-24 00:15:20,219 INFO  [stdout] (default task-1)         solicitudd0_.estadoCivilSexo as estadoCi5_4_0_,
+2020-06-24 00:15:20,219 INFO  [stdout] (default task-1)         solicitudd0_.estadoCredito as estadoCr6_4_0_,
+2020-06-24 00:15:20,219 INFO  [stdout] (default task-1)         solicitudd0_.mesesCredito as mesesCre7_4_0_,
+2020-06-24 00:15:20,219 INFO  [stdout] (default task-1)         solicitudd0_.montoCredito as montoCre8_4_0_,
+2020-06-24 00:15:20,219 INFO  [stdout] (default task-1)         solicitudd0_.plantillaServicios as plantill9_4_0_,
+2020-06-24 00:15:20,219 INFO  [stdout] (default task-1)         solicitudd0_.propositoCredito as proposi10_4_0_,
+2020-06-24 00:15:20,219 INFO  [stdout] (default task-1)         solicitudd0_.rolDePagos as rolDePa11_4_0_,
+2020-06-24 00:15:20,219 INFO  [stdout] (default task-1)         solicitudd0_.tiempoEmpleo as tiempoE12_4_0_,
+2020-06-24 00:15:20,219 INFO  [stdout] (default task-1)         solicitudd0_.tipoEmpleo as tipoEmp13_4_0_,
+2020-06-24 00:15:20,219 INFO  [stdout] (default task-1)         solicitudd0_.tipoVivienda as tipoViv14_4_0_,
+2020-06-24 00:15:20,219 INFO  [stdout] (default task-1)         solicitudd0_.trabajadorExtranjero as trabaja15_4_0_ 
+2020-06-24 00:15:20,219 INFO  [stdout] (default task-1)     from
+2020-06-24 00:15:20,219 INFO  [stdout] (default task-1)         SolicitudDeCredito solicitudd0_ 
+2020-06-24 00:15:20,219 INFO  [stdout] (default task-1)     where
+2020-06-24 00:15:20,219 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito=?
+2020-06-24 00:15:20,220 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:15:20,221 INFO  [stdout] (default task-1)     select
+2020-06-24 00:15:20,221 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-06-24 00:15:20,221 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-06-24 00:15:20,221 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-06-24 00:15:20,221 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-06-24 00:15:20,221 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-06-24 00:15:20,221 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-06-24 00:15:20,221 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-06-24 00:15:20,221 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-06-24 00:15:20,221 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-06-24 00:15:20,221 INFO  [stdout] (default task-1)     from
+2020-06-24 00:15:20,221 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-06-24 00:15:20,221 INFO  [stdout] (default task-1)     where
+2020-06-24 00:15:20,221 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-06-24 00:15:20,224 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:15:20,225 INFO  [stdout] (default task-1)     select
+2020-06-24 00:15:20,225 INFO  [stdout] (default task-1)         empleado0_.cedula as cedula1_2_,
+2020-06-24 00:15:20,225 INFO  [stdout] (default task-1)         empleado0_.apellido as apellido2_2_,
+2020-06-24 00:15:20,225 INFO  [stdout] (default task-1)         empleado0_.contrasena as contrase3_2_,
+2020-06-24 00:15:20,225 INFO  [stdout] (default task-1)         empleado0_.correo as correo4_2_,
+2020-06-24 00:15:20,225 INFO  [stdout] (default task-1)         empleado0_.direccion as direccio5_2_,
+2020-06-24 00:15:20,225 INFO  [stdout] (default task-1)         empleado0_.nombre as nombre6_2_,
+2020-06-24 00:15:20,225 INFO  [stdout] (default task-1)         empleado0_.rol as rol7_2_,
+2020-06-24 00:15:20,225 INFO  [stdout] (default task-1)         empleado0_.telefono as telefono8_2_,
+2020-06-24 00:15:20,225 INFO  [stdout] (default task-1)         empleado0_.usuario as usuario9_2_ 
+2020-06-24 00:15:20,225 INFO  [stdout] (default task-1)     from
+2020-06-24 00:15:20,225 INFO  [stdout] (default task-1)         Empleado empleado0_
+2020-06-24 00:15:20,226 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:15:20,226 INFO  [stdout] (default task-1)     select
+2020-06-24 00:15:20,226 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito as codigoCr1_4_,
+2020-06-24 00:15:20,226 INFO  [stdout] (default task-1)         solicitudd0_.activo as activo2_4_,
+2020-06-24 00:15:20,226 INFO  [stdout] (default task-1)         solicitudd0_.avaluoDeVivienda as avaluoDe3_4_,
+2020-06-24 00:15:20,226 INFO  [stdout] (default task-1)         solicitudd0_.cedulaCliente as cedulaCl4_4_,
+2020-06-24 00:15:20,226 INFO  [stdout] (default task-1)         solicitudd0_.cedula_cliente as cedula_16_4_,
+2020-06-24 00:15:20,226 INFO  [stdout] (default task-1)         solicitudd0_.estadoCivilSexo as estadoCi5_4_,
+2020-06-24 00:15:20,226 INFO  [stdout] (default task-1)         solicitudd0_.estadoCredito as estadoCr6_4_,
+2020-06-24 00:15:20,226 INFO  [stdout] (default task-1)         solicitudd0_.mesesCredito as mesesCre7_4_,
+2020-06-24 00:15:20,226 INFO  [stdout] (default task-1)         solicitudd0_.montoCredito as montoCre8_4_,
+2020-06-24 00:15:20,226 INFO  [stdout] (default task-1)         solicitudd0_.plantillaServicios as plantill9_4_,
+2020-06-24 00:15:20,226 INFO  [stdout] (default task-1)         solicitudd0_.propositoCredito as proposi10_4_,
+2020-06-24 00:15:20,226 INFO  [stdout] (default task-1)         solicitudd0_.rolDePagos as rolDePa11_4_,
+2020-06-24 00:15:20,226 INFO  [stdout] (default task-1)         solicitudd0_.tiempoEmpleo as tiempoE12_4_,
+2020-06-24 00:15:20,226 INFO  [stdout] (default task-1)         solicitudd0_.tipoEmpleo as tipoEmp13_4_,
+2020-06-24 00:15:20,226 INFO  [stdout] (default task-1)         solicitudd0_.tipoVivienda as tipoViv14_4_,
+2020-06-24 00:15:20,226 INFO  [stdout] (default task-1)         solicitudd0_.trabajadorExtranjero as trabaja15_4_ 
+2020-06-24 00:15:20,226 INFO  [stdout] (default task-1)     from
+2020-06-24 00:15:20,226 INFO  [stdout] (default task-1)         SolicitudDeCredito solicitudd0_
+2020-06-24 00:15:20,227 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:15:20,228 INFO  [stdout] (default task-1)     select
+2020-06-24 00:15:20,228 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-06-24 00:15:20,228 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-06-24 00:15:20,228 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-06-24 00:15:20,228 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-06-24 00:15:20,228 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-06-24 00:15:20,228 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-06-24 00:15:20,228 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-06-24 00:15:20,228 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-06-24 00:15:20,228 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-06-24 00:15:20,228 INFO  [stdout] (default task-1)     from
+2020-06-24 00:15:20,228 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-06-24 00:15:20,228 INFO  [stdout] (default task-1)     where
+2020-06-24 00:15:20,228 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-06-24 00:15:23,014 INFO  [stdout] (default task-1) **********/****/--1true
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1)     select
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito as codigoCr1_4_0_,
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1)         solicitudd0_.activo as activo2_4_0_,
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1)         solicitudd0_.avaluoDeVivienda as avaluoDe3_4_0_,
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1)         solicitudd0_.cedulaCliente as cedulaCl4_4_0_,
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1)         solicitudd0_.cedula_cliente as cedula_16_4_0_,
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1)         solicitudd0_.estadoCivilSexo as estadoCi5_4_0_,
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1)         solicitudd0_.estadoCredito as estadoCr6_4_0_,
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1)         solicitudd0_.mesesCredito as mesesCre7_4_0_,
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1)         solicitudd0_.montoCredito as montoCre8_4_0_,
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1)         solicitudd0_.plantillaServicios as plantill9_4_0_,
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1)         solicitudd0_.propositoCredito as proposi10_4_0_,
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1)         solicitudd0_.rolDePagos as rolDePa11_4_0_,
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1)         solicitudd0_.tiempoEmpleo as tiempoE12_4_0_,
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1)         solicitudd0_.tipoEmpleo as tipoEmp13_4_0_,
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1)         solicitudd0_.tipoVivienda as tipoViv14_4_0_,
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1)         solicitudd0_.trabajadorExtranjero as trabaja15_4_0_ 
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1)     from
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1)         SolicitudDeCredito solicitudd0_ 
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1)     where
+2020-06-24 00:15:23,872 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito=?
+2020-06-24 00:15:23,874 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:15:23,874 INFO  [stdout] (default task-1)     select
+2020-06-24 00:15:23,874 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-06-24 00:15:23,874 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-06-24 00:15:23,874 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-06-24 00:15:23,874 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-06-24 00:15:23,874 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-06-24 00:15:23,874 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-06-24 00:15:23,874 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-06-24 00:15:23,874 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-06-24 00:15:23,874 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-06-24 00:15:23,874 INFO  [stdout] (default task-1)     from
+2020-06-24 00:15:23,874 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-06-24 00:15:23,874 INFO  [stdout] (default task-1)     where
+2020-06-24 00:15:23,874 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-06-24 00:15:23,876 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:15:23,876 INFO  [stdout] (default task-1)     update
+2020-06-24 00:15:23,876 INFO  [stdout] (default task-1)         SolicitudDeCredito 
+2020-06-24 00:15:23,876 INFO  [stdout] (default task-1)     set
+2020-06-24 00:15:23,876 INFO  [stdout] (default task-1)         activo=?,
+2020-06-24 00:15:23,876 INFO  [stdout] (default task-1)         avaluoDeVivienda=?,
+2020-06-24 00:15:23,876 INFO  [stdout] (default task-1)         cedulaCliente=?,
+2020-06-24 00:15:23,876 INFO  [stdout] (default task-1)         cedula_cliente=?,
+2020-06-24 00:15:23,876 INFO  [stdout] (default task-1)         estadoCivilSexo=?,
+2020-06-24 00:15:23,876 INFO  [stdout] (default task-1)         estadoCredito=?,
+2020-06-24 00:15:23,876 INFO  [stdout] (default task-1)         mesesCredito=?,
+2020-06-24 00:15:23,876 INFO  [stdout] (default task-1)         montoCredito=?,
+2020-06-24 00:15:23,876 INFO  [stdout] (default task-1)         plantillaServicios=?,
+2020-06-24 00:15:23,876 INFO  [stdout] (default task-1)         propositoCredito=?,
+2020-06-24 00:15:23,876 INFO  [stdout] (default task-1)         rolDePagos=?,
+2020-06-24 00:15:23,876 INFO  [stdout] (default task-1)         tiempoEmpleo=?,
+2020-06-24 00:15:23,876 INFO  [stdout] (default task-1)         tipoEmpleo=?,
+2020-06-24 00:15:23,876 INFO  [stdout] (default task-1)         tipoVivienda=?,
+2020-06-24 00:15:23,876 INFO  [stdout] (default task-1)         trabajadorExtranjero=? 
+2020-06-24 00:15:23,876 INFO  [stdout] (default task-1)     where
+2020-06-24 00:15:23,876 INFO  [stdout] (default task-1)         codigoCredito=?
+2020-06-24 00:15:23,885 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:15:23,885 INFO  [stdout] (default task-1)     select
+2020-06-24 00:15:23,885 INFO  [stdout] (default task-1)         empleado0_.cedula as cedula1_2_,
+2020-06-24 00:15:23,885 INFO  [stdout] (default task-1)         empleado0_.apellido as apellido2_2_,
+2020-06-24 00:15:23,885 INFO  [stdout] (default task-1)         empleado0_.contrasena as contrase3_2_,
+2020-06-24 00:15:23,885 INFO  [stdout] (default task-1)         empleado0_.correo as correo4_2_,
+2020-06-24 00:15:23,885 INFO  [stdout] (default task-1)         empleado0_.direccion as direccio5_2_,
+2020-06-24 00:15:23,885 INFO  [stdout] (default task-1)         empleado0_.nombre as nombre6_2_,
+2020-06-24 00:15:23,885 INFO  [stdout] (default task-1)         empleado0_.rol as rol7_2_,
+2020-06-24 00:15:23,885 INFO  [stdout] (default task-1)         empleado0_.telefono as telefono8_2_,
+2020-06-24 00:15:23,885 INFO  [stdout] (default task-1)         empleado0_.usuario as usuario9_2_ 
+2020-06-24 00:15:23,885 INFO  [stdout] (default task-1)     from
+2020-06-24 00:15:23,885 INFO  [stdout] (default task-1)         Empleado empleado0_
+2020-06-24 00:15:23,888 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:15:23,888 INFO  [stdout] (default task-1)     select
+2020-06-24 00:15:23,888 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito as codigoCr1_4_,
+2020-06-24 00:15:23,888 INFO  [stdout] (default task-1)         solicitudd0_.activo as activo2_4_,
+2020-06-24 00:15:23,888 INFO  [stdout] (default task-1)         solicitudd0_.avaluoDeVivienda as avaluoDe3_4_,
+2020-06-24 00:15:23,888 INFO  [stdout] (default task-1)         solicitudd0_.cedulaCliente as cedulaCl4_4_,
+2020-06-24 00:15:23,888 INFO  [stdout] (default task-1)         solicitudd0_.cedula_cliente as cedula_16_4_,
+2020-06-24 00:15:23,888 INFO  [stdout] (default task-1)         solicitudd0_.estadoCivilSexo as estadoCi5_4_,
+2020-06-24 00:15:23,888 INFO  [stdout] (default task-1)         solicitudd0_.estadoCredito as estadoCr6_4_,
+2020-06-24 00:15:23,888 INFO  [stdout] (default task-1)         solicitudd0_.mesesCredito as mesesCre7_4_,
+2020-06-24 00:15:23,888 INFO  [stdout] (default task-1)         solicitudd0_.montoCredito as montoCre8_4_,
+2020-06-24 00:15:23,888 INFO  [stdout] (default task-1)         solicitudd0_.plantillaServicios as plantill9_4_,
+2020-06-24 00:15:23,888 INFO  [stdout] (default task-1)         solicitudd0_.propositoCredito as proposi10_4_,
+2020-06-24 00:15:23,888 INFO  [stdout] (default task-1)         solicitudd0_.rolDePagos as rolDePa11_4_,
+2020-06-24 00:15:23,888 INFO  [stdout] (default task-1)         solicitudd0_.tiempoEmpleo as tiempoE12_4_,
+2020-06-24 00:15:23,888 INFO  [stdout] (default task-1)         solicitudd0_.tipoEmpleo as tipoEmp13_4_,
+2020-06-24 00:15:23,888 INFO  [stdout] (default task-1)         solicitudd0_.tipoVivienda as tipoViv14_4_,
+2020-06-24 00:15:23,888 INFO  [stdout] (default task-1)         solicitudd0_.trabajadorExtranjero as trabaja15_4_ 
+2020-06-24 00:15:23,888 INFO  [stdout] (default task-1)     from
+2020-06-24 00:15:23,888 INFO  [stdout] (default task-1)         SolicitudDeCredito solicitudd0_
+2020-06-24 00:15:23,890 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:15:23,890 INFO  [stdout] (default task-1)     select
+2020-06-24 00:15:23,890 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-06-24 00:15:23,890 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-06-24 00:15:23,890 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-06-24 00:15:23,890 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-06-24 00:15:23,890 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-06-24 00:15:23,890 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-06-24 00:15:23,890 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-06-24 00:15:23,890 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-06-24 00:15:23,890 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-06-24 00:15:23,890 INFO  [stdout] (default task-1)     from
+2020-06-24 00:15:23,890 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-06-24 00:15:23,890 INFO  [stdout] (default task-1)     where
+2020-06-24 00:15:23,890 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-06-24 00:15:25,529 INFO  [stdout] (default task-1) **********/****/--1true
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1)     select
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito as codigoCr1_4_0_,
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1)         solicitudd0_.activo as activo2_4_0_,
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1)         solicitudd0_.avaluoDeVivienda as avaluoDe3_4_0_,
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1)         solicitudd0_.cedulaCliente as cedulaCl4_4_0_,
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1)         solicitudd0_.cedula_cliente as cedula_16_4_0_,
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1)         solicitudd0_.estadoCivilSexo as estadoCi5_4_0_,
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1)         solicitudd0_.estadoCredito as estadoCr6_4_0_,
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1)         solicitudd0_.mesesCredito as mesesCre7_4_0_,
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1)         solicitudd0_.montoCredito as montoCre8_4_0_,
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1)         solicitudd0_.plantillaServicios as plantill9_4_0_,
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1)         solicitudd0_.propositoCredito as proposi10_4_0_,
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1)         solicitudd0_.rolDePagos as rolDePa11_4_0_,
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1)         solicitudd0_.tiempoEmpleo as tiempoE12_4_0_,
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1)         solicitudd0_.tipoEmpleo as tipoEmp13_4_0_,
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1)         solicitudd0_.tipoVivienda as tipoViv14_4_0_,
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1)         solicitudd0_.trabajadorExtranjero as trabaja15_4_0_ 
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1)     from
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1)         SolicitudDeCredito solicitudd0_ 
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1)     where
+2020-06-24 00:23:58,075 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito=?
+2020-06-24 00:23:58,076 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:23:58,076 INFO  [stdout] (default task-1)     select
+2020-06-24 00:23:58,076 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-06-24 00:23:58,076 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-06-24 00:23:58,076 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-06-24 00:23:58,076 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-06-24 00:23:58,076 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-06-24 00:23:58,076 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-06-24 00:23:58,076 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-06-24 00:23:58,076 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-06-24 00:23:58,076 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-06-24 00:23:58,076 INFO  [stdout] (default task-1)     from
+2020-06-24 00:23:58,076 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-06-24 00:23:58,076 INFO  [stdout] (default task-1)     where
+2020-06-24 00:23:58,076 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-06-24 00:23:58,077 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:23:58,077 INFO  [stdout] (default task-1)     update
+2020-06-24 00:23:58,077 INFO  [stdout] (default task-1)         SolicitudDeCredito 
+2020-06-24 00:23:58,078 INFO  [stdout] (default task-1)     set
+2020-06-24 00:23:58,078 INFO  [stdout] (default task-1)         activo=?,
+2020-06-24 00:23:58,078 INFO  [stdout] (default task-1)         avaluoDeVivienda=?,
+2020-06-24 00:23:58,078 INFO  [stdout] (default task-1)         cedulaCliente=?,
+2020-06-24 00:23:58,078 INFO  [stdout] (default task-1)         cedula_cliente=?,
+2020-06-24 00:23:58,078 INFO  [stdout] (default task-1)         estadoCivilSexo=?,
+2020-06-24 00:23:58,078 INFO  [stdout] (default task-1)         estadoCredito=?,
+2020-06-24 00:23:58,078 INFO  [stdout] (default task-1)         mesesCredito=?,
+2020-06-24 00:23:58,078 INFO  [stdout] (default task-1)         montoCredito=?,
+2020-06-24 00:23:58,078 INFO  [stdout] (default task-1)         plantillaServicios=?,
+2020-06-24 00:23:58,078 INFO  [stdout] (default task-1)         propositoCredito=?,
+2020-06-24 00:23:58,078 INFO  [stdout] (default task-1)         rolDePagos=?,
+2020-06-24 00:23:58,078 INFO  [stdout] (default task-1)         tiempoEmpleo=?,
+2020-06-24 00:23:58,078 INFO  [stdout] (default task-1)         tipoEmpleo=?,
+2020-06-24 00:23:58,078 INFO  [stdout] (default task-1)         tipoVivienda=?,
+2020-06-24 00:23:58,078 INFO  [stdout] (default task-1)         trabajadorExtranjero=? 
+2020-06-24 00:23:58,078 INFO  [stdout] (default task-1)     where
+2020-06-24 00:23:58,078 INFO  [stdout] (default task-1)         codigoCredito=?
+2020-06-24 00:23:59,671 INFO  [stdout] (default task-1) yo quiero
+2020-06-24 00:23:59,674 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:23:59,674 INFO  [stdout] (default task-1)     select
+2020-06-24 00:23:59,674 INFO  [stdout] (default task-1)         empleado0_.cedula as cedula1_2_,
+2020-06-24 00:23:59,674 INFO  [stdout] (default task-1)         empleado0_.apellido as apellido2_2_,
+2020-06-24 00:23:59,674 INFO  [stdout] (default task-1)         empleado0_.contrasena as contrase3_2_,
+2020-06-24 00:23:59,674 INFO  [stdout] (default task-1)         empleado0_.correo as correo4_2_,
+2020-06-24 00:23:59,674 INFO  [stdout] (default task-1)         empleado0_.direccion as direccio5_2_,
+2020-06-24 00:23:59,674 INFO  [stdout] (default task-1)         empleado0_.nombre as nombre6_2_,
+2020-06-24 00:23:59,674 INFO  [stdout] (default task-1)         empleado0_.rol as rol7_2_,
+2020-06-24 00:23:59,674 INFO  [stdout] (default task-1)         empleado0_.telefono as telefono8_2_,
+2020-06-24 00:23:59,674 INFO  [stdout] (default task-1)         empleado0_.usuario as usuario9_2_ 
+2020-06-24 00:23:59,674 INFO  [stdout] (default task-1)     from
+2020-06-24 00:23:59,674 INFO  [stdout] (default task-1)         Empleado empleado0_
+2020-06-24 00:23:59,676 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:23:59,676 INFO  [stdout] (default task-1)     select
+2020-06-24 00:23:59,676 INFO  [stdout] (default task-1)         solicitudd0_.codigoCredito as codigoCr1_4_,
+2020-06-24 00:23:59,676 INFO  [stdout] (default task-1)         solicitudd0_.activo as activo2_4_,
+2020-06-24 00:23:59,676 INFO  [stdout] (default task-1)         solicitudd0_.avaluoDeVivienda as avaluoDe3_4_,
+2020-06-24 00:23:59,676 INFO  [stdout] (default task-1)         solicitudd0_.cedulaCliente as cedulaCl4_4_,
+2020-06-24 00:23:59,676 INFO  [stdout] (default task-1)         solicitudd0_.cedula_cliente as cedula_16_4_,
+2020-06-24 00:23:59,676 INFO  [stdout] (default task-1)         solicitudd0_.estadoCivilSexo as estadoCi5_4_,
+2020-06-24 00:23:59,676 INFO  [stdout] (default task-1)         solicitudd0_.estadoCredito as estadoCr6_4_,
+2020-06-24 00:23:59,676 INFO  [stdout] (default task-1)         solicitudd0_.mesesCredito as mesesCre7_4_,
+2020-06-24 00:23:59,676 INFO  [stdout] (default task-1)         solicitudd0_.montoCredito as montoCre8_4_,
+2020-06-24 00:23:59,676 INFO  [stdout] (default task-1)         solicitudd0_.plantillaServicios as plantill9_4_,
+2020-06-24 00:23:59,676 INFO  [stdout] (default task-1)         solicitudd0_.propositoCredito as proposi10_4_,
+2020-06-24 00:23:59,676 INFO  [stdout] (default task-1)         solicitudd0_.rolDePagos as rolDePa11_4_,
+2020-06-24 00:23:59,676 INFO  [stdout] (default task-1)         solicitudd0_.tiempoEmpleo as tiempoE12_4_,
+2020-06-24 00:23:59,676 INFO  [stdout] (default task-1)         solicitudd0_.tipoEmpleo as tipoEmp13_4_,
+2020-06-24 00:23:59,676 INFO  [stdout] (default task-1)         solicitudd0_.tipoVivienda as tipoViv14_4_,
+2020-06-24 00:23:59,676 INFO  [stdout] (default task-1)         solicitudd0_.trabajadorExtranjero as trabaja15_4_ 
+2020-06-24 00:23:59,676 INFO  [stdout] (default task-1)     from
+2020-06-24 00:23:59,676 INFO  [stdout] (default task-1)         SolicitudDeCredito solicitudd0_
+2020-06-24 00:23:59,677 INFO  [stdout] (default task-1) Hibernate: 
+2020-06-24 00:23:59,677 INFO  [stdout] (default task-1)     select
+2020-06-24 00:23:59,677 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente as cedula_c1_0_0_,
+2020-06-24 00:23:59,677 INFO  [stdout] (default task-1)         cliente0_.apellido as apellido2_0_0_,
+2020-06-24 00:23:59,677 INFO  [stdout] (default task-1)         cliente0_.clave as clave3_0_0_,
+2020-06-24 00:23:59,677 INFO  [stdout] (default task-1)         cliente0_.correo as correo4_0_0_,
+2020-06-24 00:23:59,677 INFO  [stdout] (default task-1)         cliente0_.direccion as direccio5_0_0_,
+2020-06-24 00:23:59,677 INFO  [stdout] (default task-1)         cliente0_.nombre as nombre6_0_0_,
+2020-06-24 00:23:59,677 INFO  [stdout] (default task-1)         cliente0_.telefono1 as telefono7_0_0_,
+2020-06-24 00:23:59,677 INFO  [stdout] (default task-1)         cliente0_.telefono2 as telefono8_0_0_,
+2020-06-24 00:23:59,677 INFO  [stdout] (default task-1)         cliente0_.usuario as usuario9_0_0_ 
+2020-06-24 00:23:59,677 INFO  [stdout] (default task-1)     from
+2020-06-24 00:23:59,677 INFO  [stdout] (default task-1)         Cliente cliente0_ 
+2020-06-24 00:23:59,677 INFO  [stdout] (default task-1)     where
+2020-06-24 00:23:59,677 INFO  [stdout] (default task-1)         cliente0_.cedula_cliente=?
+2020-06-24 00:24:31,729 INFO  [stdout] (default task-1) **********/****/--1true
